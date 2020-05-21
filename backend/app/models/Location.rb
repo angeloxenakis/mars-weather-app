@@ -1,3 +1,3 @@
-class Location < ApplicationRecord do
+class Location < ApplicationRecord 
     belongs_to :user
 end
