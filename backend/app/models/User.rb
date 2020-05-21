@@ -1,3 +1,3 @@
-class User < ApplicationRecord do
+class User < ApplicationRecord 
     has_many :locations
 end

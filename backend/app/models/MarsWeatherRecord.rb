@@ -1,3 +1,3 @@
-class MarsWeatherRecord < ApplicationRecord do
+class MarsWeatherRecord < ApplicationRecord
     
 end
