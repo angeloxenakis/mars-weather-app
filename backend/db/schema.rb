@@ -18,7 +18,11 @@ ActiveRecord::Schema.define(version: 2020_05_21_184923) do
   end
 
   create_table "mars_weather_records", force: :cascade do |t|
+    t.integer "sol"
     t.integer "temperature"
+    t.integer "air_pressure"
+    t.integer "wind_speed"
+    t.string "wind_direction"
   end
 
   create_table "users", force: :cascade do |t|
