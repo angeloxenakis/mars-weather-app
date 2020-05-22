@@ -7,7 +7,7 @@ export function MarsWeatherInfo(props) {
     // let currentSol = props.marsWeatherWeek.last
 
     let currentSol = props.marsWeatherWeek[props.marsWeatherWeek.length - 1];
-    console.log(currentSol)
+    // console.log(currentSol)
 
     return(
         <div className="weather-info">
