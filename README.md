@@ -5,16 +5,19 @@ The Mars Weather App will show a user the most recent weather data on Mars sent 
 ## Models
 * User
 * Location
-* Mars
+* Mars Weather Record
 
-## Model Relationships
-### Mars
-### User -< Locations
+
+### Model Relationships
+##### Mars Weather Record
+##### User -< Locations
+
 
 ## API's
 * Internal Rails API
 * Nasa Mars Weather API
 * Weather Channel API
+
 
 ## User Stories
 * Login: User can login
@@ -28,13 +31,11 @@ The Mars Weather App will show a user the most recent weather data on Mars sent 
 * User can enter their own location and view local weather
     * Accessed through Weather Channel API
 
+
 ## Stretch Goals:
 * User can view additional Mars weather details (pressure, wind speed, etc..)
     * Accessed through Nasa API
 * Estimated countdown to when earthlings can actually visit Mars
-
-
-
 
 ----------------------------------------------
 

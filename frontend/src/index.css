@@ -11,3 +11,75 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1 {
+  font-size: 48px;
+  margin:8px
+}
+
+h2 {
+  font-size: 32px;
+}
+
+.weather-div {
+  border: 1px solid black;
+  width: 70%;
+  padding: 8px;
+  border-radius: 8px;
+  margin: auto;
+}
+
+.weather-info {
+  display: flex;
+  justify-content: center;
+}
+
+.weather-header {
+  margin: 8px;
+}
+
+.day-info {
+  margin-left: 10px;
+}
+
+.temp-panel {
+  width: 300px;
+  height: 442px;
+  text-align: center;
+  border-radius: 8px;
+  padding: 8px;
+  border: 1px solid black;
+  margin: 16px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.temp-contents {
+  padding: 70px 0;
+}
+
+.pressure-panel {
+  width: 300px;
+  height: 150px;
+  text-align: center;
+  border-radius: 8px;
+  padding: 8px;
+  border: 1px solid black;
+  margin: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wind-panel {
+  width: 300px;
+  text-align: center;
+  border-radius: 8px;
+  padding: 8px;
+  border: 1px solid black;
+  margin: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
