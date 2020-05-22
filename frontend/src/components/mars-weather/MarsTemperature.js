@@ -6,7 +6,7 @@ export function MarsTemperature(props) {
             <h2>Temperature</h2>
             <div className="temp-contents">
                 <img src="https://img.icons8.com/ios/100/000000/thermometer.png"/>
-                <p>{JSON.stringify(props.marsWeather['527']['AT']['av'])}°C</p>
+                <p>{props.currentSol.temperature}°C</p>
             </div>
         </div>
     )

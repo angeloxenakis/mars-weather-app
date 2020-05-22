@@ -3,7 +3,7 @@ import React from 'react'
 export function MarsPastWeek(props) {
     return (
         <div className="small-card-container">
-            <div className="small-card">
+            {/* <div className="small-card">
                 <h4>SOL: 527</h4>
                 <img src="https://img.icons8.com/ios/30/000000/thermometer.png"/>
                 <p className="small-text">{JSON.stringify(props.marsWeather['527']['AT']['av'])}°C</p>
@@ -37,7 +37,7 @@ export function MarsPastWeek(props) {
                 <h4>SOL: 521</h4>
                 <img src="https://img.icons8.com/ios/30/000000/thermometer.png"/>
                 <p className="small-text">{JSON.stringify(props.marsWeather['521']['AT']['av'])}°C</p>
-            </div>
+            </div> */}
         </div>
     )
 }
