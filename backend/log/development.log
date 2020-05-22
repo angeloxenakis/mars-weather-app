@@ -46,3 +46,1258 @@ Migrating to CreateMarsWeatherRecords (20200521184923)
   [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
   [1m[36mLocation Load (0.2ms)[0m  [1m[34mSELECT "locations".* FROM "locations" WHERE "locations"."user_id" = ? LIMIT ?[0m  [["user_id", 1], ["LIMIT", 11]]
   [1m[36mMarsWeatherRecord Load (0.2ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records" LIMIT ?[0m  [["LIMIT", 11]]
+[ActiveJob] Enqueued GetMarsDataJob (Job ID: 76769c18-aa43-499a-af9a-64e6e112c859) to Async(default)
+[ActiveJob] [GetMarsDataJob] [76769c18-aa43-499a-af9a-64e6e112c859] Performing GetMarsDataJob (Job ID: 76769c18-aa43-499a-af9a-64e6e112c859) from Async(default) enqueued at 2020-05-22T15:55:31Z
+[ActiveJob] [GetMarsDataJob] [76769c18-aa43-499a-af9a-64e6e112c859] Enqueued GetMarsDataJob (Job ID: 47be0ba8-b4bf-4d89-b5d4-bba888257029) to Async(default) at 2020-05-22 15:55:47 UTC
+[ActiveJob] [GetMarsDataJob] [76769c18-aa43-499a-af9a-64e6e112c859] Performed GetMarsDataJob (Job ID: 76769c18-aa43-499a-af9a-64e6e112c859) from Async(default) in 9.22ms
+[ActiveJob] [GetMarsDataJob] [47be0ba8-b4bf-4d89-b5d4-bba888257029] Performing GetMarsDataJob (Job ID: 47be0ba8-b4bf-4d89-b5d4-bba888257029) from Async(default) enqueued at 2020-05-22T15:55:32Z
+[ActiveJob] [GetMarsDataJob] [47be0ba8-b4bf-4d89-b5d4-bba888257029] Enqueued GetMarsDataJob (Job ID: bb645b1b-eef6-4ffe-bb59-307fef8fa013) to Async(default) at 2020-05-22 15:56:02 UTC
+[ActiveJob] [GetMarsDataJob] [47be0ba8-b4bf-4d89-b5d4-bba888257029] Performed GetMarsDataJob (Job ID: 47be0ba8-b4bf-4d89-b5d4-bba888257029) from Async(default) in 0.65ms
+[ActiveJob] [GetMarsDataJob] [bb645b1b-eef6-4ffe-bb59-307fef8fa013] Performing GetMarsDataJob (Job ID: bb645b1b-eef6-4ffe-bb59-307fef8fa013) from Async(default) enqueued at 2020-05-22T15:55:47Z
+[ActiveJob] [GetMarsDataJob] [bb645b1b-eef6-4ffe-bb59-307fef8fa013] Enqueued GetMarsDataJob (Job ID: 8d2b7f57-fcde-4d2a-8358-360dea5c09da) to Async(default) at 2020-05-22 15:56:17 UTC
+[ActiveJob] [GetMarsDataJob] [bb645b1b-eef6-4ffe-bb59-307fef8fa013] Performed GetMarsDataJob (Job ID: bb645b1b-eef6-4ffe-bb59-307fef8fa013) from Async(default) in 0.61ms
+[ActiveJob] [GetMarsDataJob] [8d2b7f57-fcde-4d2a-8358-360dea5c09da] Performing GetMarsDataJob (Job ID: 8d2b7f57-fcde-4d2a-8358-360dea5c09da) from Async(default) enqueued at 2020-05-22T15:56:02Z
+[ActiveJob] [GetMarsDataJob] [8d2b7f57-fcde-4d2a-8358-360dea5c09da] Enqueued GetMarsDataJob (Job ID: 557059b1-378b-4ccf-bd03-fcbeb2925371) to Async(default) at 2020-05-22 15:56:32 UTC
+[ActiveJob] [GetMarsDataJob] [8d2b7f57-fcde-4d2a-8358-360dea5c09da] Performed GetMarsDataJob (Job ID: 8d2b7f57-fcde-4d2a-8358-360dea5c09da) from Async(default) in 0.92ms
+[ActiveJob] [GetMarsDataJob] [557059b1-378b-4ccf-bd03-fcbeb2925371] Performing GetMarsDataJob (Job ID: 557059b1-378b-4ccf-bd03-fcbeb2925371) from Async(default) enqueued at 2020-05-22T15:56:17Z
+[ActiveJob] [GetMarsDataJob] [557059b1-378b-4ccf-bd03-fcbeb2925371] Enqueued GetMarsDataJob (Job ID: e24c2798-2625-4168-9e9e-27f0a7bbba5c) to Async(default) at 2020-05-22 15:56:47 UTC
+[ActiveJob] [GetMarsDataJob] [557059b1-378b-4ccf-bd03-fcbeb2925371] Performed GetMarsDataJob (Job ID: 557059b1-378b-4ccf-bd03-fcbeb2925371) from Async(default) in 0.97ms
+[ActiveJob] [GetMarsDataJob] [e24c2798-2625-4168-9e9e-27f0a7bbba5c] Performing GetMarsDataJob (Job ID: e24c2798-2625-4168-9e9e-27f0a7bbba5c) from Async(default) enqueued at 2020-05-22T15:56:32Z
+[ActiveJob] [GetMarsDataJob] [e24c2798-2625-4168-9e9e-27f0a7bbba5c] Enqueued GetMarsDataJob (Job ID: 7aeadcf0-6478-496d-aad5-7e34bb29853f) to Async(default) at 2020-05-22 15:57:02 UTC
+[ActiveJob] [GetMarsDataJob] [e24c2798-2625-4168-9e9e-27f0a7bbba5c] Performed GetMarsDataJob (Job ID: e24c2798-2625-4168-9e9e-27f0a7bbba5c) from Async(default) in 0.66ms
+[ActiveJob] [GetMarsDataJob] [7aeadcf0-6478-496d-aad5-7e34bb29853f] Performing GetMarsDataJob (Job ID: 7aeadcf0-6478-496d-aad5-7e34bb29853f) from Async(default) enqueued at 2020-05-22T15:56:47Z
+[ActiveJob] [GetMarsDataJob] [7aeadcf0-6478-496d-aad5-7e34bb29853f] Enqueued GetMarsDataJob (Job ID: 297c0aaa-1ae6-4bcf-ad51-e5aedd972c60) to Async(default) at 2020-05-22 15:57:17 UTC
+[ActiveJob] [GetMarsDataJob] [7aeadcf0-6478-496d-aad5-7e34bb29853f] Performed GetMarsDataJob (Job ID: 7aeadcf0-6478-496d-aad5-7e34bb29853f) from Async(default) in 0.56ms
+[ActiveJob] [GetMarsDataJob] [297c0aaa-1ae6-4bcf-ad51-e5aedd972c60] Performing GetMarsDataJob (Job ID: 297c0aaa-1ae6-4bcf-ad51-e5aedd972c60) from Async(default) enqueued at 2020-05-22T15:57:02Z
+[ActiveJob] [GetMarsDataJob] [297c0aaa-1ae6-4bcf-ad51-e5aedd972c60] Enqueued GetMarsDataJob (Job ID: e2d24b59-aee2-4f3f-b12b-76372c9fdd9e) to Async(default) at 2020-05-22 15:57:32 UTC
+[ActiveJob] [GetMarsDataJob] [297c0aaa-1ae6-4bcf-ad51-e5aedd972c60] Performed GetMarsDataJob (Job ID: 297c0aaa-1ae6-4bcf-ad51-e5aedd972c60) from Async(default) in 0.78ms
+[ActiveJob] Enqueued GetMarsDataJob (Job ID: f2a8cea6-8935-43e3-ad70-b0a387c6b2a6) to Async(default)
+[ActiveJob] [GetMarsDataJob] [f2a8cea6-8935-43e3-ad70-b0a387c6b2a6] Performing GetMarsDataJob (Job ID: f2a8cea6-8935-43e3-ad70-b0a387c6b2a6) from Async(default) enqueued at 2020-05-22T15:57:19Z
+[ActiveJob] [GetMarsDataJob] [f2a8cea6-8935-43e3-ad70-b0a387c6b2a6] Enqueued GetMarsDataJob (Job ID: fbc378e6-97a0-4b33-9d1f-ac4b0006fdab) to Async(default) at 2020-05-22 15:57:34 UTC
+[ActiveJob] [GetMarsDataJob] [f2a8cea6-8935-43e3-ad70-b0a387c6b2a6] Performed GetMarsDataJob (Job ID: f2a8cea6-8935-43e3-ad70-b0a387c6b2a6) from Async(default) in 5.33ms
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationJob and GetMarsDataJob.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationJob, for example,
+the expected changes won't be reflected in that stale Class object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/config/environment.rb:5)
+[ActiveJob] Enqueued GetMarsDataJob (Job ID: deddeafd-76d6-4742-88e7-15d8eae18642) to Async(default)
+[ActiveJob] [GetMarsDataJob] [deddeafd-76d6-4742-88e7-15d8eae18642] Performing GetMarsDataJob (Job ID: deddeafd-76d6-4742-88e7-15d8eae18642) from Async(default) enqueued at 2020-05-22T15:57:31Z
+[ActiveJob] [GetMarsDataJob] [deddeafd-76d6-4742-88e7-15d8eae18642] Enqueued GetMarsDataJob (Job ID: c22f3f74-58fc-4d6a-b495-f4a20d1c8fe1) to Async(default) at 2020-05-22 15:57:46 UTC
+[ActiveJob] [GetMarsDataJob] [deddeafd-76d6-4742-88e7-15d8eae18642] Performed GetMarsDataJob (Job ID: deddeafd-76d6-4742-88e7-15d8eae18642) from Async(default) in 1.61ms
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationJob and GetMarsDataJob.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationJob, for example,
+the expected changes won't be reflected in that stale Class object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/config/environment.rb:5)
+[ActiveJob] [GetMarsDataJob] [fbc378e6-97a0-4b33-9d1f-ac4b0006fdab] Performing GetMarsDataJob (Job ID: fbc378e6-97a0-4b33-9d1f-ac4b0006fdab) from Async(default) enqueued at 2020-05-22T15:57:19Z
+[ActiveJob] [GetMarsDataJob] [fbc378e6-97a0-4b33-9d1f-ac4b0006fdab] Enqueued GetMarsDataJob (Job ID: f37f9c8c-c741-4400-8bb0-d337b423bc2f) to Async(default) at 2020-05-22 15:57:49 UTC
+[ActiveJob] [GetMarsDataJob] [fbc378e6-97a0-4b33-9d1f-ac4b0006fdab] Performed GetMarsDataJob (Job ID: fbc378e6-97a0-4b33-9d1f-ac4b0006fdab) from Async(default) in 3.32ms
+[ActiveJob] [GetMarsDataJob] [c22f3f74-58fc-4d6a-b495-f4a20d1c8fe1] Performing GetMarsDataJob (Job ID: c22f3f74-58fc-4d6a-b495-f4a20d1c8fe1) from Async(default) enqueued at 2020-05-22T15:57:31Z
+[ActiveJob] [GetMarsDataJob] [c22f3f74-58fc-4d6a-b495-f4a20d1c8fe1] Enqueued GetMarsDataJob (Job ID: c0718433-07ea-49e9-8472-5cd3e04f0882) to Async(default) at 2020-05-22 15:57:51 UTC
+[ActiveJob] [GetMarsDataJob] [c22f3f74-58fc-4d6a-b495-f4a20d1c8fe1] Performed GetMarsDataJob (Job ID: c22f3f74-58fc-4d6a-b495-f4a20d1c8fe1) from Async(default) in 2.0ms
+[ActiveJob] [GetMarsDataJob] [f37f9c8c-c741-4400-8bb0-d337b423bc2f] Performing GetMarsDataJob (Job ID: f37f9c8c-c741-4400-8bb0-d337b423bc2f) from Async(default) enqueued at 2020-05-22T15:57:34Z
+[ActiveJob] [GetMarsDataJob] [f37f9c8c-c741-4400-8bb0-d337b423bc2f] Enqueued GetMarsDataJob (Job ID: 1082e673-84ac-4311-80ba-1472dcc05ef3) to Async(default) at 2020-05-22 15:57:54 UTC
+[ActiveJob] [GetMarsDataJob] [f37f9c8c-c741-4400-8bb0-d337b423bc2f] Performed GetMarsDataJob (Job ID: f37f9c8c-c741-4400-8bb0-d337b423bc2f) from Async(default) in 0.52ms
+[ActiveJob] Enqueued GetMarsDataJob (Job ID: 547eb636-2eed-4cec-945a-f6133435e380) to Async(default)
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationJob and GetMarsDataJob.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationJob, for example,
+the expected changes won't be reflected in that stale Class object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/config/environment.rb:5)
+[ActiveJob] [GetMarsDataJob] [547eb636-2eed-4cec-945a-f6133435e380] Performing GetMarsDataJob (Job ID: 547eb636-2eed-4cec-945a-f6133435e380) from Async(default) enqueued at 2020-05-22T15:57:50Z
+[ActiveJob] [GetMarsDataJob] [547eb636-2eed-4cec-945a-f6133435e380] Enqueued GetMarsDataJob (Job ID: 8fb1dfa4-2bab-459a-9a0b-dc439cc9270e) to Async(default) at 2020-05-22 15:57:55 UTC
+[ActiveJob] [GetMarsDataJob] [547eb636-2eed-4cec-945a-f6133435e380] Performed GetMarsDataJob (Job ID: 547eb636-2eed-4cec-945a-f6133435e380) from Async(default) in 1.8ms
+[ActiveJob] [GetMarsDataJob] [1082e673-84ac-4311-80ba-1472dcc05ef3] Performing GetMarsDataJob (Job ID: 1082e673-84ac-4311-80ba-1472dcc05ef3) from Async(default) enqueued at 2020-05-22T15:57:49Z
+[ActiveJob] [GetMarsDataJob] [1082e673-84ac-4311-80ba-1472dcc05ef3] Enqueued GetMarsDataJob (Job ID: 1c9532e0-cc93-4cd8-b3c0-fcd075cc98cc) to Async(default) at 2020-05-22 15:57:59 UTC
+[ActiveJob] [GetMarsDataJob] [1082e673-84ac-4311-80ba-1472dcc05ef3] Performed GetMarsDataJob (Job ID: 1082e673-84ac-4311-80ba-1472dcc05ef3) from Async(default) in 0.35ms
+[ActiveJob] [GetMarsDataJob] [8fb1dfa4-2bab-459a-9a0b-dc439cc9270e] Performing GetMarsDataJob (Job ID: 8fb1dfa4-2bab-459a-9a0b-dc439cc9270e) from Async(default) enqueued at 2020-05-22T15:57:50Z
+[ActiveJob] [GetMarsDataJob] [8fb1dfa4-2bab-459a-9a0b-dc439cc9270e] Enqueued GetMarsDataJob (Job ID: f6943436-7ff4-4fd1-96c6-8d9751a3e531) to Async(default) at 2020-05-22 15:58:00 UTC
+[ActiveJob] [GetMarsDataJob] [8fb1dfa4-2bab-459a-9a0b-dc439cc9270e] Performed GetMarsDataJob (Job ID: 8fb1dfa4-2bab-459a-9a0b-dc439cc9270e) from Async(default) in 3.01ms
+[ActiveJob] [GetMarsDataJob] [1c9532e0-cc93-4cd8-b3c0-fcd075cc98cc] Performing GetMarsDataJob (Job ID: 1c9532e0-cc93-4cd8-b3c0-fcd075cc98cc) from Async(default) enqueued at 2020-05-22T15:57:54Z
+[ActiveJob] [GetMarsDataJob] [1c9532e0-cc93-4cd8-b3c0-fcd075cc98cc] Enqueued GetMarsDataJob (Job ID: 0f79a9b9-7aa7-4780-baa6-f1375b777549) to Async(default) at 2020-05-22 15:58:04 UTC
+[ActiveJob] [GetMarsDataJob] [1c9532e0-cc93-4cd8-b3c0-fcd075cc98cc] Performed GetMarsDataJob (Job ID: 1c9532e0-cc93-4cd8-b3c0-fcd075cc98cc) from Async(default) in 0.5ms
+[ActiveJob] [GetMarsDataJob] [f6943436-7ff4-4fd1-96c6-8d9751a3e531] Performing GetMarsDataJob (Job ID: f6943436-7ff4-4fd1-96c6-8d9751a3e531) from Async(default) enqueued at 2020-05-22T15:57:55Z
+[ActiveJob] [GetMarsDataJob] [f6943436-7ff4-4fd1-96c6-8d9751a3e531] Enqueued GetMarsDataJob (Job ID: ee84a531-c19d-4d60-b40a-eb575aa69246) to Async(default) at 2020-05-22 15:58:05 UTC
+[ActiveJob] [GetMarsDataJob] [f6943436-7ff4-4fd1-96c6-8d9751a3e531] Performed GetMarsDataJob (Job ID: f6943436-7ff4-4fd1-96c6-8d9751a3e531) from Async(default) in 0.62ms
+[ActiveJob] [GetMarsDataJob] [0f79a9b9-7aa7-4780-baa6-f1375b777549] Performing GetMarsDataJob (Job ID: 0f79a9b9-7aa7-4780-baa6-f1375b777549) from Async(default) enqueued at 2020-05-22T15:57:59Z
+[ActiveJob] [GetMarsDataJob] [0f79a9b9-7aa7-4780-baa6-f1375b777549] Enqueued GetMarsDataJob (Job ID: d8be9242-b5a6-44cd-9aa8-e118fdd69631) to Async(default) at 2020-05-22 15:58:09 UTC
+[ActiveJob] [GetMarsDataJob] [0f79a9b9-7aa7-4780-baa6-f1375b777549] Performed GetMarsDataJob (Job ID: 0f79a9b9-7aa7-4780-baa6-f1375b777549) from Async(default) in 0.57ms
+[ActiveJob] [GetMarsDataJob] [ee84a531-c19d-4d60-b40a-eb575aa69246] Performing GetMarsDataJob (Job ID: ee84a531-c19d-4d60-b40a-eb575aa69246) from Async(default) enqueued at 2020-05-22T15:58:00Z
+[ActiveJob] [GetMarsDataJob] [ee84a531-c19d-4d60-b40a-eb575aa69246] Enqueued GetMarsDataJob (Job ID: 552e1431-d265-4ff4-8ccd-c48856781d39) to Async(default) at 2020-05-22 15:58:10 UTC
+[ActiveJob] [GetMarsDataJob] [ee84a531-c19d-4d60-b40a-eb575aa69246] Performed GetMarsDataJob (Job ID: ee84a531-c19d-4d60-b40a-eb575aa69246) from Async(default) in 0.97ms
+[ActiveJob] [GetMarsDataJob] [d8be9242-b5a6-44cd-9aa8-e118fdd69631] Performing GetMarsDataJob (Job ID: d8be9242-b5a6-44cd-9aa8-e118fdd69631) from Async(default) enqueued at 2020-05-22T15:58:04Z
+[ActiveJob] [GetMarsDataJob] [d8be9242-b5a6-44cd-9aa8-e118fdd69631] Enqueued GetMarsDataJob (Job ID: 71ff47b1-8d64-442f-958f-55f14e999234) to Async(default) at 2020-05-22 15:58:14 UTC
+[ActiveJob] [GetMarsDataJob] [d8be9242-b5a6-44cd-9aa8-e118fdd69631] Performed GetMarsDataJob (Job ID: d8be9242-b5a6-44cd-9aa8-e118fdd69631) from Async(default) in 0.61ms
+[ActiveJob] [GetMarsDataJob] [552e1431-d265-4ff4-8ccd-c48856781d39] Performing GetMarsDataJob (Job ID: 552e1431-d265-4ff4-8ccd-c48856781d39) from Async(default) enqueued at 2020-05-22T15:58:05Z
+[ActiveJob] [GetMarsDataJob] [552e1431-d265-4ff4-8ccd-c48856781d39] Enqueued GetMarsDataJob (Job ID: 89b65b2b-72e1-4103-bdbb-d6a8a144183e) to Async(default) at 2020-05-22 15:58:15 UTC
+[ActiveJob] [GetMarsDataJob] [552e1431-d265-4ff4-8ccd-c48856781d39] Performed GetMarsDataJob (Job ID: 552e1431-d265-4ff4-8ccd-c48856781d39) from Async(default) in 0.89ms
+[ActiveJob] [GetMarsDataJob] [71ff47b1-8d64-442f-958f-55f14e999234] Performing GetMarsDataJob (Job ID: 71ff47b1-8d64-442f-958f-55f14e999234) from Async(default) enqueued at 2020-05-22T15:58:09Z
+[ActiveJob] [GetMarsDataJob] [71ff47b1-8d64-442f-958f-55f14e999234] Enqueued GetMarsDataJob (Job ID: cb19186f-cbfc-46d3-9f2e-34920b6c2fbe) to Async(default) at 2020-05-22 15:58:19 UTC
+[ActiveJob] [GetMarsDataJob] [71ff47b1-8d64-442f-958f-55f14e999234] Performed GetMarsDataJob (Job ID: 71ff47b1-8d64-442f-958f-55f14e999234) from Async(default) in 0.98ms
+[ActiveJob] [GetMarsDataJob] [89b65b2b-72e1-4103-bdbb-d6a8a144183e] Performing GetMarsDataJob (Job ID: 89b65b2b-72e1-4103-bdbb-d6a8a144183e) from Async(default) enqueued at 2020-05-22T15:58:10Z
+[ActiveJob] [GetMarsDataJob] [89b65b2b-72e1-4103-bdbb-d6a8a144183e] Enqueued GetMarsDataJob (Job ID: 12883743-b892-4e4a-ae0d-b51a3842ae44) to Async(default) at 2020-05-22 15:58:20 UTC
+[ActiveJob] [GetMarsDataJob] [89b65b2b-72e1-4103-bdbb-d6a8a144183e] Performed GetMarsDataJob (Job ID: 89b65b2b-72e1-4103-bdbb-d6a8a144183e) from Async(default) in 0.9ms
+[ActiveJob] [GetMarsDataJob] [cb19186f-cbfc-46d3-9f2e-34920b6c2fbe] Performing GetMarsDataJob (Job ID: cb19186f-cbfc-46d3-9f2e-34920b6c2fbe) from Async(default) enqueued at 2020-05-22T15:58:14Z
+[ActiveJob] [GetMarsDataJob] [cb19186f-cbfc-46d3-9f2e-34920b6c2fbe] Enqueued GetMarsDataJob (Job ID: 3c24866c-bd23-4a30-92f2-2edb8296ccc8) to Async(default) at 2020-05-22 15:58:24 UTC
+[ActiveJob] [GetMarsDataJob] [cb19186f-cbfc-46d3-9f2e-34920b6c2fbe] Performed GetMarsDataJob (Job ID: cb19186f-cbfc-46d3-9f2e-34920b6c2fbe) from Async(default) in 0.37ms
+[ActiveJob] [GetMarsDataJob] [12883743-b892-4e4a-ae0d-b51a3842ae44] Performing GetMarsDataJob (Job ID: 12883743-b892-4e4a-ae0d-b51a3842ae44) from Async(default) enqueued at 2020-05-22T15:58:15Z
+[ActiveJob] [GetMarsDataJob] [12883743-b892-4e4a-ae0d-b51a3842ae44] Enqueued GetMarsDataJob (Job ID: 4f5375c4-e114-472d-84b5-dfad80b8391b) to Async(default) at 2020-05-22 15:58:25 UTC
+[ActiveJob] [GetMarsDataJob] [12883743-b892-4e4a-ae0d-b51a3842ae44] Performed GetMarsDataJob (Job ID: 12883743-b892-4e4a-ae0d-b51a3842ae44) from Async(default) in 0.53ms
+[ActiveJob] [GetMarsDataJob] [3c24866c-bd23-4a30-92f2-2edb8296ccc8] Performing GetMarsDataJob (Job ID: 3c24866c-bd23-4a30-92f2-2edb8296ccc8) from Async(default) enqueued at 2020-05-22T15:58:19Z
+[ActiveJob] [GetMarsDataJob] [3c24866c-bd23-4a30-92f2-2edb8296ccc8] Enqueued GetMarsDataJob (Job ID: 278507be-18c8-475d-aeb3-3afed811e283) to Async(default) at 2020-05-22 15:58:29 UTC
+[ActiveJob] [GetMarsDataJob] [3c24866c-bd23-4a30-92f2-2edb8296ccc8] Performed GetMarsDataJob (Job ID: 3c24866c-bd23-4a30-92f2-2edb8296ccc8) from Async(default) in 1.07ms
+[ActiveJob] [GetMarsDataJob] [4f5375c4-e114-472d-84b5-dfad80b8391b] Performing GetMarsDataJob (Job ID: 4f5375c4-e114-472d-84b5-dfad80b8391b) from Async(default) enqueued at 2020-05-22T15:58:20Z
+[ActiveJob] [GetMarsDataJob] [4f5375c4-e114-472d-84b5-dfad80b8391b] Enqueued GetMarsDataJob (Job ID: a9cecd28-d04b-4535-9cac-0f162f3cf1f8) to Async(default) at 2020-05-22 15:58:30 UTC
+[ActiveJob] [GetMarsDataJob] [4f5375c4-e114-472d-84b5-dfad80b8391b] Performed GetMarsDataJob (Job ID: 4f5375c4-e114-472d-84b5-dfad80b8391b) from Async(default) in 0.69ms
+[ActiveJob] [GetMarsDataJob] [278507be-18c8-475d-aeb3-3afed811e283] Performing GetMarsDataJob (Job ID: 278507be-18c8-475d-aeb3-3afed811e283) from Async(default) enqueued at 2020-05-22T15:58:24Z
+[ActiveJob] [GetMarsDataJob] [278507be-18c8-475d-aeb3-3afed811e283] Enqueued GetMarsDataJob (Job ID: 2354b72f-7661-4721-99da-a9c61e848bb8) to Async(default) at 2020-05-22 15:58:34 UTC
+[ActiveJob] [GetMarsDataJob] [278507be-18c8-475d-aeb3-3afed811e283] Performed GetMarsDataJob (Job ID: 278507be-18c8-475d-aeb3-3afed811e283) from Async(default) in 0.54ms
+[ActiveJob] [GetMarsDataJob] [a9cecd28-d04b-4535-9cac-0f162f3cf1f8] Performing GetMarsDataJob (Job ID: a9cecd28-d04b-4535-9cac-0f162f3cf1f8) from Async(default) enqueued at 2020-05-22T15:58:25Z
+[ActiveJob] [GetMarsDataJob] [a9cecd28-d04b-4535-9cac-0f162f3cf1f8] Enqueued GetMarsDataJob (Job ID: c7f42e10-bb03-422a-a481-8a8ad5c306cf) to Async(default) at 2020-05-22 15:58:35 UTC
+[ActiveJob] [GetMarsDataJob] [a9cecd28-d04b-4535-9cac-0f162f3cf1f8] Performed GetMarsDataJob (Job ID: a9cecd28-d04b-4535-9cac-0f162f3cf1f8) from Async(default) in 0.56ms
+[ActiveJob] [GetMarsDataJob] [2354b72f-7661-4721-99da-a9c61e848bb8] Performing GetMarsDataJob (Job ID: 2354b72f-7661-4721-99da-a9c61e848bb8) from Async(default) enqueued at 2020-05-22T15:58:29Z
+[ActiveJob] [GetMarsDataJob] [2354b72f-7661-4721-99da-a9c61e848bb8] Enqueued GetMarsDataJob (Job ID: 86cf09d5-2571-48f4-a670-610a924fe96c) to Async(default) at 2020-05-22 15:58:39 UTC
+[ActiveJob] [GetMarsDataJob] [2354b72f-7661-4721-99da-a9c61e848bb8] Performed GetMarsDataJob (Job ID: 2354b72f-7661-4721-99da-a9c61e848bb8) from Async(default) in 0.65ms
+[ActiveJob] [GetMarsDataJob] [c7f42e10-bb03-422a-a481-8a8ad5c306cf] Performing GetMarsDataJob (Job ID: c7f42e10-bb03-422a-a481-8a8ad5c306cf) from Async(default) enqueued at 2020-05-22T15:58:30Z
+[ActiveJob] [GetMarsDataJob] [c7f42e10-bb03-422a-a481-8a8ad5c306cf] Enqueued GetMarsDataJob (Job ID: afc8384d-ce20-4991-a284-51781aec9cba) to Async(default) at 2020-05-22 15:58:40 UTC
+[ActiveJob] [GetMarsDataJob] [c7f42e10-bb03-422a-a481-8a8ad5c306cf] Performed GetMarsDataJob (Job ID: c7f42e10-bb03-422a-a481-8a8ad5c306cf) from Async(default) in 0.96ms
+[ActiveJob] [GetMarsDataJob] [86cf09d5-2571-48f4-a670-610a924fe96c] Performing GetMarsDataJob (Job ID: 86cf09d5-2571-48f4-a670-610a924fe96c) from Async(default) enqueued at 2020-05-22T15:58:34Z
+[ActiveJob] [GetMarsDataJob] [86cf09d5-2571-48f4-a670-610a924fe96c] Enqueued GetMarsDataJob (Job ID: 64ec5ca7-85b4-46da-aaaf-5c9bd10dd6e5) to Async(default) at 2020-05-22 15:58:44 UTC
+[ActiveJob] [GetMarsDataJob] [86cf09d5-2571-48f4-a670-610a924fe96c] Performed GetMarsDataJob (Job ID: 86cf09d5-2571-48f4-a670-610a924fe96c) from Async(default) in 0.45ms
+[ActiveJob] [GetMarsDataJob] [afc8384d-ce20-4991-a284-51781aec9cba] Performing GetMarsDataJob (Job ID: afc8384d-ce20-4991-a284-51781aec9cba) from Async(default) enqueued at 2020-05-22T15:58:35Z
+[ActiveJob] [GetMarsDataJob] [afc8384d-ce20-4991-a284-51781aec9cba] Enqueued GetMarsDataJob (Job ID: 581c322d-4cdc-45dc-9a3b-a5215833d0c7) to Async(default) at 2020-05-22 15:58:45 UTC
+[ActiveJob] [GetMarsDataJob] [afc8384d-ce20-4991-a284-51781aec9cba] Performed GetMarsDataJob (Job ID: afc8384d-ce20-4991-a284-51781aec9cba) from Async(default) in 1.17ms
+[ActiveJob] [GetMarsDataJob] [64ec5ca7-85b4-46da-aaaf-5c9bd10dd6e5] Performing GetMarsDataJob (Job ID: 64ec5ca7-85b4-46da-aaaf-5c9bd10dd6e5) from Async(default) enqueued at 2020-05-22T15:58:39Z
+[ActiveJob] [GetMarsDataJob] [64ec5ca7-85b4-46da-aaaf-5c9bd10dd6e5] Enqueued GetMarsDataJob (Job ID: f34822e8-54fa-43b6-8c38-7c23c2ddfc3c) to Async(default) at 2020-05-22 15:58:49 UTC
+[ActiveJob] [GetMarsDataJob] [64ec5ca7-85b4-46da-aaaf-5c9bd10dd6e5] Performed GetMarsDataJob (Job ID: 64ec5ca7-85b4-46da-aaaf-5c9bd10dd6e5) from Async(default) in 0.33ms
+[ActiveJob] [GetMarsDataJob] [581c322d-4cdc-45dc-9a3b-a5215833d0c7] Performing GetMarsDataJob (Job ID: 581c322d-4cdc-45dc-9a3b-a5215833d0c7) from Async(default) enqueued at 2020-05-22T15:58:40Z
+[ActiveJob] [GetMarsDataJob] [581c322d-4cdc-45dc-9a3b-a5215833d0c7] Enqueued GetMarsDataJob (Job ID: 67f5d9df-7c9d-476f-b483-70b754645a52) to Async(default) at 2020-05-22 15:58:50 UTC
+[ActiveJob] [GetMarsDataJob] [581c322d-4cdc-45dc-9a3b-a5215833d0c7] Performed GetMarsDataJob (Job ID: 581c322d-4cdc-45dc-9a3b-a5215833d0c7) from Async(default) in 0.84ms
+[ActiveJob] [GetMarsDataJob] [f34822e8-54fa-43b6-8c38-7c23c2ddfc3c] Performing GetMarsDataJob (Job ID: f34822e8-54fa-43b6-8c38-7c23c2ddfc3c) from Async(default) enqueued at 2020-05-22T15:58:44Z
+[ActiveJob] [GetMarsDataJob] [f34822e8-54fa-43b6-8c38-7c23c2ddfc3c] Enqueued GetMarsDataJob (Job ID: a1dc912e-7a94-4401-8ad4-e3e830e3705c) to Async(default) at 2020-05-22 15:58:54 UTC
+[ActiveJob] [GetMarsDataJob] [f34822e8-54fa-43b6-8c38-7c23c2ddfc3c] Performed GetMarsDataJob (Job ID: f34822e8-54fa-43b6-8c38-7c23c2ddfc3c) from Async(default) in 0.66ms
+[ActiveJob] [GetMarsDataJob] [67f5d9df-7c9d-476f-b483-70b754645a52] Performing GetMarsDataJob (Job ID: 67f5d9df-7c9d-476f-b483-70b754645a52) from Async(default) enqueued at 2020-05-22T15:58:45Z
+[ActiveJob] [GetMarsDataJob] [67f5d9df-7c9d-476f-b483-70b754645a52] Enqueued GetMarsDataJob (Job ID: 7e23b539-7a22-43e9-8563-aab9904821b2) to Async(default) at 2020-05-22 15:58:55 UTC
+[ActiveJob] [GetMarsDataJob] [67f5d9df-7c9d-476f-b483-70b754645a52] Performed GetMarsDataJob (Job ID: 67f5d9df-7c9d-476f-b483-70b754645a52) from Async(default) in 0.48ms
+[ActiveJob] [GetMarsDataJob] [a1dc912e-7a94-4401-8ad4-e3e830e3705c] Performing GetMarsDataJob (Job ID: a1dc912e-7a94-4401-8ad4-e3e830e3705c) from Async(default) enqueued at 2020-05-22T15:58:49Z
+[ActiveJob] [GetMarsDataJob] [a1dc912e-7a94-4401-8ad4-e3e830e3705c] Enqueued GetMarsDataJob (Job ID: 931c7951-cb30-4833-bc41-1ff7d0fe3828) to Async(default) at 2020-05-22 15:58:59 UTC
+[ActiveJob] [GetMarsDataJob] [a1dc912e-7a94-4401-8ad4-e3e830e3705c] Performed GetMarsDataJob (Job ID: a1dc912e-7a94-4401-8ad4-e3e830e3705c) from Async(default) in 1.26ms
+[ActiveJob] [GetMarsDataJob] [7e23b539-7a22-43e9-8563-aab9904821b2] Performing GetMarsDataJob (Job ID: 7e23b539-7a22-43e9-8563-aab9904821b2) from Async(default) enqueued at 2020-05-22T15:58:50Z
+[ActiveJob] [GetMarsDataJob] [7e23b539-7a22-43e9-8563-aab9904821b2] Enqueued GetMarsDataJob (Job ID: 43ec617f-ad04-4f32-9905-9d365a762957) to Async(default) at 2020-05-22 15:59:00 UTC
+[ActiveJob] [GetMarsDataJob] [7e23b539-7a22-43e9-8563-aab9904821b2] Performed GetMarsDataJob (Job ID: 7e23b539-7a22-43e9-8563-aab9904821b2) from Async(default) in 0.62ms
+[ActiveJob] [GetMarsDataJob] [931c7951-cb30-4833-bc41-1ff7d0fe3828] Performing GetMarsDataJob (Job ID: 931c7951-cb30-4833-bc41-1ff7d0fe3828) from Async(default) enqueued at 2020-05-22T15:58:54Z
+[ActiveJob] [GetMarsDataJob] [931c7951-cb30-4833-bc41-1ff7d0fe3828] Enqueued GetMarsDataJob (Job ID: 32bf8ecd-a0c9-4d2e-9d81-d8fd4e4add60) to Async(default) at 2020-05-22 15:59:04 UTC
+[ActiveJob] [GetMarsDataJob] [931c7951-cb30-4833-bc41-1ff7d0fe3828] Performed GetMarsDataJob (Job ID: 931c7951-cb30-4833-bc41-1ff7d0fe3828) from Async(default) in 0.56ms
+[ActiveJob] [GetMarsDataJob] [43ec617f-ad04-4f32-9905-9d365a762957] Performing GetMarsDataJob (Job ID: 43ec617f-ad04-4f32-9905-9d365a762957) from Async(default) enqueued at 2020-05-22T15:58:55Z
+[ActiveJob] [GetMarsDataJob] [43ec617f-ad04-4f32-9905-9d365a762957] Enqueued GetMarsDataJob (Job ID: 612e877d-4cf8-4b52-85c8-f1b642c5d21a) to Async(default) at 2020-05-22 15:59:05 UTC
+[ActiveJob] [GetMarsDataJob] [43ec617f-ad04-4f32-9905-9d365a762957] Performed GetMarsDataJob (Job ID: 43ec617f-ad04-4f32-9905-9d365a762957) from Async(default) in 0.82ms
+[ActiveJob] [GetMarsDataJob] [32bf8ecd-a0c9-4d2e-9d81-d8fd4e4add60] Performing GetMarsDataJob (Job ID: 32bf8ecd-a0c9-4d2e-9d81-d8fd4e4add60) from Async(default) enqueued at 2020-05-22T15:58:59Z
+[ActiveJob] [GetMarsDataJob] [32bf8ecd-a0c9-4d2e-9d81-d8fd4e4add60] Enqueued GetMarsDataJob (Job ID: cdabe8ba-2e2a-4ff3-bdf9-6a7c1b9b8b16) to Async(default) at 2020-05-22 15:59:09 UTC
+[ActiveJob] [GetMarsDataJob] [32bf8ecd-a0c9-4d2e-9d81-d8fd4e4add60] Performed GetMarsDataJob (Job ID: 32bf8ecd-a0c9-4d2e-9d81-d8fd4e4add60) from Async(default) in 0.51ms
+[ActiveJob] [GetMarsDataJob] [612e877d-4cf8-4b52-85c8-f1b642c5d21a] Performing GetMarsDataJob (Job ID: 612e877d-4cf8-4b52-85c8-f1b642c5d21a) from Async(default) enqueued at 2020-05-22T15:59:00Z
+[ActiveJob] [GetMarsDataJob] [612e877d-4cf8-4b52-85c8-f1b642c5d21a] Enqueued GetMarsDataJob (Job ID: 1e2523b2-012f-41ed-b636-1f12ef416526) to Async(default) at 2020-05-22 15:59:10 UTC
+[ActiveJob] [GetMarsDataJob] [612e877d-4cf8-4b52-85c8-f1b642c5d21a] Performed GetMarsDataJob (Job ID: 612e877d-4cf8-4b52-85c8-f1b642c5d21a) from Async(default) in 0.51ms
+[ActiveJob] [GetMarsDataJob] [cdabe8ba-2e2a-4ff3-bdf9-6a7c1b9b8b16] Performing GetMarsDataJob (Job ID: cdabe8ba-2e2a-4ff3-bdf9-6a7c1b9b8b16) from Async(default) enqueued at 2020-05-22T15:59:04Z
+[ActiveJob] [GetMarsDataJob] [cdabe8ba-2e2a-4ff3-bdf9-6a7c1b9b8b16] Enqueued GetMarsDataJob (Job ID: 994b2cfc-ea2d-4d54-af18-817ced284f69) to Async(default) at 2020-05-22 15:59:14 UTC
+[ActiveJob] [GetMarsDataJob] [cdabe8ba-2e2a-4ff3-bdf9-6a7c1b9b8b16] Performed GetMarsDataJob (Job ID: cdabe8ba-2e2a-4ff3-bdf9-6a7c1b9b8b16) from Async(default) in 0.81ms
+[ActiveJob] [GetMarsDataJob] [1e2523b2-012f-41ed-b636-1f12ef416526] Performing GetMarsDataJob (Job ID: 1e2523b2-012f-41ed-b636-1f12ef416526) from Async(default) enqueued at 2020-05-22T15:59:05Z
+[ActiveJob] [GetMarsDataJob] [1e2523b2-012f-41ed-b636-1f12ef416526] Enqueued GetMarsDataJob (Job ID: 98099381-c109-4841-8823-ded8ca76ffca) to Async(default) at 2020-05-22 15:59:15 UTC
+[ActiveJob] [GetMarsDataJob] [1e2523b2-012f-41ed-b636-1f12ef416526] Performed GetMarsDataJob (Job ID: 1e2523b2-012f-41ed-b636-1f12ef416526) from Async(default) in 0.87ms
+[ActiveJob] [GetMarsDataJob] [994b2cfc-ea2d-4d54-af18-817ced284f69] Performing GetMarsDataJob (Job ID: 994b2cfc-ea2d-4d54-af18-817ced284f69) from Async(default) enqueued at 2020-05-22T15:59:09Z
+[ActiveJob] [GetMarsDataJob] [994b2cfc-ea2d-4d54-af18-817ced284f69] Enqueued GetMarsDataJob (Job ID: 66ecc771-36a8-407e-8515-50f22f3969c4) to Async(default) at 2020-05-22 15:59:19 UTC
+[ActiveJob] [GetMarsDataJob] [994b2cfc-ea2d-4d54-af18-817ced284f69] Performed GetMarsDataJob (Job ID: 994b2cfc-ea2d-4d54-af18-817ced284f69) from Async(default) in 0.45ms
+[ActiveJob] [GetMarsDataJob] [98099381-c109-4841-8823-ded8ca76ffca] Performing GetMarsDataJob (Job ID: 98099381-c109-4841-8823-ded8ca76ffca) from Async(default) enqueued at 2020-05-22T15:59:10Z
+[ActiveJob] [GetMarsDataJob] [98099381-c109-4841-8823-ded8ca76ffca] Enqueued GetMarsDataJob (Job ID: 74d62cba-4a58-409b-b411-3734a715f1b7) to Async(default) at 2020-05-22 15:59:20 UTC
+[ActiveJob] [GetMarsDataJob] [98099381-c109-4841-8823-ded8ca76ffca] Performed GetMarsDataJob (Job ID: 98099381-c109-4841-8823-ded8ca76ffca) from Async(default) in 0.91ms
+[ActiveJob] [GetMarsDataJob] [66ecc771-36a8-407e-8515-50f22f3969c4] Performing GetMarsDataJob (Job ID: 66ecc771-36a8-407e-8515-50f22f3969c4) from Async(default) enqueued at 2020-05-22T15:59:14Z
+[ActiveJob] [GetMarsDataJob] [66ecc771-36a8-407e-8515-50f22f3969c4] Enqueued GetMarsDataJob (Job ID: 841df972-8d76-43cf-859c-e7eb273ba7fd) to Async(default) at 2020-05-22 15:59:24 UTC
+[ActiveJob] [GetMarsDataJob] [66ecc771-36a8-407e-8515-50f22f3969c4] Performed GetMarsDataJob (Job ID: 66ecc771-36a8-407e-8515-50f22f3969c4) from Async(default) in 0.49ms
+[ActiveJob] [GetMarsDataJob] [74d62cba-4a58-409b-b411-3734a715f1b7] Performing GetMarsDataJob (Job ID: 74d62cba-4a58-409b-b411-3734a715f1b7) from Async(default) enqueued at 2020-05-22T15:59:15Z
+[ActiveJob] [GetMarsDataJob] [74d62cba-4a58-409b-b411-3734a715f1b7] Enqueued GetMarsDataJob (Job ID: 83335655-a71a-41bb-b0c6-68666c65b1de) to Async(default) at 2020-05-22 15:59:25 UTC
+[ActiveJob] [GetMarsDataJob] [74d62cba-4a58-409b-b411-3734a715f1b7] Performed GetMarsDataJob (Job ID: 74d62cba-4a58-409b-b411-3734a715f1b7) from Async(default) in 0.78ms
+[ActiveJob] [GetMarsDataJob] [841df972-8d76-43cf-859c-e7eb273ba7fd] Performing GetMarsDataJob (Job ID: 841df972-8d76-43cf-859c-e7eb273ba7fd) from Async(default) enqueued at 2020-05-22T15:59:19Z
+[ActiveJob] [GetMarsDataJob] [841df972-8d76-43cf-859c-e7eb273ba7fd] Enqueued GetMarsDataJob (Job ID: a6153f5b-2486-446e-b9fb-940e989acdc6) to Async(default) at 2020-05-22 15:59:29 UTC
+[ActiveJob] [GetMarsDataJob] [841df972-8d76-43cf-859c-e7eb273ba7fd] Performed GetMarsDataJob (Job ID: 841df972-8d76-43cf-859c-e7eb273ba7fd) from Async(default) in 0.42ms
+[ActiveJob] [GetMarsDataJob] [83335655-a71a-41bb-b0c6-68666c65b1de] Performing GetMarsDataJob (Job ID: 83335655-a71a-41bb-b0c6-68666c65b1de) from Async(default) enqueued at 2020-05-22T15:59:20Z
+[ActiveJob] [GetMarsDataJob] [83335655-a71a-41bb-b0c6-68666c65b1de] Enqueued GetMarsDataJob (Job ID: ec71a9b8-91cd-43ab-950d-7938c429a02f) to Async(default) at 2020-05-22 15:59:30 UTC
+[ActiveJob] [GetMarsDataJob] [83335655-a71a-41bb-b0c6-68666c65b1de] Performed GetMarsDataJob (Job ID: 83335655-a71a-41bb-b0c6-68666c65b1de) from Async(default) in 0.51ms
+[ActiveJob] [GetMarsDataJob] [a6153f5b-2486-446e-b9fb-940e989acdc6] Performing GetMarsDataJob (Job ID: a6153f5b-2486-446e-b9fb-940e989acdc6) from Async(default) enqueued at 2020-05-22T15:59:24Z
+[ActiveJob] [GetMarsDataJob] [a6153f5b-2486-446e-b9fb-940e989acdc6] Enqueued GetMarsDataJob (Job ID: d0589a16-6b43-4f5c-904d-4334933583f2) to Async(default) at 2020-05-22 15:59:34 UTC
+[ActiveJob] [GetMarsDataJob] [a6153f5b-2486-446e-b9fb-940e989acdc6] Performed GetMarsDataJob (Job ID: a6153f5b-2486-446e-b9fb-940e989acdc6) from Async(default) in 1.06ms
+[ActiveJob] [GetMarsDataJob] [ec71a9b8-91cd-43ab-950d-7938c429a02f] Performing GetMarsDataJob (Job ID: ec71a9b8-91cd-43ab-950d-7938c429a02f) from Async(default) enqueued at 2020-05-22T15:59:25Z
+[ActiveJob] [GetMarsDataJob] [ec71a9b8-91cd-43ab-950d-7938c429a02f] Enqueued GetMarsDataJob (Job ID: 24ade710-df44-44e1-80d6-a54a47509305) to Async(default) at 2020-05-22 15:59:35 UTC
+[ActiveJob] [GetMarsDataJob] [ec71a9b8-91cd-43ab-950d-7938c429a02f] Performed GetMarsDataJob (Job ID: ec71a9b8-91cd-43ab-950d-7938c429a02f) from Async(default) in 0.46ms
+[ActiveJob] [GetMarsDataJob] [d0589a16-6b43-4f5c-904d-4334933583f2] Performing GetMarsDataJob (Job ID: d0589a16-6b43-4f5c-904d-4334933583f2) from Async(default) enqueued at 2020-05-22T15:59:29Z
+[ActiveJob] [GetMarsDataJob] [d0589a16-6b43-4f5c-904d-4334933583f2] Enqueued GetMarsDataJob (Job ID: 37c21b70-d280-4413-9cd1-f594e948531e) to Async(default) at 2020-05-22 15:59:40 UTC
+[ActiveJob] [GetMarsDataJob] [d0589a16-6b43-4f5c-904d-4334933583f2] Performed GetMarsDataJob (Job ID: d0589a16-6b43-4f5c-904d-4334933583f2) from Async(default) in 0.53ms
+[ActiveJob] [GetMarsDataJob] [24ade710-df44-44e1-80d6-a54a47509305] Performing GetMarsDataJob (Job ID: 24ade710-df44-44e1-80d6-a54a47509305) from Async(default) enqueued at 2020-05-22T15:59:30Z
+[ActiveJob] [GetMarsDataJob] [24ade710-df44-44e1-80d6-a54a47509305] Enqueued GetMarsDataJob (Job ID: 4749e052-f8b1-4c10-86f3-d2b60fd5f968) to Async(default) at 2020-05-22 15:59:40 UTC
+[ActiveJob] [GetMarsDataJob] [24ade710-df44-44e1-80d6-a54a47509305] Performed GetMarsDataJob (Job ID: 24ade710-df44-44e1-80d6-a54a47509305) from Async(default) in 0.55ms
+[ActiveJob] [GetMarsDataJob] [37c21b70-d280-4413-9cd1-f594e948531e] Performing GetMarsDataJob (Job ID: 37c21b70-d280-4413-9cd1-f594e948531e) from Async(default) enqueued at 2020-05-22T15:59:35Z
+[ActiveJob] [GetMarsDataJob] [37c21b70-d280-4413-9cd1-f594e948531e] Enqueued GetMarsDataJob (Job ID: 228cd61d-1db7-4ce1-8629-df8e49c8a327) to Async(default) at 2020-05-22 15:59:45 UTC
+[ActiveJob] [GetMarsDataJob] [37c21b70-d280-4413-9cd1-f594e948531e] Performed GetMarsDataJob (Job ID: 37c21b70-d280-4413-9cd1-f594e948531e) from Async(default) in 0.42ms
+[ActiveJob] [GetMarsDataJob] [4749e052-f8b1-4c10-86f3-d2b60fd5f968] Performing GetMarsDataJob (Job ID: 4749e052-f8b1-4c10-86f3-d2b60fd5f968) from Async(default) enqueued at 2020-05-22T15:59:35Z
+[ActiveJob] [GetMarsDataJob] [4749e052-f8b1-4c10-86f3-d2b60fd5f968] Enqueued GetMarsDataJob (Job ID: 85f57587-630e-411a-8964-9f034858caa1) to Async(default) at 2020-05-22 15:59:45 UTC
+[ActiveJob] [GetMarsDataJob] [4749e052-f8b1-4c10-86f3-d2b60fd5f968] Performed GetMarsDataJob (Job ID: 4749e052-f8b1-4c10-86f3-d2b60fd5f968) from Async(default) in 0.46ms
+[ActiveJob] [GetMarsDataJob] [228cd61d-1db7-4ce1-8629-df8e49c8a327] Performing GetMarsDataJob (Job ID: 228cd61d-1db7-4ce1-8629-df8e49c8a327) from Async(default) enqueued at 2020-05-22T15:59:40Z
+[ActiveJob] [GetMarsDataJob] [228cd61d-1db7-4ce1-8629-df8e49c8a327] Enqueued GetMarsDataJob (Job ID: 59c8f6d5-d5ab-453a-b9cf-71b921e5f8b6) to Async(default) at 2020-05-22 15:59:50 UTC
+[ActiveJob] [GetMarsDataJob] [228cd61d-1db7-4ce1-8629-df8e49c8a327] Performed GetMarsDataJob (Job ID: 228cd61d-1db7-4ce1-8629-df8e49c8a327) from Async(default) in 0.68ms
+[ActiveJob] [GetMarsDataJob] [85f57587-630e-411a-8964-9f034858caa1] Performing GetMarsDataJob (Job ID: 85f57587-630e-411a-8964-9f034858caa1) from Async(default) enqueued at 2020-05-22T15:59:40Z
+[ActiveJob] [GetMarsDataJob] [85f57587-630e-411a-8964-9f034858caa1] Enqueued GetMarsDataJob (Job ID: 0a2ba9ca-bdf1-41b0-9941-e553ee75c171) to Async(default) at 2020-05-22 15:59:50 UTC
+[ActiveJob] [GetMarsDataJob] [85f57587-630e-411a-8964-9f034858caa1] Performed GetMarsDataJob (Job ID: 85f57587-630e-411a-8964-9f034858caa1) from Async(default) in 0.81ms
+[ActiveJob] [GetMarsDataJob] [59c8f6d5-d5ab-453a-b9cf-71b921e5f8b6] Performing GetMarsDataJob (Job ID: 59c8f6d5-d5ab-453a-b9cf-71b921e5f8b6) from Async(default) enqueued at 2020-05-22T15:59:45Z
+[ActiveJob] [GetMarsDataJob] [59c8f6d5-d5ab-453a-b9cf-71b921e5f8b6] Enqueued GetMarsDataJob (Job ID: 408b755f-65f6-4e58-9a32-ec3b444a9cc0) to Async(default) at 2020-05-22 15:59:55 UTC
+[ActiveJob] [GetMarsDataJob] [59c8f6d5-d5ab-453a-b9cf-71b921e5f8b6] Performed GetMarsDataJob (Job ID: 59c8f6d5-d5ab-453a-b9cf-71b921e5f8b6) from Async(default) in 0.43ms
+[ActiveJob] [GetMarsDataJob] [0a2ba9ca-bdf1-41b0-9941-e553ee75c171] Performing GetMarsDataJob (Job ID: 0a2ba9ca-bdf1-41b0-9941-e553ee75c171) from Async(default) enqueued at 2020-05-22T15:59:45Z
+[ActiveJob] [GetMarsDataJob] [0a2ba9ca-bdf1-41b0-9941-e553ee75c171] Enqueued GetMarsDataJob (Job ID: 7f373b4d-fba2-417a-b7c9-1787d264cf48) to Async(default) at 2020-05-22 15:59:55 UTC
+[ActiveJob] [GetMarsDataJob] [0a2ba9ca-bdf1-41b0-9941-e553ee75c171] Performed GetMarsDataJob (Job ID: 0a2ba9ca-bdf1-41b0-9941-e553ee75c171) from Async(default) in 0.63ms
+[ActiveJob] [GetMarsDataJob] [408b755f-65f6-4e58-9a32-ec3b444a9cc0] Performing GetMarsDataJob (Job ID: 408b755f-65f6-4e58-9a32-ec3b444a9cc0) from Async(default) enqueued at 2020-05-22T15:59:50Z
+[ActiveJob] [GetMarsDataJob] [408b755f-65f6-4e58-9a32-ec3b444a9cc0] Enqueued GetMarsDataJob (Job ID: 8b1a027b-494d-4143-abc3-c3e959c4bf55) to Async(default) at 2020-05-22 16:00:00 UTC
+[ActiveJob] [GetMarsDataJob] [408b755f-65f6-4e58-9a32-ec3b444a9cc0] Performed GetMarsDataJob (Job ID: 408b755f-65f6-4e58-9a32-ec3b444a9cc0) from Async(default) in 0.5ms
+[ActiveJob] [GetMarsDataJob] [7f373b4d-fba2-417a-b7c9-1787d264cf48] Performing GetMarsDataJob (Job ID: 7f373b4d-fba2-417a-b7c9-1787d264cf48) from Async(default) enqueued at 2020-05-22T15:59:50Z
+[ActiveJob] [GetMarsDataJob] [7f373b4d-fba2-417a-b7c9-1787d264cf48] Enqueued GetMarsDataJob (Job ID: 865e49dd-6eb0-419b-b047-a621278ed726) to Async(default) at 2020-05-22 16:00:00 UTC
+[ActiveJob] [GetMarsDataJob] [7f373b4d-fba2-417a-b7c9-1787d264cf48] Performed GetMarsDataJob (Job ID: 7f373b4d-fba2-417a-b7c9-1787d264cf48) from Async(default) in 0.44ms
+[ActiveJob] [GetMarsDataJob] [8b1a027b-494d-4143-abc3-c3e959c4bf55] Performing GetMarsDataJob (Job ID: 8b1a027b-494d-4143-abc3-c3e959c4bf55) from Async(default) enqueued at 2020-05-22T15:59:55Z
+[ActiveJob] [GetMarsDataJob] [8b1a027b-494d-4143-abc3-c3e959c4bf55] Enqueued GetMarsDataJob (Job ID: 55f52052-5d49-49d9-a803-b05a8eae7659) to Async(default) at 2020-05-22 16:00:05 UTC
+[ActiveJob] [GetMarsDataJob] [8b1a027b-494d-4143-abc3-c3e959c4bf55] Performed GetMarsDataJob (Job ID: 8b1a027b-494d-4143-abc3-c3e959c4bf55) from Async(default) in 0.56ms
+[ActiveJob] [GetMarsDataJob] [865e49dd-6eb0-419b-b047-a621278ed726] Performing GetMarsDataJob (Job ID: 865e49dd-6eb0-419b-b047-a621278ed726) from Async(default) enqueued at 2020-05-22T15:59:55Z
+[ActiveJob] [GetMarsDataJob] [865e49dd-6eb0-419b-b047-a621278ed726] Enqueued GetMarsDataJob (Job ID: 05e027dc-f76e-44ed-bd8a-a94f37296e65) to Async(default) at 2020-05-22 16:00:05 UTC
+[ActiveJob] [GetMarsDataJob] [865e49dd-6eb0-419b-b047-a621278ed726] Performed GetMarsDataJob (Job ID: 865e49dd-6eb0-419b-b047-a621278ed726) from Async(default) in 0.67ms
+[ActiveJob] [GetMarsDataJob] [55f52052-5d49-49d9-a803-b05a8eae7659] Performing GetMarsDataJob (Job ID: 55f52052-5d49-49d9-a803-b05a8eae7659) from Async(default) enqueued at 2020-05-22T16:00:00Z
+[ActiveJob] [GetMarsDataJob] [55f52052-5d49-49d9-a803-b05a8eae7659] Enqueued GetMarsDataJob (Job ID: 52546801-29cc-4984-af58-f975a8510272) to Async(default) at 2020-05-22 16:00:10 UTC
+[ActiveJob] [GetMarsDataJob] [55f52052-5d49-49d9-a803-b05a8eae7659] Performed GetMarsDataJob (Job ID: 55f52052-5d49-49d9-a803-b05a8eae7659) from Async(default) in 0.58ms
+[ActiveJob] [GetMarsDataJob] [05e027dc-f76e-44ed-bd8a-a94f37296e65] Performing GetMarsDataJob (Job ID: 05e027dc-f76e-44ed-bd8a-a94f37296e65) from Async(default) enqueued at 2020-05-22T16:00:00Z
+[ActiveJob] [GetMarsDataJob] [05e027dc-f76e-44ed-bd8a-a94f37296e65] Enqueued GetMarsDataJob (Job ID: 0130aa3d-d629-4dd2-a4ca-f5a0c92eec31) to Async(default) at 2020-05-22 16:00:10 UTC
+[ActiveJob] [GetMarsDataJob] [05e027dc-f76e-44ed-bd8a-a94f37296e65] Performed GetMarsDataJob (Job ID: 05e027dc-f76e-44ed-bd8a-a94f37296e65) from Async(default) in 0.74ms
+[ActiveJob] [GetMarsDataJob] [52546801-29cc-4984-af58-f975a8510272] Performing GetMarsDataJob (Job ID: 52546801-29cc-4984-af58-f975a8510272) from Async(default) enqueued at 2020-05-22T16:00:05Z
+[ActiveJob] [GetMarsDataJob] [52546801-29cc-4984-af58-f975a8510272] Enqueued GetMarsDataJob (Job ID: dabc3f90-107c-4625-b769-2032acc53691) to Async(default) at 2020-05-22 16:00:15 UTC
+[ActiveJob] [GetMarsDataJob] [52546801-29cc-4984-af58-f975a8510272] Performed GetMarsDataJob (Job ID: 52546801-29cc-4984-af58-f975a8510272) from Async(default) in 0.38ms
+[ActiveJob] [GetMarsDataJob] [0130aa3d-d629-4dd2-a4ca-f5a0c92eec31] Performing GetMarsDataJob (Job ID: 0130aa3d-d629-4dd2-a4ca-f5a0c92eec31) from Async(default) enqueued at 2020-05-22T16:00:05Z
+[ActiveJob] [GetMarsDataJob] [0130aa3d-d629-4dd2-a4ca-f5a0c92eec31] Enqueued GetMarsDataJob (Job ID: 51474c51-25dc-4363-9eae-e04fa1687e09) to Async(default) at 2020-05-22 16:00:15 UTC
+[ActiveJob] [GetMarsDataJob] [0130aa3d-d629-4dd2-a4ca-f5a0c92eec31] Performed GetMarsDataJob (Job ID: 0130aa3d-d629-4dd2-a4ca-f5a0c92eec31) from Async(default) in 0.69ms
+[ActiveJob] [GetMarsDataJob] [dabc3f90-107c-4625-b769-2032acc53691] Performing GetMarsDataJob (Job ID: dabc3f90-107c-4625-b769-2032acc53691) from Async(default) enqueued at 2020-05-22T16:00:10Z
+[ActiveJob] [GetMarsDataJob] [dabc3f90-107c-4625-b769-2032acc53691] Enqueued GetMarsDataJob (Job ID: 99620c10-0e09-46cf-be3b-b3ee65f2b8a4) to Async(default) at 2020-05-22 16:00:20 UTC
+[ActiveJob] [GetMarsDataJob] [dabc3f90-107c-4625-b769-2032acc53691] Performed GetMarsDataJob (Job ID: dabc3f90-107c-4625-b769-2032acc53691) from Async(default) in 1.15ms
+[ActiveJob] [GetMarsDataJob] [51474c51-25dc-4363-9eae-e04fa1687e09] Performing GetMarsDataJob (Job ID: 51474c51-25dc-4363-9eae-e04fa1687e09) from Async(default) enqueued at 2020-05-22T16:00:10Z
+[ActiveJob] [GetMarsDataJob] [51474c51-25dc-4363-9eae-e04fa1687e09] Enqueued GetMarsDataJob (Job ID: 4b9070d9-766b-48db-a605-b41f323f4b85) to Async(default) at 2020-05-22 16:00:20 UTC
+[ActiveJob] [GetMarsDataJob] [51474c51-25dc-4363-9eae-e04fa1687e09] Performed GetMarsDataJob (Job ID: 51474c51-25dc-4363-9eae-e04fa1687e09) from Async(default) in 0.99ms
+[ActiveJob] [GetMarsDataJob] [99620c10-0e09-46cf-be3b-b3ee65f2b8a4] Performing GetMarsDataJob (Job ID: 99620c10-0e09-46cf-be3b-b3ee65f2b8a4) from Async(default) enqueued at 2020-05-22T16:00:15Z
+[ActiveJob] [GetMarsDataJob] [99620c10-0e09-46cf-be3b-b3ee65f2b8a4] Enqueued GetMarsDataJob (Job ID: 278008d5-55d8-4a3e-bbda-a0c707868c47) to Async(default) at 2020-05-22 16:00:25 UTC
+[ActiveJob] [GetMarsDataJob] [99620c10-0e09-46cf-be3b-b3ee65f2b8a4] Performed GetMarsDataJob (Job ID: 99620c10-0e09-46cf-be3b-b3ee65f2b8a4) from Async(default) in 0.62ms
+[ActiveJob] [GetMarsDataJob] [4b9070d9-766b-48db-a605-b41f323f4b85] Performing GetMarsDataJob (Job ID: 4b9070d9-766b-48db-a605-b41f323f4b85) from Async(default) enqueued at 2020-05-22T16:00:15Z
+[ActiveJob] [GetMarsDataJob] [4b9070d9-766b-48db-a605-b41f323f4b85] Enqueued GetMarsDataJob (Job ID: 748f7411-12ab-466f-903f-f87d2d82853f) to Async(default) at 2020-05-22 16:00:25 UTC
+[ActiveJob] [GetMarsDataJob] [4b9070d9-766b-48db-a605-b41f323f4b85] Performed GetMarsDataJob (Job ID: 4b9070d9-766b-48db-a605-b41f323f4b85) from Async(default) in 0.59ms
+[ActiveJob] [GetMarsDataJob] [278008d5-55d8-4a3e-bbda-a0c707868c47] Performing GetMarsDataJob (Job ID: 278008d5-55d8-4a3e-bbda-a0c707868c47) from Async(default) enqueued at 2020-05-22T16:00:20Z
+[ActiveJob] [GetMarsDataJob] [278008d5-55d8-4a3e-bbda-a0c707868c47] Enqueued GetMarsDataJob (Job ID: 15af00ed-84e5-4985-bb66-c7b97a32dd58) to Async(default) at 2020-05-22 16:00:30 UTC
+[ActiveJob] [GetMarsDataJob] [278008d5-55d8-4a3e-bbda-a0c707868c47] Performed GetMarsDataJob (Job ID: 278008d5-55d8-4a3e-bbda-a0c707868c47) from Async(default) in 0.34ms
+[ActiveJob] [GetMarsDataJob] [748f7411-12ab-466f-903f-f87d2d82853f] Performing GetMarsDataJob (Job ID: 748f7411-12ab-466f-903f-f87d2d82853f) from Async(default) enqueued at 2020-05-22T16:00:20Z
+[ActiveJob] [GetMarsDataJob] [748f7411-12ab-466f-903f-f87d2d82853f] Enqueued GetMarsDataJob (Job ID: 95490863-3660-4888-ad31-11b47d6c2a5e) to Async(default) at 2020-05-22 16:00:30 UTC
+[ActiveJob] [GetMarsDataJob] [748f7411-12ab-466f-903f-f87d2d82853f] Performed GetMarsDataJob (Job ID: 748f7411-12ab-466f-903f-f87d2d82853f) from Async(default) in 0.88ms
+[ActiveJob] [GetMarsDataJob] [15af00ed-84e5-4985-bb66-c7b97a32dd58] Performing GetMarsDataJob (Job ID: 15af00ed-84e5-4985-bb66-c7b97a32dd58) from Async(default) enqueued at 2020-05-22T16:00:25Z
+[ActiveJob] [GetMarsDataJob] [15af00ed-84e5-4985-bb66-c7b97a32dd58] Enqueued GetMarsDataJob (Job ID: 7f997c14-c7f2-485f-9db9-a817142fc8bf) to Async(default) at 2020-05-22 16:00:35 UTC
+[ActiveJob] [GetMarsDataJob] [15af00ed-84e5-4985-bb66-c7b97a32dd58] Performed GetMarsDataJob (Job ID: 15af00ed-84e5-4985-bb66-c7b97a32dd58) from Async(default) in 0.41ms
+[ActiveJob] [GetMarsDataJob] [95490863-3660-4888-ad31-11b47d6c2a5e] Performing GetMarsDataJob (Job ID: 95490863-3660-4888-ad31-11b47d6c2a5e) from Async(default) enqueued at 2020-05-22T16:00:25Z
+[ActiveJob] [GetMarsDataJob] [95490863-3660-4888-ad31-11b47d6c2a5e] Enqueued GetMarsDataJob (Job ID: be9b4741-5a1d-48dc-bacf-0cf94cea9ab4) to Async(default) at 2020-05-22 16:00:35 UTC
+[ActiveJob] [GetMarsDataJob] [95490863-3660-4888-ad31-11b47d6c2a5e] Performed GetMarsDataJob (Job ID: 95490863-3660-4888-ad31-11b47d6c2a5e) from Async(default) in 0.58ms
+[ActiveJob] [GetMarsDataJob] [7f997c14-c7f2-485f-9db9-a817142fc8bf] Performing GetMarsDataJob (Job ID: 7f997c14-c7f2-485f-9db9-a817142fc8bf) from Async(default) enqueued at 2020-05-22T16:00:30Z
+[ActiveJob] [GetMarsDataJob] [7f997c14-c7f2-485f-9db9-a817142fc8bf] Enqueued GetMarsDataJob (Job ID: 9b295583-cf70-4c85-9365-c3aed58d1319) to Async(default) at 2020-05-22 16:00:40 UTC
+[ActiveJob] [GetMarsDataJob] [7f997c14-c7f2-485f-9db9-a817142fc8bf] Performed GetMarsDataJob (Job ID: 7f997c14-c7f2-485f-9db9-a817142fc8bf) from Async(default) in 0.34ms
+[ActiveJob] [GetMarsDataJob] [be9b4741-5a1d-48dc-bacf-0cf94cea9ab4] Performing GetMarsDataJob (Job ID: be9b4741-5a1d-48dc-bacf-0cf94cea9ab4) from Async(default) enqueued at 2020-05-22T16:00:30Z
+[ActiveJob] [GetMarsDataJob] [be9b4741-5a1d-48dc-bacf-0cf94cea9ab4] Enqueued GetMarsDataJob (Job ID: 13736909-2881-427b-890b-17bae0f71b0e) to Async(default) at 2020-05-22 16:00:40 UTC
+[ActiveJob] [GetMarsDataJob] [be9b4741-5a1d-48dc-bacf-0cf94cea9ab4] Performed GetMarsDataJob (Job ID: be9b4741-5a1d-48dc-bacf-0cf94cea9ab4) from Async(default) in 0.46ms
+[ActiveJob] [GetMarsDataJob] [9b295583-cf70-4c85-9365-c3aed58d1319] Performing GetMarsDataJob (Job ID: 9b295583-cf70-4c85-9365-c3aed58d1319) from Async(default) enqueued at 2020-05-22T16:00:35Z
+[ActiveJob] [GetMarsDataJob] [9b295583-cf70-4c85-9365-c3aed58d1319] Enqueued GetMarsDataJob (Job ID: d58e7b0d-84fe-40a8-b1a3-b741876e7aa5) to Async(default) at 2020-05-22 16:00:45 UTC
+[ActiveJob] [GetMarsDataJob] [9b295583-cf70-4c85-9365-c3aed58d1319] Performed GetMarsDataJob (Job ID: 9b295583-cf70-4c85-9365-c3aed58d1319) from Async(default) in 0.31ms
+[ActiveJob] [GetMarsDataJob] [13736909-2881-427b-890b-17bae0f71b0e] Performing GetMarsDataJob (Job ID: 13736909-2881-427b-890b-17bae0f71b0e) from Async(default) enqueued at 2020-05-22T16:00:35Z
+[ActiveJob] [GetMarsDataJob] [13736909-2881-427b-890b-17bae0f71b0e] Enqueued GetMarsDataJob (Job ID: 20b78283-5716-42fd-bffc-261c51f10c25) to Async(default) at 2020-05-22 16:00:45 UTC
+[ActiveJob] [GetMarsDataJob] [13736909-2881-427b-890b-17bae0f71b0e] Performed GetMarsDataJob (Job ID: 13736909-2881-427b-890b-17bae0f71b0e) from Async(default) in 0.72ms
+[ActiveJob] [GetMarsDataJob] [d58e7b0d-84fe-40a8-b1a3-b741876e7aa5] Performing GetMarsDataJob (Job ID: d58e7b0d-84fe-40a8-b1a3-b741876e7aa5) from Async(default) enqueued at 2020-05-22T16:00:40Z
+[ActiveJob] [GetMarsDataJob] [d58e7b0d-84fe-40a8-b1a3-b741876e7aa5] Error performing GetMarsDataJob (Job ID: d58e7b0d-84fe-40a8-b1a3-b741876e7aa5) from Async(default) in 1.53ms: NameError (uninitialized constant Net::HTTP):
+/Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/app/jobs/get_mars_data_job.rb:9:in `perform'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:40:in `block in perform_now'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:112:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/i18n-1.8.2/lib/i18n.rb:313:in `with_locale'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/translation.rb:9:in `block (2 levels) in <module:Translation>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/core_ext/time/zones.rb:66:in `use_zone'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/timezones.rb:9:in `block (2 levels) in <module:Timezones>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:25:in `block (4 levels) in <module:Logging>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/notifications.rb:180:in `block in instrument'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/notifications.rb:180:in `instrument'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:24:in `block (3 levels) in <module:Logging>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:45:in `block in tag_logger'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/tagged_logging.rb:80:in `block in tagged'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/tagged_logging.rb:80:in `tagged'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:45:in `tag_logger'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:21:in `block (2 levels) in <module:Logging>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:139:in `run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:39:in `perform_now'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:25:in `block in execute'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:112:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/railtie.rb:43:in `block (4 levels) in <class:Railtie>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/execution_wrapper.rb:88:in `wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/reloader.rb:72:in `block in wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/execution_wrapper.rb:88:in `wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/reloader.rb:71:in `wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/railtie.rb:42:in `block (3 levels) in <class:Railtie>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:139:in `run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:23:in `execute'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/queue_adapters/async_adapter.rb:70:in `perform'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:24:in `block in execute'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:41:in `block in synchronize'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:41:in `synchronize'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:41:in `synchronize'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:19:in `execute'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/ivar.rb:169:in `safe_execute'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/scheduled_task.rb:285:in `process_task'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/timer_set.rb:165:in `block (2 levels) in process_tasks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:353:in `run_task'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:342:in `block (3 levels) in create_worker'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:325:in `loop'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:325:in `block (2 levels) in create_worker'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:324:in `catch'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:324:in `block in create_worker'
+[ActiveJob] [GetMarsDataJob] [20b78283-5716-42fd-bffc-261c51f10c25] Performing GetMarsDataJob (Job ID: 20b78283-5716-42fd-bffc-261c51f10c25) from Async(default) enqueued at 2020-05-22T16:00:40Z
+[ActiveJob] [GetMarsDataJob] [20b78283-5716-42fd-bffc-261c51f10c25] Enqueued GetMarsDataJob (Job ID: 86e45891-6ebd-4cdd-8a2e-2818b8b46baa) to Async(default) at 2020-05-22 16:00:50 UTC
+[ActiveJob] [GetMarsDataJob] [20b78283-5716-42fd-bffc-261c51f10c25] Performed GetMarsDataJob (Job ID: 20b78283-5716-42fd-bffc-261c51f10c25) from Async(default) in 1.05ms
+[ActiveJob] [GetMarsDataJob] [86e45891-6ebd-4cdd-8a2e-2818b8b46baa] Performing GetMarsDataJob (Job ID: 86e45891-6ebd-4cdd-8a2e-2818b8b46baa) from Async(default) enqueued at 2020-05-22T16:00:45Z
+[ActiveJob] [GetMarsDataJob] [86e45891-6ebd-4cdd-8a2e-2818b8b46baa] Enqueued GetMarsDataJob (Job ID: f8ddfdd6-0dee-49da-869b-b1b5541d667f) to Async(default) at 2020-05-22 16:00:55 UTC
+[ActiveJob] [GetMarsDataJob] [86e45891-6ebd-4cdd-8a2e-2818b8b46baa] Performed GetMarsDataJob (Job ID: 86e45891-6ebd-4cdd-8a2e-2818b8b46baa) from Async(default) in 0.56ms
+[ActiveJob] [GetMarsDataJob] [f8ddfdd6-0dee-49da-869b-b1b5541d667f] Performing GetMarsDataJob (Job ID: f8ddfdd6-0dee-49da-869b-b1b5541d667f) from Async(default) enqueued at 2020-05-22T16:00:50Z
+[ActiveJob] [GetMarsDataJob] [f8ddfdd6-0dee-49da-869b-b1b5541d667f] Enqueued GetMarsDataJob (Job ID: e2141b40-2fc9-4e7d-85a3-042f45e52176) to Async(default) at 2020-05-22 16:01:00 UTC
+[ActiveJob] [GetMarsDataJob] [f8ddfdd6-0dee-49da-869b-b1b5541d667f] Performed GetMarsDataJob (Job ID: f8ddfdd6-0dee-49da-869b-b1b5541d667f) from Async(default) in 0.85ms
+[ActiveJob] [GetMarsDataJob] [e2141b40-2fc9-4e7d-85a3-042f45e52176] Performing GetMarsDataJob (Job ID: e2141b40-2fc9-4e7d-85a3-042f45e52176) from Async(default) enqueued at 2020-05-22T16:00:55Z
+[ActiveJob] [GetMarsDataJob] [e2141b40-2fc9-4e7d-85a3-042f45e52176] Enqueued GetMarsDataJob (Job ID: fdf11b77-366e-4001-9037-d5fbd9cc09d1) to Async(default) at 2020-05-22 16:01:05 UTC
+[ActiveJob] [GetMarsDataJob] [e2141b40-2fc9-4e7d-85a3-042f45e52176] Performed GetMarsDataJob (Job ID: e2141b40-2fc9-4e7d-85a3-042f45e52176) from Async(default) in 0.58ms
+[ActiveJob] [GetMarsDataJob] [fdf11b77-366e-4001-9037-d5fbd9cc09d1] Performing GetMarsDataJob (Job ID: fdf11b77-366e-4001-9037-d5fbd9cc09d1) from Async(default) enqueued at 2020-05-22T16:01:00Z
+[ActiveJob] [GetMarsDataJob] [fdf11b77-366e-4001-9037-d5fbd9cc09d1] Enqueued GetMarsDataJob (Job ID: a254f282-968c-4cbe-8c0a-c653dd066f82) to Async(default) at 2020-05-22 16:01:10 UTC
+[ActiveJob] [GetMarsDataJob] [fdf11b77-366e-4001-9037-d5fbd9cc09d1] Performed GetMarsDataJob (Job ID: fdf11b77-366e-4001-9037-d5fbd9cc09d1) from Async(default) in 1.09ms
+[ActiveJob] [GetMarsDataJob] [a254f282-968c-4cbe-8c0a-c653dd066f82] Performing GetMarsDataJob (Job ID: a254f282-968c-4cbe-8c0a-c653dd066f82) from Async(default) enqueued at 2020-05-22T16:01:05Z
+[ActiveJob] [GetMarsDataJob] [a254f282-968c-4cbe-8c0a-c653dd066f82] Enqueued GetMarsDataJob (Job ID: 3d5def6a-93fa-46f8-bfd1-f7f2fbf5d7fd) to Async(default) at 2020-05-22 16:01:15 UTC
+[ActiveJob] [GetMarsDataJob] [a254f282-968c-4cbe-8c0a-c653dd066f82] Performed GetMarsDataJob (Job ID: a254f282-968c-4cbe-8c0a-c653dd066f82) from Async(default) in 0.91ms
+[ActiveJob] [GetMarsDataJob] [3d5def6a-93fa-46f8-bfd1-f7f2fbf5d7fd] Performing GetMarsDataJob (Job ID: 3d5def6a-93fa-46f8-bfd1-f7f2fbf5d7fd) from Async(default) enqueued at 2020-05-22T16:01:10Z
+[ActiveJob] [GetMarsDataJob] [3d5def6a-93fa-46f8-bfd1-f7f2fbf5d7fd] Enqueued GetMarsDataJob (Job ID: d2a61747-26ae-464b-99f2-a50c73b5fa9f) to Async(default) at 2020-05-22 16:01:20 UTC
+[ActiveJob] [GetMarsDataJob] [3d5def6a-93fa-46f8-bfd1-f7f2fbf5d7fd] Performed GetMarsDataJob (Job ID: 3d5def6a-93fa-46f8-bfd1-f7f2fbf5d7fd) from Async(default) in 0.6ms
+[ActiveJob] [GetMarsDataJob] [d2a61747-26ae-464b-99f2-a50c73b5fa9f] Performing GetMarsDataJob (Job ID: d2a61747-26ae-464b-99f2-a50c73b5fa9f) from Async(default) enqueued at 2020-05-22T16:01:15Z
+[ActiveJob] [GetMarsDataJob] [d2a61747-26ae-464b-99f2-a50c73b5fa9f] Enqueued GetMarsDataJob (Job ID: e43c002b-6324-453d-983c-a070e67d5bb3) to Async(default) at 2020-05-22 16:01:25 UTC
+[ActiveJob] [GetMarsDataJob] [d2a61747-26ae-464b-99f2-a50c73b5fa9f] Performed GetMarsDataJob (Job ID: d2a61747-26ae-464b-99f2-a50c73b5fa9f) from Async(default) in 0.57ms
+[ActiveJob] [GetMarsDataJob] [e43c002b-6324-453d-983c-a070e67d5bb3] Performing GetMarsDataJob (Job ID: e43c002b-6324-453d-983c-a070e67d5bb3) from Async(default) enqueued at 2020-05-22T16:01:20Z
+[ActiveJob] [GetMarsDataJob] [e43c002b-6324-453d-983c-a070e67d5bb3] Enqueued GetMarsDataJob (Job ID: 5b7ddb41-de99-43ca-a84d-e1bb1a26b60b) to Async(default) at 2020-05-22 16:01:30 UTC
+[ActiveJob] [GetMarsDataJob] [e43c002b-6324-453d-983c-a070e67d5bb3] Performed GetMarsDataJob (Job ID: e43c002b-6324-453d-983c-a070e67d5bb3) from Async(default) in 1.18ms
+[ActiveJob] [GetMarsDataJob] [5b7ddb41-de99-43ca-a84d-e1bb1a26b60b] Performing GetMarsDataJob (Job ID: 5b7ddb41-de99-43ca-a84d-e1bb1a26b60b) from Async(default) enqueued at 2020-05-22T16:01:25Z
+[ActiveJob] [GetMarsDataJob] [5b7ddb41-de99-43ca-a84d-e1bb1a26b60b] Enqueued GetMarsDataJob (Job ID: 0337b2fb-fbd2-4a9d-819e-44b0608af320) to Async(default) at 2020-05-22 16:01:35 UTC
+[ActiveJob] [GetMarsDataJob] [5b7ddb41-de99-43ca-a84d-e1bb1a26b60b] Performed GetMarsDataJob (Job ID: 5b7ddb41-de99-43ca-a84d-e1bb1a26b60b) from Async(default) in 0.68ms
+[ActiveJob] [GetMarsDataJob] [0337b2fb-fbd2-4a9d-819e-44b0608af320] Performing GetMarsDataJob (Job ID: 0337b2fb-fbd2-4a9d-819e-44b0608af320) from Async(default) enqueued at 2020-05-22T16:01:30Z
+[ActiveJob] [GetMarsDataJob] [0337b2fb-fbd2-4a9d-819e-44b0608af320] Enqueued GetMarsDataJob (Job ID: bb684e19-f679-4242-8ecc-71c53cc4a3d6) to Async(default) at 2020-05-22 16:01:40 UTC
+[ActiveJob] [GetMarsDataJob] [0337b2fb-fbd2-4a9d-819e-44b0608af320] Performed GetMarsDataJob (Job ID: 0337b2fb-fbd2-4a9d-819e-44b0608af320) from Async(default) in 0.54ms
+[ActiveJob] [GetMarsDataJob] [bb684e19-f679-4242-8ecc-71c53cc4a3d6] Performing GetMarsDataJob (Job ID: bb684e19-f679-4242-8ecc-71c53cc4a3d6) from Async(default) enqueued at 2020-05-22T16:01:35Z
+[ActiveJob] [GetMarsDataJob] [bb684e19-f679-4242-8ecc-71c53cc4a3d6] Enqueued GetMarsDataJob (Job ID: e5879904-24ed-40d7-aee8-b7f9e5f17238) to Async(default) at 2020-05-22 16:01:45 UTC
+[ActiveJob] [GetMarsDataJob] [bb684e19-f679-4242-8ecc-71c53cc4a3d6] Performed GetMarsDataJob (Job ID: bb684e19-f679-4242-8ecc-71c53cc4a3d6) from Async(default) in 0.54ms
+[ActiveJob] [GetMarsDataJob] [e5879904-24ed-40d7-aee8-b7f9e5f17238] Performing GetMarsDataJob (Job ID: e5879904-24ed-40d7-aee8-b7f9e5f17238) from Async(default) enqueued at 2020-05-22T16:01:40Z
+[ActiveJob] [GetMarsDataJob] [e5879904-24ed-40d7-aee8-b7f9e5f17238] Enqueued GetMarsDataJob (Job ID: 1e282bcb-d99c-4424-bebc-e96778ef451a) to Async(default) at 2020-05-22 16:01:50 UTC
+[ActiveJob] [GetMarsDataJob] [e5879904-24ed-40d7-aee8-b7f9e5f17238] Performed GetMarsDataJob (Job ID: e5879904-24ed-40d7-aee8-b7f9e5f17238) from Async(default) in 0.63ms
+[ActiveJob] [GetMarsDataJob] [1e282bcb-d99c-4424-bebc-e96778ef451a] Performing GetMarsDataJob (Job ID: 1e282bcb-d99c-4424-bebc-e96778ef451a) from Async(default) enqueued at 2020-05-22T16:01:45Z
+[ActiveJob] [GetMarsDataJob] [1e282bcb-d99c-4424-bebc-e96778ef451a] Enqueued GetMarsDataJob (Job ID: ac5e2904-78e2-4dd3-bb75-a367f5951fd4) to Async(default) at 2020-05-22 16:01:55 UTC
+[ActiveJob] [GetMarsDataJob] [1e282bcb-d99c-4424-bebc-e96778ef451a] Performed GetMarsDataJob (Job ID: 1e282bcb-d99c-4424-bebc-e96778ef451a) from Async(default) in 0.7ms
+[ActiveJob] [GetMarsDataJob] [ac5e2904-78e2-4dd3-bb75-a367f5951fd4] Performing GetMarsDataJob (Job ID: ac5e2904-78e2-4dd3-bb75-a367f5951fd4) from Async(default) enqueued at 2020-05-22T16:01:50Z
+[ActiveJob] [GetMarsDataJob] [ac5e2904-78e2-4dd3-bb75-a367f5951fd4] Enqueued GetMarsDataJob (Job ID: a7fdb802-71a8-48aa-83e8-0d6427de0858) to Async(default) at 2020-05-22 16:02:00 UTC
+[ActiveJob] [GetMarsDataJob] [ac5e2904-78e2-4dd3-bb75-a367f5951fd4] Performed GetMarsDataJob (Job ID: ac5e2904-78e2-4dd3-bb75-a367f5951fd4) from Async(default) in 0.58ms
+[ActiveJob] [GetMarsDataJob] [a7fdb802-71a8-48aa-83e8-0d6427de0858] Performing GetMarsDataJob (Job ID: a7fdb802-71a8-48aa-83e8-0d6427de0858) from Async(default) enqueued at 2020-05-22T16:01:55Z
+[ActiveJob] [GetMarsDataJob] [a7fdb802-71a8-48aa-83e8-0d6427de0858] Enqueued GetMarsDataJob (Job ID: a35bd7b8-f922-4f5c-8023-eb36f805834e) to Async(default) at 2020-05-22 16:02:05 UTC
+[ActiveJob] [GetMarsDataJob] [a7fdb802-71a8-48aa-83e8-0d6427de0858] Performed GetMarsDataJob (Job ID: a7fdb802-71a8-48aa-83e8-0d6427de0858) from Async(default) in 0.81ms
+[ActiveJob] [GetMarsDataJob] [a35bd7b8-f922-4f5c-8023-eb36f805834e] Performing GetMarsDataJob (Job ID: a35bd7b8-f922-4f5c-8023-eb36f805834e) from Async(default) enqueued at 2020-05-22T16:02:00Z
+[ActiveJob] [GetMarsDataJob] [a35bd7b8-f922-4f5c-8023-eb36f805834e] Enqueued GetMarsDataJob (Job ID: ed1cfc81-e673-4c58-ba38-0e425aef3137) to Async(default) at 2020-05-22 16:02:10 UTC
+[ActiveJob] [GetMarsDataJob] [a35bd7b8-f922-4f5c-8023-eb36f805834e] Performed GetMarsDataJob (Job ID: a35bd7b8-f922-4f5c-8023-eb36f805834e) from Async(default) in 0.44ms
+[ActiveJob] [GetMarsDataJob] [ed1cfc81-e673-4c58-ba38-0e425aef3137] Performing GetMarsDataJob (Job ID: ed1cfc81-e673-4c58-ba38-0e425aef3137) from Async(default) enqueued at 2020-05-22T16:02:05Z
+[ActiveJob] [GetMarsDataJob] [ed1cfc81-e673-4c58-ba38-0e425aef3137] Enqueued GetMarsDataJob (Job ID: 8a0f3459-0a93-43d5-83b9-ff55bd4c91b1) to Async(default) at 2020-05-22 16:02:15 UTC
+[ActiveJob] [GetMarsDataJob] [ed1cfc81-e673-4c58-ba38-0e425aef3137] Performed GetMarsDataJob (Job ID: ed1cfc81-e673-4c58-ba38-0e425aef3137) from Async(default) in 0.57ms
+[ActiveJob] [GetMarsDataJob] [8a0f3459-0a93-43d5-83b9-ff55bd4c91b1] Performing GetMarsDataJob (Job ID: 8a0f3459-0a93-43d5-83b9-ff55bd4c91b1) from Async(default) enqueued at 2020-05-22T16:02:10Z
+[ActiveJob] [GetMarsDataJob] [8a0f3459-0a93-43d5-83b9-ff55bd4c91b1] Enqueued GetMarsDataJob (Job ID: 4ee9d98a-bb08-4ce9-b28d-5bfbebbd3523) to Async(default) at 2020-05-22 16:02:20 UTC
+[ActiveJob] [GetMarsDataJob] [8a0f3459-0a93-43d5-83b9-ff55bd4c91b1] Performed GetMarsDataJob (Job ID: 8a0f3459-0a93-43d5-83b9-ff55bd4c91b1) from Async(default) in 0.44ms
+[ActiveJob] [GetMarsDataJob] [4ee9d98a-bb08-4ce9-b28d-5bfbebbd3523] Performing GetMarsDataJob (Job ID: 4ee9d98a-bb08-4ce9-b28d-5bfbebbd3523) from Async(default) enqueued at 2020-05-22T16:02:15Z
+[ActiveJob] [GetMarsDataJob] [4ee9d98a-bb08-4ce9-b28d-5bfbebbd3523] Enqueued GetMarsDataJob (Job ID: 5f671826-d631-44a9-ac2d-35f70129ae7c) to Async(default) at 2020-05-22 16:02:25 UTC
+[ActiveJob] [GetMarsDataJob] [4ee9d98a-bb08-4ce9-b28d-5bfbebbd3523] Performed GetMarsDataJob (Job ID: 4ee9d98a-bb08-4ce9-b28d-5bfbebbd3523) from Async(default) in 0.99ms
+[ActiveJob] [GetMarsDataJob] [5f671826-d631-44a9-ac2d-35f70129ae7c] Performing GetMarsDataJob (Job ID: 5f671826-d631-44a9-ac2d-35f70129ae7c) from Async(default) enqueued at 2020-05-22T16:02:20Z
+[ActiveJob] [GetMarsDataJob] [5f671826-d631-44a9-ac2d-35f70129ae7c] Enqueued GetMarsDataJob (Job ID: 12e3a9d9-0913-4b89-8f96-c2940d6e63aa) to Async(default) at 2020-05-22 16:02:30 UTC
+[ActiveJob] [GetMarsDataJob] [5f671826-d631-44a9-ac2d-35f70129ae7c] Performed GetMarsDataJob (Job ID: 5f671826-d631-44a9-ac2d-35f70129ae7c) from Async(default) in 0.55ms
+[ActiveJob] Enqueued GetMarsDataJob (Job ID: acdb5a6e-c400-4d2f-bfcf-3d86b099f16d) to Async(default)
+[ActiveJob] [GetMarsDataJob] [acdb5a6e-c400-4d2f-bfcf-3d86b099f16d] Performing GetMarsDataJob (Job ID: acdb5a6e-c400-4d2f-bfcf-3d86b099f16d) from Async(default) enqueued at 2020-05-22T16:02:30Z
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationJob and GetMarsDataJob.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationJob, for example,
+the expected changes won't be reflected in that stale Class object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/config/environment.rb:5)
+[ActiveJob] [GetMarsDataJob] [acdb5a6e-c400-4d2f-bfcf-3d86b099f16d] Error performing GetMarsDataJob (Job ID: acdb5a6e-c400-4d2f-bfcf-3d86b099f16d) from Async(default) in 8.91ms: NameError (uninitialized constant Net::HTTP):
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/active_support.rb:80:in `block in load_missing_constant'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/active_support.rb:9:in `without_bootsnap_cache'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/active_support.rb:80:in `rescue in load_missing_constant'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/active_support.rb:59:in `load_missing_constant'
+/Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/app/jobs/get_mars_data_job.rb:9:in `perform'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:40:in `block in perform_now'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:112:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/i18n-1.8.2/lib/i18n.rb:313:in `with_locale'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/translation.rb:9:in `block (2 levels) in <module:Translation>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/core_ext/time/zones.rb:66:in `use_zone'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/timezones.rb:9:in `block (2 levels) in <module:Timezones>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:25:in `block (4 levels) in <module:Logging>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/notifications.rb:180:in `block in instrument'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/notifications.rb:180:in `instrument'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:24:in `block (3 levels) in <module:Logging>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:45:in `block in tag_logger'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/tagged_logging.rb:80:in `block in tagged'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/tagged_logging.rb:80:in `tagged'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:45:in `tag_logger'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:21:in `block (2 levels) in <module:Logging>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:139:in `run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:39:in `perform_now'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:25:in `block in execute'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:112:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/railtie.rb:43:in `block (4 levels) in <class:Railtie>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/execution_wrapper.rb:88:in `wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/reloader.rb:72:in `block in wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/execution_wrapper.rb:88:in `wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/reloader.rb:71:in `wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/railtie.rb:42:in `block (3 levels) in <class:Railtie>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:139:in `run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:23:in `execute'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/queue_adapters/async_adapter.rb:70:in `perform'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:353:in `run_task'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:342:in `block (3 levels) in create_worker'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:325:in `loop'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:325:in `block (2 levels) in create_worker'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:324:in `catch'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:324:in `block in create_worker'
+[ActiveJob] Enqueued GetMarsDataJob (Job ID: 2ed0fadb-d338-49e7-885c-7493f03d12e1) to Async(default)
+[ActiveJob] [GetMarsDataJob] [2ed0fadb-d338-49e7-885c-7493f03d12e1] Performing GetMarsDataJob (Job ID: 2ed0fadb-d338-49e7-885c-7493f03d12e1) from Async(default) enqueued at 2020-05-22T16:04:08Z
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationJob and GetMarsDataJob.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationJob, for example,
+the expected changes won't be reflected in that stale Class object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/config/environment.rb:5)
+[ActiveJob] [GetMarsDataJob] [2ed0fadb-d338-49e7-885c-7493f03d12e1] Error performing GetMarsDataJob (Job ID: 2ed0fadb-d338-49e7-885c-7493f03d12e1) from Async(default) in 1.82ms: NameError (uninitialized constant Net::HTTP):
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/active_support.rb:80:in `block in load_missing_constant'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/active_support.rb:9:in `without_bootsnap_cache'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/active_support.rb:80:in `rescue in load_missing_constant'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/active_support.rb:59:in `load_missing_constant'
+/Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/app/jobs/get_mars_data_job.rb:9:in `perform'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:40:in `block in perform_now'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:112:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/i18n-1.8.2/lib/i18n.rb:313:in `with_locale'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/translation.rb:9:in `block (2 levels) in <module:Translation>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/core_ext/time/zones.rb:66:in `use_zone'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/timezones.rb:9:in `block (2 levels) in <module:Timezones>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:25:in `block (4 levels) in <module:Logging>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/notifications.rb:180:in `block in instrument'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/notifications.rb:180:in `instrument'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:24:in `block (3 levels) in <module:Logging>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:45:in `block in tag_logger'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/tagged_logging.rb:80:in `block in tagged'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/tagged_logging.rb:80:in `tagged'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:45:in `tag_logger'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:21:in `block (2 levels) in <module:Logging>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:139:in `run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:39:in `perform_now'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:25:in `block in execute'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:112:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/railtie.rb:43:in `block (4 levels) in <class:Railtie>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/execution_wrapper.rb:88:in `wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/reloader.rb:72:in `block in wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/execution_wrapper.rb:88:in `wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/reloader.rb:71:in `wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/railtie.rb:42:in `block (3 levels) in <class:Railtie>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:139:in `run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:23:in `execute'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/queue_adapters/async_adapter.rb:70:in `perform'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:353:in `run_task'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:342:in `block (3 levels) in create_worker'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:325:in `loop'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:325:in `block (2 levels) in create_worker'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:324:in `catch'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:324:in `block in create_worker'
+[ActiveJob] Enqueued GetMarsDataJob (Job ID: 616cf6f7-0ef7-4c13-956d-c6b664350c30) to Async(default)
+[ActiveJob] [GetMarsDataJob] [616cf6f7-0ef7-4c13-956d-c6b664350c30] Performing GetMarsDataJob (Job ID: 616cf6f7-0ef7-4c13-956d-c6b664350c30) from Async(default) enqueued at 2020-05-22T16:04:41Z
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationJob and GetMarsDataJob.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationJob, for example,
+the expected changes won't be reflected in that stale Class object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/config/environment.rb:5)
+[ActiveJob] [GetMarsDataJob] [616cf6f7-0ef7-4c13-956d-c6b664350c30] Error performing GetMarsDataJob (Job ID: 616cf6f7-0ef7-4c13-956d-c6b664350c30) from Async(default) in 1.09ms: SocketError (Failed to open TCP connection to https://api.nasa.gov/insight_weather/?api_key=i9gqXdEKqhWTTCLhNwoJdWmzLyYXQUF96t3bVmfA&feedtype=json&ver=1.0:80 (getaddrinfo: nodename nor servname provided, or not known)):
+/Users/angeloxenakis/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/net/http.rb:949:in `rescue in block in connect'
+/Users/angeloxenakis/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/net/http.rb:946:in `block in connect'
+/Users/angeloxenakis/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/timeout.rb:93:in `block in timeout'
+/Users/angeloxenakis/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/timeout.rb:103:in `timeout'
+/Users/angeloxenakis/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/net/http.rb:945:in `connect'
+/Users/angeloxenakis/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/net/http.rb:930:in `do_start'
+/Users/angeloxenakis/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/net/http.rb:919:in `start'
+/Users/angeloxenakis/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/net/http.rb:476:in `get_response'
+/Users/angeloxenakis/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/net/http.rb:458:in `get'
+/Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/app/jobs/get_mars_data_job.rb:11:in `perform'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:40:in `block in perform_now'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:112:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/i18n-1.8.2/lib/i18n.rb:313:in `with_locale'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/translation.rb:9:in `block (2 levels) in <module:Translation>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/core_ext/time/zones.rb:66:in `use_zone'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/timezones.rb:9:in `block (2 levels) in <module:Timezones>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:25:in `block (4 levels) in <module:Logging>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/notifications.rb:180:in `block in instrument'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/notifications.rb:180:in `instrument'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:24:in `block (3 levels) in <module:Logging>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:45:in `block in tag_logger'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/tagged_logging.rb:80:in `block in tagged'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/tagged_logging.rb:80:in `tagged'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:45:in `tag_logger'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:21:in `block (2 levels) in <module:Logging>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:139:in `run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:39:in `perform_now'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:25:in `block in execute'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:112:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/railtie.rb:43:in `block (4 levels) in <class:Railtie>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/execution_wrapper.rb:88:in `wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/reloader.rb:72:in `block in wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/execution_wrapper.rb:88:in `wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/reloader.rb:71:in `wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/railtie.rb:42:in `block (3 levels) in <class:Railtie>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:139:in `run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:23:in `execute'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/queue_adapters/async_adapter.rb:70:in `perform'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:353:in `run_task'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:342:in `block (3 levels) in create_worker'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:325:in `loop'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:325:in `block (2 levels) in create_worker'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:324:in `catch'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:324:in `block in create_worker'
+[ActiveJob] Enqueued GetMarsDataJob (Job ID: bfbfa6db-89ae-4523-bb7e-69edaa35f52c) to Async(default)
+[ActiveJob] [GetMarsDataJob] [bfbfa6db-89ae-4523-bb7e-69edaa35f52c] Performing GetMarsDataJob (Job ID: bfbfa6db-89ae-4523-bb7e-69edaa35f52c) from Async(default) enqueued at 2020-05-22T16:05:27Z
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationJob and GetMarsDataJob.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationJob, for example,
+the expected changes won't be reflected in that stale Class object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/config/environment.rb:5)
+[ActiveJob] [GetMarsDataJob] [bfbfa6db-89ae-4523-bb7e-69edaa35f52c] Error performing GetMarsDataJob (Job ID: bfbfa6db-89ae-4523-bb7e-69edaa35f52c) from Async(default) in 2.32ms: SocketError (Failed to open TCP connection to https://api.nasa.gov/insight_weather/?api_key=i9gqXdEKqhWTTCLhNwoJdWmzLyYXQUF96t3bVmfA&feedtype=json&ver=1.0:80 (getaddrinfo: nodename nor servname provided, or not known)):
+/Users/angeloxenakis/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/net/http.rb:949:in `rescue in block in connect'
+/Users/angeloxenakis/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/net/http.rb:946:in `block in connect'
+/Users/angeloxenakis/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/timeout.rb:93:in `block in timeout'
+/Users/angeloxenakis/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/timeout.rb:103:in `timeout'
+/Users/angeloxenakis/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/net/http.rb:945:in `connect'
+/Users/angeloxenakis/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/net/http.rb:930:in `do_start'
+/Users/angeloxenakis/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/net/http.rb:919:in `start'
+/Users/angeloxenakis/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/net/http.rb:476:in `get_response'
+/Users/angeloxenakis/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/net/http.rb:458:in `get'
+/Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/app/jobs/get_mars_data_job.rb:12:in `perform'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:40:in `block in perform_now'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:112:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/i18n-1.8.2/lib/i18n.rb:313:in `with_locale'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/translation.rb:9:in `block (2 levels) in <module:Translation>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/core_ext/time/zones.rb:66:in `use_zone'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/timezones.rb:9:in `block (2 levels) in <module:Timezones>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:25:in `block (4 levels) in <module:Logging>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/notifications.rb:180:in `block in instrument'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/notifications.rb:180:in `instrument'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:24:in `block (3 levels) in <module:Logging>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:45:in `block in tag_logger'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/tagged_logging.rb:80:in `block in tagged'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/tagged_logging.rb:80:in `tagged'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:45:in `tag_logger'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:21:in `block (2 levels) in <module:Logging>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:139:in `run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:39:in `perform_now'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:25:in `block in execute'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:112:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/railtie.rb:43:in `block (4 levels) in <class:Railtie>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/execution_wrapper.rb:88:in `wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/reloader.rb:72:in `block in wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/execution_wrapper.rb:88:in `wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/reloader.rb:71:in `wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/railtie.rb:42:in `block (3 levels) in <class:Railtie>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:139:in `run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:23:in `execute'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/queue_adapters/async_adapter.rb:70:in `perform'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:353:in `run_task'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:342:in `block (3 levels) in create_worker'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:325:in `loop'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:325:in `block (2 levels) in create_worker'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:324:in `catch'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:324:in `block in create_worker'
+[ActiveJob] Enqueued GetMarsDataJob (Job ID: ae3f6d74-da8d-4feb-a87a-ad6d9f13787f) to Async(default)
+[ActiveJob] [GetMarsDataJob] [ae3f6d74-da8d-4feb-a87a-ad6d9f13787f] Performing GetMarsDataJob (Job ID: ae3f6d74-da8d-4feb-a87a-ad6d9f13787f) from Async(default) enqueued at 2020-05-22T16:05:43Z
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationJob and GetMarsDataJob.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationJob, for example,
+the expected changes won't be reflected in that stale Class object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/config/environment.rb:5)
+[ActiveJob] [GetMarsDataJob] [ae3f6d74-da8d-4feb-a87a-ad6d9f13787f] Error performing GetMarsDataJob (Job ID: ae3f6d74-da8d-4feb-a87a-ad6d9f13787f) from Async(default) in 8.56ms: NameError (uninitialized constant Net::HTTP):
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/active_support.rb:80:in `block in load_missing_constant'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/active_support.rb:9:in `without_bootsnap_cache'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/active_support.rb:80:in `rescue in load_missing_constant'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/active_support.rb:59:in `load_missing_constant'
+/Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/app/jobs/get_mars_data_job.rb:9:in `perform'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:40:in `block in perform_now'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:112:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/i18n-1.8.2/lib/i18n.rb:313:in `with_locale'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/translation.rb:9:in `block (2 levels) in <module:Translation>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/core_ext/time/zones.rb:66:in `use_zone'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/timezones.rb:9:in `block (2 levels) in <module:Timezones>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:25:in `block (4 levels) in <module:Logging>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/notifications.rb:180:in `block in instrument'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/notifications.rb:180:in `instrument'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:24:in `block (3 levels) in <module:Logging>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:45:in `block in tag_logger'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/tagged_logging.rb:80:in `block in tagged'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/tagged_logging.rb:80:in `tagged'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:45:in `tag_logger'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:21:in `block (2 levels) in <module:Logging>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:139:in `run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:39:in `perform_now'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:25:in `block in execute'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:112:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/railtie.rb:43:in `block (4 levels) in <class:Railtie>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/execution_wrapper.rb:88:in `wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/reloader.rb:72:in `block in wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/execution_wrapper.rb:88:in `wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/reloader.rb:71:in `wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/railtie.rb:42:in `block (3 levels) in <class:Railtie>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:139:in `run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:23:in `execute'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/queue_adapters/async_adapter.rb:70:in `perform'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:353:in `run_task'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:342:in `block (3 levels) in create_worker'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:325:in `loop'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:325:in `block (2 levels) in create_worker'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:324:in `catch'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:324:in `block in create_worker'
+[ActiveJob] Enqueued GetMarsDataJob (Job ID: 719fbe30-89a7-4dcd-8161-bf0b58ba5bb6) to Async(default)
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationJob and GetMarsDataJob.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationJob, for example,
+the expected changes won't be reflected in that stale Class object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/config/environment.rb:5)
+[ActiveJob] [GetMarsDataJob] [719fbe30-89a7-4dcd-8161-bf0b58ba5bb6] Performing GetMarsDataJob (Job ID: 719fbe30-89a7-4dcd-8161-bf0b58ba5bb6) from Async(default) enqueued at 2020-05-22T16:07:30Z
+[ActiveJob] [GetMarsDataJob] [719fbe30-89a7-4dcd-8161-bf0b58ba5bb6] Error performing GetMarsDataJob (Job ID: 719fbe30-89a7-4dcd-8161-bf0b58ba5bb6) from Async(default) in 3.16ms: NameError (undefined local variable or method `err' for #<GetMarsDataJob:0x00007ff1409434a8>):
+/Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/app/jobs/get_mars_data_job.rb:17:in `rescue in perform'
+/Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/app/jobs/get_mars_data_job.rb:9:in `perform'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:40:in `block in perform_now'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:112:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/i18n-1.8.2/lib/i18n.rb:313:in `with_locale'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/translation.rb:9:in `block (2 levels) in <module:Translation>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/core_ext/time/zones.rb:66:in `use_zone'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/timezones.rb:9:in `block (2 levels) in <module:Timezones>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:25:in `block (4 levels) in <module:Logging>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/notifications.rb:180:in `block in instrument'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/notifications.rb:180:in `instrument'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:24:in `block (3 levels) in <module:Logging>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:45:in `block in tag_logger'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/tagged_logging.rb:80:in `block in tagged'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/tagged_logging.rb:80:in `tagged'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:45:in `tag_logger'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:21:in `block (2 levels) in <module:Logging>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:139:in `run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:39:in `perform_now'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:25:in `block in execute'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:112:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/railtie.rb:43:in `block (4 levels) in <class:Railtie>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/execution_wrapper.rb:88:in `wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/reloader.rb:72:in `block in wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/execution_wrapper.rb:88:in `wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/reloader.rb:71:in `wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/railtie.rb:42:in `block (3 levels) in <class:Railtie>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:139:in `run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:23:in `execute'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/queue_adapters/async_adapter.rb:70:in `perform'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:353:in `run_task'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:342:in `block (3 levels) in create_worker'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:325:in `loop'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:325:in `block (2 levels) in create_worker'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:324:in `catch'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:324:in `block in create_worker'
+[ActiveJob] Enqueued GetMarsDataJob (Job ID: 57e7090a-8137-46eb-9921-b71db4780cbf) to Async(default)
+[ActiveJob] [GetMarsDataJob] [57e7090a-8137-46eb-9921-b71db4780cbf] Performing GetMarsDataJob (Job ID: 57e7090a-8137-46eb-9921-b71db4780cbf) from Async(default) enqueued at 2020-05-22T16:08:12Z
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationJob and GetMarsDataJob.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationJob, for example,
+the expected changes won't be reflected in that stale Class object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/config/environment.rb:5)
+[ActiveJob] [GetMarsDataJob] [57e7090a-8137-46eb-9921-b71db4780cbf] Error performing GetMarsDataJob (Job ID: 57e7090a-8137-46eb-9921-b71db4780cbf) from Async(default) in 4.48ms: NameError (undefined local variable or method `err' for #<GetMarsDataJob:0x00007fb2583e6298>):
+/Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/app/jobs/get_mars_data_job.rb:17:in `rescue in perform'
+/Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/app/jobs/get_mars_data_job.rb:9:in `perform'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:40:in `block in perform_now'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:112:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/i18n-1.8.2/lib/i18n.rb:313:in `with_locale'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/translation.rb:9:in `block (2 levels) in <module:Translation>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/core_ext/time/zones.rb:66:in `use_zone'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/timezones.rb:9:in `block (2 levels) in <module:Timezones>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:25:in `block (4 levels) in <module:Logging>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/notifications.rb:180:in `block in instrument'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/notifications.rb:180:in `instrument'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:24:in `block (3 levels) in <module:Logging>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:45:in `block in tag_logger'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/tagged_logging.rb:80:in `block in tagged'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/tagged_logging.rb:80:in `tagged'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:45:in `tag_logger'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:21:in `block (2 levels) in <module:Logging>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:139:in `run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:39:in `perform_now'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:25:in `block in execute'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:112:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/railtie.rb:43:in `block (4 levels) in <class:Railtie>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/execution_wrapper.rb:88:in `wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/reloader.rb:72:in `block in wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/execution_wrapper.rb:88:in `wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/reloader.rb:71:in `wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/railtie.rb:42:in `block (3 levels) in <class:Railtie>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:139:in `run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:23:in `execute'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/queue_adapters/async_adapter.rb:70:in `perform'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:353:in `run_task'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:342:in `block (3 levels) in create_worker'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:325:in `loop'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:325:in `block (2 levels) in create_worker'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:324:in `catch'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:324:in `block in create_worker'
+[ActiveJob] Enqueued GetMarsDataJob (Job ID: e0961bc6-bb8a-4ed3-bce0-af92fe711f4e) to Async(default)
+[ActiveJob] [GetMarsDataJob] [e0961bc6-bb8a-4ed3-bce0-af92fe711f4e] Performing GetMarsDataJob (Job ID: e0961bc6-bb8a-4ed3-bce0-af92fe711f4e) from Async(default) enqueued at 2020-05-22T16:11:47Z
+[ActiveJob] [GetMarsDataJob] [e0961bc6-bb8a-4ed3-bce0-af92fe711f4e] Enqueued GetMarsDataJob (Job ID: f85d166d-58f4-43d7-9542-8ce4bad78171) to Async(default) at 2020-05-22 16:11:52 UTC
+[ActiveJob] [GetMarsDataJob] [e0961bc6-bb8a-4ed3-bce0-af92fe711f4e] Performed GetMarsDataJob (Job ID: e0961bc6-bb8a-4ed3-bce0-af92fe711f4e) from Async(default) in 1.29ms
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationJob and GetMarsDataJob.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationJob, for example,
+the expected changes won't be reflected in that stale Class object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/config/environment.rb:5)
+[ActiveJob] [GetMarsDataJob] [f85d166d-58f4-43d7-9542-8ce4bad78171] Performing GetMarsDataJob (Job ID: f85d166d-58f4-43d7-9542-8ce4bad78171) from Async(default) enqueued at 2020-05-22T16:11:47Z
+[ActiveJob] [GetMarsDataJob] [f85d166d-58f4-43d7-9542-8ce4bad78171] Enqueued GetMarsDataJob (Job ID: 620c47db-4fde-489b-b838-d55ab6f3df49) to Async(default) at 2020-05-22 16:11:57 UTC
+[ActiveJob] [GetMarsDataJob] [f85d166d-58f4-43d7-9542-8ce4bad78171] Performed GetMarsDataJob (Job ID: f85d166d-58f4-43d7-9542-8ce4bad78171) from Async(default) in 5.04ms
+[ActiveJob] Enqueued GetMarsDataJob (Job ID: 47b9cda3-d9f6-412a-9b56-c00bf3943107) to Async(default)
+[ActiveJob] [GetMarsDataJob] [47b9cda3-d9f6-412a-9b56-c00bf3943107] Performing GetMarsDataJob (Job ID: 47b9cda3-d9f6-412a-9b56-c00bf3943107) from Async(default) enqueued at 2020-05-22T16:12:01Z
+[ActiveJob] [GetMarsDataJob] [47b9cda3-d9f6-412a-9b56-c00bf3943107] Enqueued GetMarsDataJob (Job ID: c9ea6219-6a71-429e-b942-f944834cbbe2) to Async(default) at 2020-05-22 16:12:06 UTC
+[ActiveJob] [GetMarsDataJob] [47b9cda3-d9f6-412a-9b56-c00bf3943107] Performed GetMarsDataJob (Job ID: 47b9cda3-d9f6-412a-9b56-c00bf3943107) from Async(default) in 1.03ms
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationJob and GetMarsDataJob.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationJob, for example,
+the expected changes won't be reflected in that stale Class object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/config/environment.rb:5)
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("id", "username", "password", "email") VALUES (?, ?, ?, ?)[0m  [["id", 1], ["username", "TestUser"], ["password", "123"], ["email", "FakeEmail@email.com"]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+[ActiveJob] Enqueued GetMarsDataJob (Job ID: 404073ab-460e-435e-839f-efa423b2b1a0) to Async(default)
+[ActiveJob] [GetMarsDataJob] [404073ab-460e-435e-839f-efa423b2b1a0] Performing GetMarsDataJob (Job ID: 404073ab-460e-435e-839f-efa423b2b1a0) from Async(default) enqueued at 2020-05-22T16:12:40Z
+[ActiveJob] [GetMarsDataJob] [404073ab-460e-435e-839f-efa423b2b1a0] Enqueued GetMarsDataJob (Job ID: 4e842297-483c-4072-ba0a-492f53e69bc1) to Async(default) at 2020-05-22 16:12:45 UTC
+[ActiveJob] [GetMarsDataJob] [404073ab-460e-435e-839f-efa423b2b1a0] Performed GetMarsDataJob (Job ID: 404073ab-460e-435e-839f-efa423b2b1a0) from Async(default) in 1.47ms
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationJob and GetMarsDataJob.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationJob, for example,
+the expected changes won't be reflected in that stale Class object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/config/environment.rb:5)
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+[ActiveJob] Enqueued GetMarsDataJob (Job ID: 946ff5b3-0c43-4e96-88b8-f3ea26e3b23f) to Async(default)
+[ActiveJob] [GetMarsDataJob] [946ff5b3-0c43-4e96-88b8-f3ea26e3b23f] Performing GetMarsDataJob (Job ID: 946ff5b3-0c43-4e96-88b8-f3ea26e3b23f) from Async(default) enqueued at 2020-05-22T16:14:22Z
+[ActiveJob] [GetMarsDataJob] [946ff5b3-0c43-4e96-88b8-f3ea26e3b23f] Enqueued GetMarsDataJob (Job ID: c86bdb2a-1f05-4029-81c5-532b1ed72bd2) to Async(default) at 2020-05-22 16:14:27 UTC
+[ActiveJob] [GetMarsDataJob] [946ff5b3-0c43-4e96-88b8-f3ea26e3b23f] Performed GetMarsDataJob (Job ID: 946ff5b3-0c43-4e96-88b8-f3ea26e3b23f) from Async(default) in 4.35ms
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationJob and GetMarsDataJob.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationJob, for example,
+the expected changes won't be reflected in that stale Class object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/config/environment.rb:5)
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+[ActiveJob] Enqueued GetMarsDataJob (Job ID: 4a982b13-aeef-456f-a660-235913ab36ed) to Async(default)
+[ActiveJob] [GetMarsDataJob] [4a982b13-aeef-456f-a660-235913ab36ed] Performing GetMarsDataJob (Job ID: 4a982b13-aeef-456f-a660-235913ab36ed) from Async(default) enqueued at 2020-05-22T16:14:53Z
+[ActiveJob] [GetMarsDataJob] [4a982b13-aeef-456f-a660-235913ab36ed] Enqueued GetMarsDataJob (Job ID: 1ee5ec92-461c-4675-bbd0-3d20a167ddca) to Async(default) at 2020-05-22 16:14:59 UTC
+[ActiveJob] [GetMarsDataJob] [4a982b13-aeef-456f-a660-235913ab36ed] Performed GetMarsDataJob (Job ID: 4a982b13-aeef-456f-a660-235913ab36ed) from Async(default) in 1.2ms
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationJob and GetMarsDataJob.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationJob, for example,
+the expected changes won't be reflected in that stale Class object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/config/environment.rb:5)
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+[ActiveJob] Enqueued GetMarsDataJob (Job ID: 8544540a-838d-4422-916d-d2a532d344d6) to Async(default)
+[ActiveJob] [GetMarsDataJob] [8544540a-838d-4422-916d-d2a532d344d6] Performing GetMarsDataJob (Job ID: 8544540a-838d-4422-916d-d2a532d344d6) from Async(default) enqueued at 2020-05-22T16:15:34Z
+[ActiveJob] [GetMarsDataJob] [8544540a-838d-4422-916d-d2a532d344d6] Enqueued GetMarsDataJob (Job ID: b51e5af8-2ac7-4ea5-be01-83a62a584042) to Async(default) at 2020-05-22 16:15:39 UTC
+[ActiveJob] [GetMarsDataJob] [8544540a-838d-4422-916d-d2a532d344d6] Performed GetMarsDataJob (Job ID: 8544540a-838d-4422-916d-d2a532d344d6) from Async(default) in 8.36ms
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationJob and GetMarsDataJob.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationJob, for example,
+the expected changes won't be reflected in that stale Class object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/config/environment.rb:5)
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+[ActiveJob] Enqueued GetMarsDataJob (Job ID: 6d58b740-2627-4bda-ab4b-efcb1eafd866) to Async(default)
+[ActiveJob] [GetMarsDataJob] [6d58b740-2627-4bda-ab4b-efcb1eafd866] Performing GetMarsDataJob (Job ID: 6d58b740-2627-4bda-ab4b-efcb1eafd866) from Async(default) enqueued at 2020-05-22T16:16:14Z
+[ActiveJob] [GetMarsDataJob] [6d58b740-2627-4bda-ab4b-efcb1eafd866] Enqueued GetMarsDataJob (Job ID: bf6c12c5-bd81-47f4-a6a5-0bf2567d2fc8) to Async(default) at 2020-05-22 16:16:19 UTC
+[ActiveJob] [GetMarsDataJob] [6d58b740-2627-4bda-ab4b-efcb1eafd866] Performed GetMarsDataJob (Job ID: 6d58b740-2627-4bda-ab4b-efcb1eafd866) from Async(default) in 1.14ms
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationJob and GetMarsDataJob.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationJob, for example,
+the expected changes won't be reflected in that stale Class object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/config/environment.rb:5)
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+[ActiveJob] Enqueued GetMarsDataJob (Job ID: ce63fb95-e591-4b2e-b89c-84a64e127406) to Async(default)
+[ActiveJob] [GetMarsDataJob] [ce63fb95-e591-4b2e-b89c-84a64e127406] Performing GetMarsDataJob (Job ID: ce63fb95-e591-4b2e-b89c-84a64e127406) from Async(default) enqueued at 2020-05-22T16:17:16Z
+[ActiveJob] [GetMarsDataJob] [ce63fb95-e591-4b2e-b89c-84a64e127406] Enqueued GetMarsDataJob (Job ID: 5b2053d1-f263-4429-b063-54a028287468) to Async(default) at 2020-05-22 16:17:21 UTC
+[ActiveJob] [GetMarsDataJob] [ce63fb95-e591-4b2e-b89c-84a64e127406] Performed GetMarsDataJob (Job ID: ce63fb95-e591-4b2e-b89c-84a64e127406) from Async(default) in 1.27ms
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationJob and GetMarsDataJob.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationJob, for example,
+the expected changes won't be reflected in that stale Class object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/config/environment.rb:5)
+[ActiveJob] Enqueued GetMarsDataJob (Job ID: 28a8a0e2-0c06-46c5-95ec-d33092113f2e) to Async(default)
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationJob and GetMarsDataJob.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationJob, for example,
+the expected changes won't be reflected in that stale Class object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/config/environment.rb:5)
+[ActiveJob] [GetMarsDataJob] [28a8a0e2-0c06-46c5-95ec-d33092113f2e] Performing GetMarsDataJob (Job ID: 28a8a0e2-0c06-46c5-95ec-d33092113f2e) from Async(default) enqueued at 2020-05-22T16:17:21Z
+[ActiveJob] [GetMarsDataJob] [28a8a0e2-0c06-46c5-95ec-d33092113f2e] Enqueued GetMarsDataJob (Job ID: 5877be81-8c3d-45e1-beae-17324f6c5952) to Async(default) at 2020-05-22 16:17:26 UTC
+[ActiveJob] [GetMarsDataJob] [28a8a0e2-0c06-46c5-95ec-d33092113f2e] Performed GetMarsDataJob (Job ID: 28a8a0e2-0c06-46c5-95ec-d33092113f2e) from Async(default) in 1.61ms
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+[ActiveJob] Enqueued GetMarsDataJob (Job ID: f71a60a0-69ba-4ba6-9d61-a5b1b7b70b97) to Async(default)
+[ActiveJob] [GetMarsDataJob] [f71a60a0-69ba-4ba6-9d61-a5b1b7b70b97] Performing GetMarsDataJob (Job ID: f71a60a0-69ba-4ba6-9d61-a5b1b7b70b97) from Async(default) enqueued at 2020-05-22T16:21:03Z
+[ActiveJob] [GetMarsDataJob] [f71a60a0-69ba-4ba6-9d61-a5b1b7b70b97] Enqueued GetMarsDataJob (Job ID: 93f63e62-f977-4baa-923b-9526d7589883) to Async(default) at 2020-05-22 16:21:08 UTC
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationJob and GetMarsDataJob.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationJob, for example,
+the expected changes won't be reflected in that stale Class object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/config/environment.rb:5)
+[ActiveJob] [GetMarsDataJob] [f71a60a0-69ba-4ba6-9d61-a5b1b7b70b97] Performed GetMarsDataJob (Job ID: f71a60a0-69ba-4ba6-9d61-a5b1b7b70b97) from Async(default) in 5.84ms
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+[ActiveJob] Enqueued GetMarsDataJob (Job ID: a70cbef8-177e-4d78-ad94-3380667d72e6) to Async(default)
+[ActiveJob] [GetMarsDataJob] [a70cbef8-177e-4d78-ad94-3380667d72e6] Performing GetMarsDataJob (Job ID: a70cbef8-177e-4d78-ad94-3380667d72e6) from Async(default) enqueued at 2020-05-22T16:24:36Z
+[ActiveJob] [GetMarsDataJob] [a70cbef8-177e-4d78-ad94-3380667d72e6] Enqueued GetMarsDataJob (Job ID: e32f41b0-74a0-49ad-a06c-172fe9a30ec6) to Async(default) at 2020-05-22 16:24:41 UTC
+[ActiveJob] [GetMarsDataJob] [a70cbef8-177e-4d78-ad94-3380667d72e6] Performed GetMarsDataJob (Job ID: a70cbef8-177e-4d78-ad94-3380667d72e6) from Async(default) in 1.22ms
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationJob and GetMarsDataJob.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationJob, for example,
+the expected changes won't be reflected in that stale Class object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/config/environment.rb:5)
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+[ActiveJob] Enqueued GetMarsDataJob (Job ID: 80f98c13-bf19-4dd0-8fd5-f92692d48a01) to Async(default)
+[ActiveJob] [GetMarsDataJob] [80f98c13-bf19-4dd0-8fd5-f92692d48a01] Performing GetMarsDataJob (Job ID: 80f98c13-bf19-4dd0-8fd5-f92692d48a01) from Async(default) enqueued at 2020-05-22T16:25:32Z
+[ActiveJob] [GetMarsDataJob] [80f98c13-bf19-4dd0-8fd5-f92692d48a01] Enqueued GetMarsDataJob (Job ID: dac95f63-f62c-47aa-b30d-e6eb1575b2cd) to Async(default) at 2020-05-22 16:25:37 UTC
+[ActiveJob] [GetMarsDataJob] [80f98c13-bf19-4dd0-8fd5-f92692d48a01] Performed GetMarsDataJob (Job ID: 80f98c13-bf19-4dd0-8fd5-f92692d48a01) from Async(default) in 1.52ms
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationJob and GetMarsDataJob.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationJob, for example,
+the expected changes won't be reflected in that stale Class object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/config/environment.rb:5)
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+[ActiveJob] Enqueued GetMarsDataJob (Job ID: a5abdc80-5524-49ea-ab79-a92febbb7ffe) to Async(default)
+[ActiveJob] [GetMarsDataJob] [a5abdc80-5524-49ea-ab79-a92febbb7ffe] Performing GetMarsDataJob (Job ID: a5abdc80-5524-49ea-ab79-a92febbb7ffe) from Async(default) enqueued at 2020-05-22T16:28:38Z
+[ActiveJob] [GetMarsDataJob] [a5abdc80-5524-49ea-ab79-a92febbb7ffe] Enqueued GetMarsDataJob (Job ID: 9382e917-6c84-47fa-a57b-83f6704b40df) to Async(default) at 2020-05-22 16:28:43 UTC
+[ActiveJob] [GetMarsDataJob] [a5abdc80-5524-49ea-ab79-a92febbb7ffe] Performed GetMarsDataJob (Job ID: a5abdc80-5524-49ea-ab79-a92febbb7ffe) from Async(default) in 1.19ms
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationJob and GetMarsDataJob.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationJob, for example,
+the expected changes won't be reflected in that stale Class object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/config/environment.rb:5)
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+[ActiveJob] Enqueued GetMarsDataJob (Job ID: 2c1ffa78-d44c-422b-bc98-0b509df93714) to Async(default)
+[ActiveJob] [GetMarsDataJob] [2c1ffa78-d44c-422b-bc98-0b509df93714] Performing GetMarsDataJob (Job ID: 2c1ffa78-d44c-422b-bc98-0b509df93714) from Async(default) enqueued at 2020-05-22T16:29:29Z
+[ActiveJob] [GetMarsDataJob] [2c1ffa78-d44c-422b-bc98-0b509df93714] Enqueued GetMarsDataJob (Job ID: 54bdb6f5-ea14-4ff7-9c0c-fcd95b940aed) to Async(default) at 2020-05-22 16:29:34 UTC
+[ActiveJob] [GetMarsDataJob] [2c1ffa78-d44c-422b-bc98-0b509df93714] Performed GetMarsDataJob (Job ID: 2c1ffa78-d44c-422b-bc98-0b509df93714) from Async(default) in 1.53ms
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationJob and GetMarsDataJob.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationJob, for example,
+the expected changes won't be reflected in that stale Class object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/config/environment.rb:5)
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+[ActiveJob] Enqueued GetMarsDataJob (Job ID: f88f204c-db46-42b8-bf91-0ae398d0e0bc) to Async(default)
+[ActiveJob] [GetMarsDataJob] [f88f204c-db46-42b8-bf91-0ae398d0e0bc] Performing GetMarsDataJob (Job ID: f88f204c-db46-42b8-bf91-0ae398d0e0bc) from Async(default) enqueued at 2020-05-22T16:30:29Z
+[ActiveJob] [GetMarsDataJob] [f88f204c-db46-42b8-bf91-0ae398d0e0bc] Enqueued GetMarsDataJob (Job ID: 1e4794d6-bd49-4157-84b0-e0c37c25f3b9) to Async(default) at 2020-05-22 16:30:34 UTC
+[ActiveJob] [GetMarsDataJob] [f88f204c-db46-42b8-bf91-0ae398d0e0bc] Performed GetMarsDataJob (Job ID: f88f204c-db46-42b8-bf91-0ae398d0e0bc) from Async(default) in 1.14ms
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationJob and GetMarsDataJob.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationJob, for example,
+the expected changes won't be reflected in that stale Class object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/config/environment.rb:5)
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+[ActiveJob] Enqueued GetMarsDataJob (Job ID: 06c486e1-53aa-43d3-a378-1381c40dc6ac) to Async(default)
+[ActiveJob] [GetMarsDataJob] [06c486e1-53aa-43d3-a378-1381c40dc6ac] Performing GetMarsDataJob (Job ID: 06c486e1-53aa-43d3-a378-1381c40dc6ac) from Async(default) enqueued at 2020-05-22T16:33:04Z
+[ActiveJob] [GetMarsDataJob] [06c486e1-53aa-43d3-a378-1381c40dc6ac] Enqueued GetMarsDataJob (Job ID: 028102ca-ff19-4f49-88d2-4386ae8e25a4) to Async(default) at 2020-05-22 16:33:09 UTC
+[ActiveJob] [GetMarsDataJob] [06c486e1-53aa-43d3-a378-1381c40dc6ac] Performed GetMarsDataJob (Job ID: 06c486e1-53aa-43d3-a378-1381c40dc6ac) from Async(default) in 1.21ms
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationJob and GetMarsDataJob.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationJob, for example,
+the expected changes won't be reflected in that stale Class object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/config/environment.rb:5)
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+[ActiveJob] [GetMarsDataJob] [028102ca-ff19-4f49-88d2-4386ae8e25a4] Performing GetMarsDataJob (Job ID: 028102ca-ff19-4f49-88d2-4386ae8e25a4) from Inline(default) enqueued at 2020-05-22T16:33:04Z
+[ActiveJob] [GetMarsDataJob] [028102ca-ff19-4f49-88d2-4386ae8e25a4] Enqueued GetMarsDataJob (Job ID: dfe17a98-e00b-4405-9552-0cb53702d174) to Inline(default) at 2020-05-22 16:33:42 UTC
+[ActiveJob] [GetMarsDataJob] [028102ca-ff19-4f49-88d2-4386ae8e25a4] Error performing GetMarsDataJob (Job ID: 028102ca-ff19-4f49-88d2-4386ae8e25a4) from Inline(default) in 18.11ms: NotImplementedError (Use a queueing backend to enqueue jobs in the future. Read more at https://guides.rubyonrails.org/active_job_basics.html):
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/queue_adapters/inline_adapter.rb:19:in `enqueue_at'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/enqueuing.rb:57:in `block in enqueue'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:112:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/notifications.rb:180:in `block in instrument'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/notifications.rb:180:in `instrument'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:32:in `block (2 levels) in <module:Logging>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:16:in `block (3 levels) in <module:Logging>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:45:in `block in tag_logger'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/tagged_logging.rb:80:in `block in tagged'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/tagged_logging.rb:80:in `tagged'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:45:in `tag_logger'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:15:in `block (2 levels) in <module:Logging>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:139:in `run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/enqueuing.rb:55:in `enqueue'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/configured_job.rb:16:in `perform_later'
+/Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/app/jobs/get_mars_data_job.rb:6:in `block in <class:GetMarsDataJob>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:428:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:428:in `block in make_lambda'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:273:in `block in simple'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:517:in `block in invoke_after'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:517:in `each'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:517:in `invoke_after'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:126:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/i18n-1.8.2/lib/i18n.rb:313:in `with_locale'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/translation.rb:9:in `block (2 levels) in <module:Translation>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/core_ext/time/zones.rb:66:in `use_zone'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/timezones.rb:9:in `block (2 levels) in <module:Timezones>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:25:in `block (4 levels) in <module:Logging>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/notifications.rb:180:in `block in instrument'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/notifications.rb:180:in `instrument'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:24:in `block (3 levels) in <module:Logging>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:45:in `block in tag_logger'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/tagged_logging.rb:80:in `block in tagged'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/tagged_logging.rb:80:in `tagged'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:45:in `tag_logger'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:21:in `block (2 levels) in <module:Logging>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:139:in `run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:39:in `perform_now'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:25:in `block in execute'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:112:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/railtie.rb:43:in `block (4 levels) in <class:Railtie>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/execution_wrapper.rb:88:in `wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/reloader.rb:72:in `block in wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/execution_wrapper.rb:88:in `wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/reloader.rb:71:in `wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/railtie.rb:42:in `block (3 levels) in <class:Railtie>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:139:in `run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:23:in `execute'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/queue_adapters/async_adapter.rb:70:in `perform'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:24:in `block in execute'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:41:in `block in synchronize'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:41:in `synchronize'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:41:in `synchronize'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:19:in `execute'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/ivar.rb:169:in `safe_execute'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/scheduled_task.rb:285:in `process_task'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/timer_set.rb:165:in `block (2 levels) in process_tasks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:353:in `run_task'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:342:in `block (3 levels) in create_worker'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:325:in `loop'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:325:in `block (2 levels) in create_worker'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:324:in `catch'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:324:in `block in create_worker'
