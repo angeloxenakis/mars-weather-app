@@ -1301,3 +1301,606 @@ Please, check the "Autoloading and Reloading Constants" guide for solutions.
 /Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:325:in `block (2 levels) in create_worker'
 /Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:324:in `catch'
 /Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:324:in `block in create_worker'
+[ActiveJob] Enqueued GetMarsDataJob (Job ID: 3adc1603-8cae-4994-97d6-68f40863942f) to Async(default)
+[ActiveJob] [GetMarsDataJob] [3adc1603-8cae-4994-97d6-68f40863942f] Performing GetMarsDataJob (Job ID: 3adc1603-8cae-4994-97d6-68f40863942f) from Async(default) enqueued at 2020-05-22T18:34:37Z
+[ActiveJob] [GetMarsDataJob] [3adc1603-8cae-4994-97d6-68f40863942f] Enqueued GetMarsDataJob (Job ID: 7663b040-8d5f-409e-be5f-405d9cef2580) to Async(default) at 2020-05-22 18:34:42 UTC
+[ActiveJob] [GetMarsDataJob] [3adc1603-8cae-4994-97d6-68f40863942f] Performed GetMarsDataJob (Job ID: 3adc1603-8cae-4994-97d6-68f40863942f) from Async(default) in 1.66ms
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationJob and GetMarsDataJob.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationJob, for example,
+the expected changes won't be reflected in that stale Class object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/config/environment.rb:5)
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddDataToMarsWeatherRecords (20200522180946)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mprimary::SchemaMigration Create (1.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200522180946"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+[ActiveJob] Enqueued GetMarsDataJob (Job ID: 2df21a5d-4893-4e67-84c0-3d05b0efbcc2) to Async(default)
+[ActiveJob] [GetMarsDataJob] [2df21a5d-4893-4e67-84c0-3d05b0efbcc2] Performing GetMarsDataJob (Job ID: 2df21a5d-4893-4e67-84c0-3d05b0efbcc2) from Async(default) enqueued at 2020-05-22T18:37:28Z
+[ActiveJob] [GetMarsDataJob] [2df21a5d-4893-4e67-84c0-3d05b0efbcc2] Enqueued GetMarsDataJob (Job ID: 181ef79d-80e3-4b4d-b0c6-b59b8b34773d) to Async(default) at 2020-05-22 18:37:33 UTC
+[ActiveJob] [GetMarsDataJob] [2df21a5d-4893-4e67-84c0-3d05b0efbcc2] Performed GetMarsDataJob (Job ID: 2df21a5d-4893-4e67-84c0-3d05b0efbcc2) from Async(default) in 1.11ms
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationJob and GetMarsDataJob.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationJob, for example,
+the expected changes won't be reflected in that stale Class object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/config/environment.rb:5)
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddDataToMarsWeatherRecords (20200522180946)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mprimary::SchemaMigration Destroy (0.9ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?[0m  [["version", "20200522180946"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+[ActiveJob] Enqueued GetMarsDataJob (Job ID: 99f6cd7a-8bb7-4f9a-ba65-c8230cf068a2) to Async(default)
+[ActiveJob] [GetMarsDataJob] [99f6cd7a-8bb7-4f9a-ba65-c8230cf068a2] Performing GetMarsDataJob (Job ID: 99f6cd7a-8bb7-4f9a-ba65-c8230cf068a2) from Async(default) enqueued at 2020-05-22T18:39:11Z
+[ActiveJob] [GetMarsDataJob] [99f6cd7a-8bb7-4f9a-ba65-c8230cf068a2] Enqueued GetMarsDataJob (Job ID: e4b8cdf5-ac77-473a-9f5a-f254a0a09f14) to Async(default) at 2020-05-22 18:39:16 UTC
+[ActiveJob] [GetMarsDataJob] [99f6cd7a-8bb7-4f9a-ba65-c8230cf068a2] Performed GetMarsDataJob (Job ID: 99f6cd7a-8bb7-4f9a-ba65-c8230cf068a2) from Async(default) in 4.74ms
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationJob and GetMarsDataJob.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationJob, for example,
+the expected changes won't be reflected in that stale Class object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/config/environment.rb:5)
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddDataToMarsWeatherRecords (20200522180946)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mprimary::SchemaMigration Create (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200522180946"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+[ActiveJob] Enqueued GetMarsDataJob (Job ID: c6ac0949-87a9-44e0-a77e-830fa8cba058) to Async(default)
+[ActiveJob] [GetMarsDataJob] [c6ac0949-87a9-44e0-a77e-830fa8cba058] Performing GetMarsDataJob (Job ID: c6ac0949-87a9-44e0-a77e-830fa8cba058) from Async(default) enqueued at 2020-05-22T18:39:16Z
+[ActiveJob] [GetMarsDataJob] [c6ac0949-87a9-44e0-a77e-830fa8cba058] Enqueued GetMarsDataJob (Job ID: b97849c0-4337-42f2-8f3d-efd4bcd04e66) to Async(default) at 2020-05-22 18:39:21 UTC
+[ActiveJob] [GetMarsDataJob] [c6ac0949-87a9-44e0-a77e-830fa8cba058] Performed GetMarsDataJob (Job ID: c6ac0949-87a9-44e0-a77e-830fa8cba058) from Async(default) in 1.16ms
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationJob and GetMarsDataJob.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationJob, for example,
+the expected changes won't be reflected in that stale Class object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/config/environment.rb:5)
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Destroy (0.6ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mLocation Load (0.3ms)[0m  [1m[34mSELECT "locations".* FROM "locations"[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLocation Destroy (0.2ms)[0m  [1m[31mDELETE FROM "locations" WHERE "locations"."id" = ?[0m  [["id", 1]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mMarsWeatherRecord Load (0.5ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMarsWeatherRecord Destroy (0.5ms)[0m  [1m[31mDELETE FROM "mars_weather_records" WHERE "mars_weather_records"."id" = ?[0m  [["id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "email") VALUES (?, ?, ?)[0m  [["username", "TestUser"], ["password", "123"], ["email", "FakeEmail@email.com"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+[ActiveJob] Enqueued GetMarsDataJob (Job ID: 0c241c35-ad39-4c61-9210-666dc0b2f0b9) to Async(default)
+[ActiveJob] [GetMarsDataJob] [0c241c35-ad39-4c61-9210-666dc0b2f0b9] Performing GetMarsDataJob (Job ID: 0c241c35-ad39-4c61-9210-666dc0b2f0b9) from Async(default) enqueued at 2020-05-22T18:39:49Z
+[ActiveJob] [GetMarsDataJob] [0c241c35-ad39-4c61-9210-666dc0b2f0b9] Enqueued GetMarsDataJob (Job ID: 5794e94d-dff2-4522-9ca2-f0620b4a8df7) to Async(default) at 2020-05-22 18:39:54 UTC
+[ActiveJob] [GetMarsDataJob] [0c241c35-ad39-4c61-9210-666dc0b2f0b9] Performed GetMarsDataJob (Job ID: 0c241c35-ad39-4c61-9210-666dc0b2f0b9) from Async(default) in 1.18ms
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationJob and GetMarsDataJob.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationJob, for example,
+the expected changes won't be reflected in that stale Class object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/config/environment.rb:5)
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+[ActiveJob] Enqueued GetMarsDataJob (Job ID: 9dbdc337-18a4-4e98-b46b-31e106489097) to Async(default)
+[ActiveJob] [GetMarsDataJob] [9dbdc337-18a4-4e98-b46b-31e106489097] Performing GetMarsDataJob (Job ID: 9dbdc337-18a4-4e98-b46b-31e106489097) from Async(default) enqueued at 2020-05-22T18:39:54Z
+[ActiveJob] [GetMarsDataJob] [9dbdc337-18a4-4e98-b46b-31e106489097] Enqueued GetMarsDataJob (Job ID: 97bbe41b-8fea-413a-bfc1-2ede9054bce4) to Async(default) at 2020-05-22 18:39:59 UTC
+[ActiveJob] [GetMarsDataJob] [9dbdc337-18a4-4e98-b46b-31e106489097] Performed GetMarsDataJob (Job ID: 9dbdc337-18a4-4e98-b46b-31e106489097) from Async(default) in 1.25ms
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationJob and GetMarsDataJob.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationJob, for example,
+the expected changes won't be reflected in that stale Class object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/config/environment.rb:5)
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Destroy (0.4ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 2]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mLocation Load (0.5ms)[0m  [1m[34mSELECT "locations".* FROM "locations"[0m
+  [1m[36mMarsWeatherRecord Load (0.7ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "email") VALUES (?, ?, ?)[0m  [["username", "TestUser"], ["password", "123"], ["email", "FakeEmail@email.com"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+[ActiveJob] Enqueued GetMarsDataJob (Job ID: a6cf1197-f485-474c-a2ef-e7561bcd50d9) to Async(default)
+[ActiveJob] [GetMarsDataJob] [a6cf1197-f485-474c-a2ef-e7561bcd50d9] Performing GetMarsDataJob (Job ID: a6cf1197-f485-474c-a2ef-e7561bcd50d9) from Async(default) enqueued at 2020-05-22T18:40:24Z
+[ActiveJob] [GetMarsDataJob] [a6cf1197-f485-474c-a2ef-e7561bcd50d9] Enqueued GetMarsDataJob (Job ID: d56488a4-75a8-4db7-9276-58ff0f24595a) to Async(default) at 2020-05-22 18:40:29 UTC
+[ActiveJob] [GetMarsDataJob] [a6cf1197-f485-474c-a2ef-e7561bcd50d9] Performed GetMarsDataJob (Job ID: a6cf1197-f485-474c-a2ef-e7561bcd50d9) from Async(default) in 0.73ms
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationJob and GetMarsDataJob.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationJob, for example,
+the expected changes won't be reflected in that stale Class object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/config/environment.rb:5)
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddDataToMarsWeatherRecords (20200522180946)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mprimary::SchemaMigration Destroy (0.6ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?[0m  [["version", "20200522180946"]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+[ActiveJob] Enqueued GetMarsDataJob (Job ID: e5ad5c72-0a71-4e6c-b3a9-cb657701b4a8) to Async(default)
+[ActiveJob] [GetMarsDataJob] [e5ad5c72-0a71-4e6c-b3a9-cb657701b4a8] Performing GetMarsDataJob (Job ID: e5ad5c72-0a71-4e6c-b3a9-cb657701b4a8) from Async(default) enqueued at 2020-05-22T18:44:56Z
+[ActiveJob] [GetMarsDataJob] [e5ad5c72-0a71-4e6c-b3a9-cb657701b4a8] Enqueued GetMarsDataJob (Job ID: f28588a7-debb-41ac-9de1-a417be244eee) to Async(default) at 2020-05-22 18:45:01 UTC
+[ActiveJob] [GetMarsDataJob] [e5ad5c72-0a71-4e6c-b3a9-cb657701b4a8] Performed GetMarsDataJob (Job ID: e5ad5c72-0a71-4e6c-b3a9-cb657701b4a8) from Async(default) in 1.1ms
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationJob and GetMarsDataJob.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationJob, for example,
+the expected changes won't be reflected in that stale Class object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/config/environment.rb:5)
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20200521184814)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar, "password" varchar, "email" varchar)[0m
+  [1m[36mprimary::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200521184814"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateLocations (20200521184838)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "locations" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "address" varchar)[0m
+  [1m[36mprimary::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200521184838"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateMarsWeatherRecords (20200521184923)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "mars_weather_records" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "sol" integer, "temperature" integer, "air_pressure" integer, "wind_speed" integer, "wind_direction" varchar)[0m
+  [1m[36mprimary::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200521184923"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-05-22 18:44:56.787842"], ["updated_at", "2020-05-22 18:44:56.787842"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+[ActiveJob] Enqueued GetMarsDataJob (Job ID: 1d81a9e0-0dc1-4fe2-8355-63861d1baebe) to Async(default)
+[ActiveJob] [GetMarsDataJob] [1d81a9e0-0dc1-4fe2-8355-63861d1baebe] Performing GetMarsDataJob (Job ID: 1d81a9e0-0dc1-4fe2-8355-63861d1baebe) from Async(default) enqueued at 2020-05-22T18:45:01Z
+[ActiveJob] [GetMarsDataJob] [1d81a9e0-0dc1-4fe2-8355-63861d1baebe] Enqueued GetMarsDataJob (Job ID: 13fb67d9-ad01-4fe6-b3db-dc23a8082405) to Async(default) at 2020-05-22 18:45:06 UTC
+[ActiveJob] [GetMarsDataJob] [1d81a9e0-0dc1-4fe2-8355-63861d1baebe] Performed GetMarsDataJob (Job ID: 1d81a9e0-0dc1-4fe2-8355-63861d1baebe) from Async(default) in 4.0ms
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationJob and GetMarsDataJob.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationJob, for example,
+the expected changes won't be reflected in that stale Class object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/config/environment.rb:5)
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mLocation Load (0.4ms)[0m  [1m[34mSELECT "locations".* FROM "locations"[0m
+  [1m[36mMarsWeatherRecord Load (0.3ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "email") VALUES (?, ?, ?)[0m  [["username", "TestUser"], ["password", "123"], ["email", "FakeEmail@email.com"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mLocation Create (0.2ms)[0m  [1m[32mINSERT INTO "locations" ("user_id", "address") VALUES (?, ?)[0m  [["user_id", 1], ["address", "123 Main Street"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMarsWeatherRecord Create (0.3ms)[0m  [1m[32mINSERT INTO "mars_weather_records" ("sol", "temperature", "air_pressure", "wind_speed", "wind_direction") VALUES (?, ?, ?, ?, ?)[0m  [["sol", 1], ["temperature", -1], ["air_pressure", 10], ["wind_speed", 10], ["wind_direction", "NW"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+[ActiveJob] [GetMarsDataJob] [13fb67d9-ad01-4fe6-b3db-dc23a8082405] Performing GetMarsDataJob (Job ID: 13fb67d9-ad01-4fe6-b3db-dc23a8082405) from Inline(default) enqueued at 2020-05-22T18:45:01Z
+[ActiveJob] Enqueued GetMarsDataJob (Job ID: 9fbe3309-9619-4636-8130-2f5d2bad1e40) to Async(default)
+[ActiveJob] [GetMarsDataJob] [9fbe3309-9619-4636-8130-2f5d2bad1e40] Performing GetMarsDataJob (Job ID: 9fbe3309-9619-4636-8130-2f5d2bad1e40) from Async(default) enqueued at 2020-05-22T18:47:16Z
+[ActiveJob] [GetMarsDataJob] [9fbe3309-9619-4636-8130-2f5d2bad1e40] Enqueued GetMarsDataJob (Job ID: f880bfab-efd0-4cca-bf2b-9daac5e78146) to Async(default) at 2020-05-22 18:47:21 UTC
+[ActiveJob] [GetMarsDataJob] [9fbe3309-9619-4636-8130-2f5d2bad1e40] Performed GetMarsDataJob (Job ID: 9fbe3309-9619-4636-8130-2f5d2bad1e40) from Async(default) in 1.31ms
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationJob and GetMarsDataJob.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationJob, for example,
+the expected changes won't be reflected in that stale Class object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/config/environment.rb:5)
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mLocation Load (0.2ms)[0m  [1m[34mSELECT "locations".* FROM "locations"[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLocation Destroy (0.3ms)[0m  [1m[31mDELETE FROM "locations" WHERE "locations"."id" = ?[0m  [["id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mMarsWeatherRecord Load (0.1ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMarsWeatherRecord Destroy (0.2ms)[0m  [1m[31mDELETE FROM "mars_weather_records" WHERE "mars_weather_records"."id" = ?[0m  [["id", 1]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "email") VALUES (?, ?, ?)[0m  [["username", "TestUser"], ["password", "123"], ["email", "FakeEmail@email.com"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMarsWeatherRecord Create (0.4ms)[0m  [1m[32mINSERT INTO "mars_weather_records" ("sol", "temperature", "air_pressure", "wind_speed", "wind_direction") VALUES (?, ?, ?, ?, ?)[0m  [["sol", 1], ["temperature", -1], ["air_pressure", 10], ["wind_speed", 10], ["wind_direction", "NW"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mMarsWeatherRecord Load (0.4ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records" LIMIT ?[0m  [["LIMIT", 11]]
+[ActiveJob] Enqueued GetMarsDataJob (Job ID: 6fcfc55f-c08f-449e-89dd-459c301e1c79) to Async(default)
+[ActiveJob] [GetMarsDataJob] [6fcfc55f-c08f-449e-89dd-459c301e1c79] Performing GetMarsDataJob (Job ID: 6fcfc55f-c08f-449e-89dd-459c301e1c79) from Async(default) enqueued at 2020-05-22T18:52:32Z
+[ActiveJob] [GetMarsDataJob] [6fcfc55f-c08f-449e-89dd-459c301e1c79] Enqueued GetMarsDataJob (Job ID: 54166ac5-b809-4c42-ab96-09d80d802912) to Async(default) at 2020-05-22 18:52:37 UTC
+[ActiveJob] [GetMarsDataJob] [6fcfc55f-c08f-449e-89dd-459c301e1c79] Performed GetMarsDataJob (Job ID: 6fcfc55f-c08f-449e-89dd-459c301e1c79) from Async(default) in 1.23ms
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationJob and GetMarsDataJob.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationJob, for example,
+the expected changes won't be reflected in that stale Class object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/config/environment.rb:5)
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 2]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mLocation Load (0.1ms)[0m  [1m[34mSELECT "locations".* FROM "locations"[0m
+  [1m[36mMarsWeatherRecord Load (0.1ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMarsWeatherRecord Destroy (0.3ms)[0m  [1m[31mDELETE FROM "mars_weather_records" WHERE "mars_weather_records"."id" = ?[0m  [["id", 2]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "email") VALUES (?, ?, ?)[0m  [["username", "TestUser"], ["password", "123"], ["email", "FakeEmail@email.com"]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMarsWeatherRecord Create (0.3ms)[0m  [1m[32mINSERT INTO "mars_weather_records" ("sol", "temperature", "air_pressure", "wind_speed", "wind_direction") VALUES (?, ?, ?, ?, ?)[0m  [["sol", 1], ["temperature", -1], ["air_pressure", 10], ["wind_speed", 10], ["wind_direction", "NW"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+[ActiveJob] Enqueued GetMarsDataJob (Job ID: 9b6de79d-ca5e-488e-9294-3e9d5c65a1d2) to Async(default)
+[ActiveJob] [GetMarsDataJob] [9b6de79d-ca5e-488e-9294-3e9d5c65a1d2] Performing GetMarsDataJob (Job ID: 9b6de79d-ca5e-488e-9294-3e9d5c65a1d2) from Async(default) enqueued at 2020-05-22T18:52:51Z
+[ActiveJob] [GetMarsDataJob] [9b6de79d-ca5e-488e-9294-3e9d5c65a1d2] Enqueued GetMarsDataJob (Job ID: 97543ef5-3482-4bba-8a08-32e0ef5366e7) to Async(default) at 2020-05-22 18:52:56 UTC
+[ActiveJob] [GetMarsDataJob] [9b6de79d-ca5e-488e-9294-3e9d5c65a1d2] Performed GetMarsDataJob (Job ID: 9b6de79d-ca5e-488e-9294-3e9d5c65a1d2) from Async(default) in 1.06ms
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationJob and GetMarsDataJob.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationJob, for example,
+the expected changes won't be reflected in that stale Class object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/config/environment.rb:5)
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Destroy (0.5ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 3]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mLocation Load (0.4ms)[0m  [1m[34mSELECT "locations".* FROM "locations"[0m
+  [1m[36mMarsWeatherRecord Load (0.6ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMarsWeatherRecord Destroy (0.3ms)[0m  [1m[31mDELETE FROM "mars_weather_records" WHERE "mars_weather_records"."id" = ?[0m  [["id", 3]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "email") VALUES (?, ?, ?)[0m  [["username", "TestUser"], ["password", "123"], ["email", "FakeEmail@email.com"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMarsWeatherRecord Create (0.4ms)[0m  [1m[32mINSERT INTO "mars_weather_records" ("sol", "temperature", "air_pressure", "wind_speed", "wind_direction") VALUES (?, ?, ?, ?, ?)[0m  [["sol", 1], ["temperature", -1], ["air_pressure", 10], ["wind_speed", 10], ["wind_direction", "NW"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMarsWeatherRecord Create (0.2ms)[0m  [1m[32mINSERT INTO "mars_weather_records" ("sol", "temperature", "air_pressure", "wind_speed", "wind_direction") VALUES (?, ?, ?, ?, ?)[0m  [["sol", 1], ["temperature", -61], ["air_pressure", 10], ["wind_speed", 10], ["wind_direction", "NW"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mMarsWeatherRecord Load (0.2ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records" LIMIT ?[0m  [["LIMIT", 11]]
+[ActiveJob] Enqueued GetMarsDataJob (Job ID: 23912420-7b22-466b-ae66-adb2b67874f1) to Async(default)
+[ActiveJob] [GetMarsDataJob] [23912420-7b22-466b-ae66-adb2b67874f1] Performing GetMarsDataJob (Job ID: 23912420-7b22-466b-ae66-adb2b67874f1) from Async(default) enqueued at 2020-05-22T18:57:46Z
+[ActiveJob] [GetMarsDataJob] [23912420-7b22-466b-ae66-adb2b67874f1] Enqueued GetMarsDataJob (Job ID: acc1c69d-ff11-475d-970b-42bf074eedb4) to Async(default) at 2020-05-22 18:57:51 UTC
+[ActiveJob] [GetMarsDataJob] [23912420-7b22-466b-ae66-adb2b67874f1] Performed GetMarsDataJob (Job ID: 23912420-7b22-466b-ae66-adb2b67874f1) from Async(default) in 4.21ms
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationJob and GetMarsDataJob.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationJob, for example,
+the expected changes won't be reflected in that stale Class object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/config/environment.rb:5)
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 4]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mLocation Load (0.1ms)[0m  [1m[34mSELECT "locations".* FROM "locations"[0m
+  [1m[36mMarsWeatherRecord Load (0.1ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMarsWeatherRecord Destroy (0.3ms)[0m  [1m[31mDELETE FROM "mars_weather_records" WHERE "mars_weather_records"."id" = ?[0m  [["id", 4]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMarsWeatherRecord Destroy (0.2ms)[0m  [1m[31mDELETE FROM "mars_weather_records" WHERE "mars_weather_records"."id" = ?[0m  [["id", 5]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "email") VALUES (?, ?, ?)[0m  [["username", "TestUser"], ["password", "123"], ["email", "FakeEmail@email.com"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMarsWeatherRecord Create (0.2ms)[0m  [1m[32mINSERT INTO "mars_weather_records" ("sol", "temperature", "air_pressure", "wind_speed", "wind_direction") VALUES (?, ?, ?, ?, ?)[0m  [["sol", 528], ["temperature", -61], ["air_pressure", 711], ["wind_speed", 4], ["wind_direction", "{\"compass_degrees\"=>292.5, \"compass_point\"=>\"WNW\", \"compass_right\"=>-0.923879532511, \"compass_up\"=>0.382683432365, \"ct\"=>45018}"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mMarsWeatherRecord Load (0.2ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records" LIMIT ?[0m  [["LIMIT", 11]]
+[ActiveJob] Enqueued GetMarsDataJob (Job ID: e51c1dd3-bf8e-4a68-b49c-410eaec5f05d) to Async(default)
+[ActiveJob] [GetMarsDataJob] [e51c1dd3-bf8e-4a68-b49c-410eaec5f05d] Performing GetMarsDataJob (Job ID: e51c1dd3-bf8e-4a68-b49c-410eaec5f05d) from Async(default) enqueued at 2020-05-22T19:16:51Z
+[ActiveJob] [GetMarsDataJob] [e51c1dd3-bf8e-4a68-b49c-410eaec5f05d] Enqueued GetMarsDataJob (Job ID: 30c16762-3679-459e-9c68-7a5e283fd908) to Async(default) at 2020-05-22 19:16:57 UTC
+[ActiveJob] [GetMarsDataJob] [e51c1dd3-bf8e-4a68-b49c-410eaec5f05d] Performed GetMarsDataJob (Job ID: e51c1dd3-bf8e-4a68-b49c-410eaec5f05d) from Async(default) in 1.63ms
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationJob and GetMarsDataJob.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationJob, for example,
+the expected changes won't be reflected in that stale Class object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/config/environment.rb:5)
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 5]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mLocation Load (0.1ms)[0m  [1m[34mSELECT "locations".* FROM "locations"[0m
+  [1m[36mMarsWeatherRecord Load (0.1ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMarsWeatherRecord Destroy (0.3ms)[0m  [1m[31mDELETE FROM "mars_weather_records" WHERE "mars_weather_records"."id" = ?[0m  [["id", 6]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "email") VALUES (?, ?, ?)[0m  [["username", "TestUser"], ["password", "123"], ["email", "FakeEmail@email.com"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMarsWeatherRecord Create (0.2ms)[0m  [1m[32mINSERT INTO "mars_weather_records" ("sol", "temperature", "air_pressure", "wind_speed", "wind_direction") VALUES (?, ?, ?, ?, ?)[0m  [["sol", 528], ["temperature", -61], ["air_pressure", 711], ["wind_speed", 4], ["wind_direction", "{\"compass_degrees\"=>292.5, \"compass_point\"=>\"WNW\", \"compass_right\"=>-0.923879532511, \"compass_up\"=>0.382683432365, \"ct\"=>45018}"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mMarsWeatherRecord Load (0.2ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records" LIMIT ?[0m  [["LIMIT", 11]]
+[ActiveJob] Enqueued GetMarsDataJob (Job ID: 7bfbd28e-d751-4c45-a087-561537b14598) to Async(default)
+[ActiveJob] [GetMarsDataJob] [7bfbd28e-d751-4c45-a087-561537b14598] Performing GetMarsDataJob (Job ID: 7bfbd28e-d751-4c45-a087-561537b14598) from Async(default) enqueued at 2020-05-22T19:19:16Z
+[ActiveJob] [GetMarsDataJob] [7bfbd28e-d751-4c45-a087-561537b14598] Enqueued GetMarsDataJob (Job ID: 9d4b146e-24e8-4510-be5a-2c9da9f14039) to Async(default) at 2020-05-22 19:19:21 UTC
+[ActiveJob] [GetMarsDataJob] [7bfbd28e-d751-4c45-a087-561537b14598] Performed GetMarsDataJob (Job ID: 7bfbd28e-d751-4c45-a087-561537b14598) from Async(default) in 1.09ms
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationJob and GetMarsDataJob.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationJob, for example,
+the expected changes won't be reflected in that stale Class object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/config/environment.rb:5)
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Destroy (0.4ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 6]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mLocation Load (0.1ms)[0m  [1m[34mSELECT "locations".* FROM "locations"[0m
+  [1m[36mMarsWeatherRecord Load (0.1ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMarsWeatherRecord Destroy (0.2ms)[0m  [1m[31mDELETE FROM "mars_weather_records" WHERE "mars_weather_records"."id" = ?[0m  [["id", 7]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "email") VALUES (?, ?, ?)[0m  [["username", "TestUser"], ["password", "123"], ["email", "FakeEmail@email.com"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMarsWeatherRecord Create (0.3ms)[0m  [1m[32mINSERT INTO "mars_weather_records" ("sol", "temperature", "air_pressure", "wind_speed", "wind_direction") VALUES (?, ?, ?, ?, ?)[0m  [["sol", 528], ["temperature", -61], ["air_pressure", 711], ["wind_speed", 4], ["wind_direction", "{\"compass_degrees\"=>292.5, \"compass_point\"=>\"WNW\", \"compass_right\"=>-0.923879532511, \"compass_up\"=>0.382683432365, \"ct\"=>45018}"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mMarsWeatherRecord Load (0.2ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records" LIMIT ?[0m  [["LIMIT", 11]]
+[ActiveJob] Enqueued GetMarsDataJob (Job ID: 79d1e8c2-5e55-4573-ad89-ce849643dd70) to Async(default)
+[ActiveJob] [GetMarsDataJob] [79d1e8c2-5e55-4573-ad89-ce849643dd70] Performing GetMarsDataJob (Job ID: 79d1e8c2-5e55-4573-ad89-ce849643dd70) from Async(default) enqueued at 2020-05-22T19:21:24Z
+[ActiveJob] [GetMarsDataJob] [79d1e8c2-5e55-4573-ad89-ce849643dd70] Enqueued GetMarsDataJob (Job ID: 0f81662c-5b23-4b2c-8a0e-ee4537b9140f) to Async(default) at 2020-05-22 19:21:29 UTC
+[ActiveJob] [GetMarsDataJob] [79d1e8c2-5e55-4573-ad89-ce849643dd70] Performed GetMarsDataJob (Job ID: 79d1e8c2-5e55-4573-ad89-ce849643dd70) from Async(default) in 4.15ms
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationJob and GetMarsDataJob.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationJob, for example,
+the expected changes won't be reflected in that stale Class object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/config/environment.rb:5)
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Destroy (0.4ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 7]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mLocation Load (0.1ms)[0m  [1m[34mSELECT "locations".* FROM "locations"[0m
+  [1m[36mMarsWeatherRecord Load (0.1ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMarsWeatherRecord Destroy (0.2ms)[0m  [1m[31mDELETE FROM "mars_weather_records" WHERE "mars_weather_records"."id" = ?[0m  [["id", 8]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "email") VALUES (?, ?, ?)[0m  [["username", "TestUser"], ["password", "123"], ["email", "FakeEmail@email.com"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMarsWeatherRecord Create (0.2ms)[0m  [1m[32mINSERT INTO "mars_weather_records" ("sol", "temperature", "air_pressure", "wind_speed", "wind_direction") VALUES (?, ?, ?, ?, ?)[0m  [["sol", 528], ["temperature", -61], ["air_pressure", 711], ["wind_speed", 6], ["wind_direction", "SW"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mMarsWeatherRecord Load (0.1ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records" LIMIT ?[0m  [["LIMIT", 11]]
+[ActiveJob] Enqueued GetMarsDataJob (Job ID: 1f97d473-d9d2-4426-a61a-86177484a2c8) to Async(default)
+[ActiveJob] [GetMarsDataJob] [1f97d473-d9d2-4426-a61a-86177484a2c8] Performing GetMarsDataJob (Job ID: 1f97d473-d9d2-4426-a61a-86177484a2c8) from Async(default) enqueued at 2020-05-22T19:22:41Z
+[ActiveJob] [GetMarsDataJob] [1f97d473-d9d2-4426-a61a-86177484a2c8] Enqueued GetMarsDataJob (Job ID: 270f06d2-b919-4665-a5d0-5da05c8fb98f) to Async(default) at 2020-05-22 19:22:46 UTC
+[ActiveJob] [GetMarsDataJob] [1f97d473-d9d2-4426-a61a-86177484a2c8] Performed GetMarsDataJob (Job ID: 1f97d473-d9d2-4426-a61a-86177484a2c8) from Async(default) in 4.06ms
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationJob and GetMarsDataJob.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationJob, for example,
+the expected changes won't be reflected in that stale Class object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/config/environment.rb:5)
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 8]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mLocation Load (0.3ms)[0m  [1m[34mSELECT "locations".* FROM "locations"[0m
+  [1m[36mMarsWeatherRecord Load (0.1ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMarsWeatherRecord Destroy (0.3ms)[0m  [1m[31mDELETE FROM "mars_weather_records" WHERE "mars_weather_records"."id" = ?[0m  [["id", 9]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password", "email") VALUES (?, ?, ?)[0m  [["username", "TestUser"], ["password", "123"], ["email", "FakeEmail@email.com"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMarsWeatherRecord Create (0.2ms)[0m  [1m[32mINSERT INTO "mars_weather_records" ("sol", "temperature", "air_pressure", "wind_speed", "wind_direction") VALUES (?, ?, ?, ?, ?)[0m  [["sol", 528], ["temperature", -61], ["air_pressure", 711], ["wind_speed", 6], ["wind_direction", "SW"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mMarsWeatherRecord Load (0.1ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records" LIMIT ?[0m  [["LIMIT", 11]]
