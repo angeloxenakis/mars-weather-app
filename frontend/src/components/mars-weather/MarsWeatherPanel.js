@@ -6,6 +6,8 @@ let useComponentDidMount = (callback) => {
     useEffect(callback, [])
 }
 
+let currentDate = new Date().toDateString();
+
 export function MarsWeatherPanel() {
     let [ marsWeatherWeek, setMarsWeatherWeek ] = useState(null)
 
@@ -14,8 +16,6 @@ export function MarsWeatherPanel() {
             .then( resp => resp.json() )
             .then( MarsData => setMarsWeatherWeek(MarsData) ) 
     })
-
-    let currentDate = new Date().toDateString();
 
     if (marsWeatherWeek === null) {
         return (
@@ -31,7 +31,7 @@ export function MarsWeatherPanel() {
             </div>
             <MarsWeatherInfo marsWeatherWeek={marsWeatherWeek}/>
             <div className="bottom-info">
-                <MarsPastWeek marsWeather={marsWeatherWeek}/>
+                <MarsPastWeek marsWeatherWeek={marsWeatherWeek}/>
             </div>
         </div>
     )
