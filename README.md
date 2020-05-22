@@ -36,7 +36,8 @@ The Mars Weather App will show a user the most recent weather data on Mars sent 
 * User can view additional Mars weather details (pressure, wind speed, etc..)
     * Accessed through Nasa API
 * Estimated countdown to when earthlings can actually visit Mars
+* User can info and view recent photos from the Mars Rover
+* Maybe make given address default location
 
 ----------------------------------------------
 
-* Maybe make given address default location
