@@ -9,7 +9,7 @@ The Mars Weather App will show a user the most recent weather data on Mars sent 
 
 
 ### Model Relationships
-##### Mars
+##### Mars Weather Record
 ##### User -< Locations
 
 

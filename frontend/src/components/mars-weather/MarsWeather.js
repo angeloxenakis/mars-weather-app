@@ -24,11 +24,20 @@ export function MarsWeather() {
     }
         
     return (
-        <div>
-            <h1>Mars Weather</h1>
-            <MarsTemperature marsWeather={marsWeather}/>
-            <MarsAirPressure marsWeather={marsWeather}/>
-            <MarsWindSpeed marsWeather={marsWeather}/>
+        <div className="weather-div">
+            <div className="weather-header">
+                <h1>Mars Weather</h1>
+                <p className="day-info"><strong>Earth Date: </strong> 5/21/2020 | <strong>Mars SOL: </strong>526</p>
+            </div>
+            <div className="weather-info">
+                <div className="main-info">
+                    <MarsTemperature marsWeather={marsWeather}/>
+                </div>
+                <div className="side-info">
+                    <MarsAirPressure marsWeather={marsWeather}/>
+                    <MarsWindSpeed marsWeather={marsWeather}/>
+                </div>
+            </div>
         </div>
     )
 }
