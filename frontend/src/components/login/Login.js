@@ -16,13 +16,14 @@ export function Login(props) {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({
-                username: user.name,
+                username: user.username,
                 password: user.password
             })
         })
         let { success, id } = await response.json()
         if(success){
-            props.history.push(`/passengers/${id}`)
+            console.log("Login Successful")
+            //Should Redirect Back to User Page maybe but we gotta set that up
         }
     }
 
