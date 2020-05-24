@@ -4,11 +4,13 @@ import './App.css';
 import { MarsWeatherPanel } from './components/mars-weather/MarsWeatherPanel'
 import { Header } from './components/nav/Header'
 import { Login } from './components/login/Login'
+import { Signup } from './components/login/Signup'
 
 function App() {
 	return (
 		<div className="App">
-			<Login/>
+			<Signup/>
+			{/* <Login/> */}
 			{/* <Header/>
 			<MarsWeatherPanel/> */}
 		</div>
