@@ -25,6 +25,9 @@ export function Login(props) {
             console.log("Login Successful")
             //Should Redirect Back to User Page maybe but we gotta set that up
         }
+        else{
+            console.log("Login Failed")
+        }
     }
 
     return (
