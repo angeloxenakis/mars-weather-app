@@ -2,10 +2,12 @@ import React, { useState } from 'react'
 
 export function Signup(props) {
     const [newUser, changeNewUser] = useState({
-            username: '',
-            password: '',
-            email: ''
+        username: '',
+        password: '',
+        email: ''
     })
+
+    let [errorList, addToErrorList] = useState([])
 
     async function handleSubmit(e){
         e.preventDefault()
@@ -18,13 +20,21 @@ export function Signup(props) {
             },
             body: JSON.stringify({
                 username: newUser.username,
-                password: newUser.password
+                password: newUser.password,
+                email: newUser.email
             })
         })
-        let { success, id } = await response.json()
+        let { success, id, errors } = await response.json()
         if(success){
+            console.log(success)
             console.log("New User Created Successful")
             //Should Redirect Back to Login Page?
+        }
+        else{
+            
+            console.log(errors)
+            console.log("New User Failed")
+
         }
     }
 
