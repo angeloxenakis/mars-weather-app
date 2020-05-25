@@ -1,4 +1,3 @@
-
 class AuthenticationController < ApplicationController
 
     def login
