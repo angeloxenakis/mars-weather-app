@@ -10,13 +10,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_05_21_184923) do
+ActiveRecord::Schema.define(version: 2020_05_26_182822) do
 
   create_table "locations", force: :cascade do |t|
     t.integer "user_id"
     t.string "address"
     t.string "city"
     t.string "zipcode"
+  end
+
+  create_table "mars_current_records", force: :cascade do |t|
+    t.integer "sol"
+    t.integer "temperature"
+    t.integer "air_pressure"
+    t.integer "wind_speed"
+    t.string "wind_direction"
   end
 
   create_table "mars_weather_records", force: :cascade do |t|
