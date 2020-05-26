@@ -2,6 +2,17 @@ import React, { useEffect, useState } from 'react'
 import { CurrentDayInfo } from './CurrentDayInfo'
 import { FiveDayForcast } from './FiveDayForcast'
 
+
+
+
+// TO DO: ADD MORE STATUSES, MORE FUNCTIONALITY, MORE ELEMENTS, ... JUST MORE PIZZAZ
+// OTHER THAN THAT: WE'RE JUST PARSING AND MAKING SURE WHEN USER SIGNS UP WE CAN SEE THEIR STUFF
+
+
+// CLEAN SOME STUFF UP
+// GET USER INFO RIGHT NOW
+// ADD MORE STUFF
+
 let useComponentDidMount = (callback) => {
     useEffect(callback, [])
 }
@@ -20,6 +31,8 @@ export function UserWeatherPanel(props) {
     let [ day4Weather, setDay4Weather ] = useState(null)
     let [ day5Weather, setDay5Weather ] = useState(null)
 
+    let [ currentWeather, setCurrentWeather ] = useState(null)
+
 
 
     useComponentDidMount( () => {
@@ -35,26 +48,32 @@ export function UserWeatherPanel(props) {
             <h3>Loading User Weather Data</h3>
         )
     }
+
     if (day1Weather === null){
-        setDay1Weather(userWeatherData.list[3])
-        setDay2Weather(userWeatherData.list[11])
-        setDay3Weather(userWeatherData.list[19])
-        setDay4Weather(userWeatherData.list[27])
+        setDay1Weather(userWeatherData.list[2])
+        setDay2Weather(userWeatherData.list[10])
+        setDay3Weather(userWeatherData.list[18])
+        setDay4Weather(userWeatherData.list[26])
         setDay5Weather(userWeatherData.list[35])
         return (
             <h3>Loading Day Weather Data</h3>
         )
     }
-
+    
+    if (currentWeather === null){
+        console.log("I got the currentWeather")
+    }
 
         console.log(day1Weather,day2Weather,day3Weather,day4Weather,day5Weather)
+        
+        console.log(currentWeather)
         return (
         <div className="weather-div">
         <div className="weather-header">
             <h1>Local Weather</h1>
             <p className="day-info"><strong>Earth Date: </strong> {currentDate} </p>
         </div>
-            <CurrentDayInfo currentDay = {day1Weather}/>
+            <CurrentDayInfo/>
             <div className="bottom-info">
             <FiveDayForcast
                 day1 = {day1Weather}

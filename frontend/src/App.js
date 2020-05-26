@@ -17,12 +17,12 @@ function App() {
 			<div className="container">
 				<BrowserRouter>
 					<Route exact path="/mars-weather" component={MarsWeatherPanel}/>
-					<Route path="/earth-weather" components={UserWeatherPanel}/>
+					<Route path="/earth-weather" component={UserWeatherPanel}/>
 					<Route path="/login" component={Login}/>
 					<Route path="/signup" component={Signup}/>
 				</BrowserRouter>
 			</div>
-			<Footer/>
+			{/* <Footer/> */}
 		</div>
 	);
 }
