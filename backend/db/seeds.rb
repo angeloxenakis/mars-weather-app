@@ -37,63 +37,7 @@ mars_sols.map {|sol|
         temperature: sol[1]['AT']['av'],
         air_pressure: sol[1]['PRE']['av'],
         wind_speed: sol[1]['HWS']['av'],
-        wind_direction: sol[1]['WD']['most_common']['compass_point']
+        wind_direction: sol[1]['WD']['most_common']['compass_point'],
+        season: current_season
     })
 }
-
-# weather_record_1 = MarsWeatherRecord.create({ 
-#     sol: 526, 
-#     temperature: mars_data['526']["AT"]["av"], 
-#     air_pressure: mars_data['526']['PRE']['av'], 
-#     wind_speed: mars_data['526']['HWS']['av'], 
-#     wind_direction: mars_data['526']['WD']['most_common']['compass_point']
-# })
-# weather_record_2 = MarsWeatherRecord.create({ 
-#     sol: 527, 
-#     temperature: mars_data['527']["AT"]["av"], 
-#     air_pressure: mars_data['527']['PRE']['av'], 
-#     wind_speed: mars_data['527']['HWS']['av'], 
-#     wind_direction: mars_data['527']['WD']['most_common']['compass_point']
-# })
-# weather_record_3 = MarsWeatherRecord.create({ 
-#     sol: 528, 
-#     temperature: mars_data['528']["AT"]["av"], 
-#     air_pressure: mars_data['528']['PRE']['av'], 
-#     wind_speed: mars_data['528']['HWS']['av'], 
-#     wind_direction: mars_data['528']['WD']['most_common']['compass_point']
-# })
-# weather_record_4 = MarsWeatherRecord.create({ 
-#     sol: 529, 
-#     temperature: mars_data['529']["AT"]["av"], 
-#     air_pressure: mars_data['529']['PRE']['av'], 
-#     wind_speed: mars_data['529']['HWS']['av'], 
-#     wind_direction: mars_data['529']['WD']['most_common']['compass_point']
-# })
-# weather_record_5 = MarsWeatherRecord.create({ 
-#     sol: 530, 
-#     temperature: mars_data['530']["AT"]["av"], 
-#     air_pressure: mars_data['530']['PRE']['av'], 
-#     wind_speed: mars_data['530']['HWS']['av'], 
-#     wind_direction: mars_data['530']['WD']['most_common']['compass_point']
-# })
-# weather_record_6 = MarsWeatherRecord.create({ 
-#     sol: 531, 
-#     temperature: mars_data['531']["AT"]["av"], 
-#     air_pressure: mars_data['531']['PRE']['av'], 
-#     wind_speed: mars_data['531']['HWS']['av'], 
-#     wind_direction: mars_data['531']['WD']['most_common']['compass_point']
-# })
-# weather_record_7 = MarsWeatherRecord.create({ 
-#     sol: 532, 
-#     temperature: mars_data['532']["AT"]["av"], 
-#     air_pressure: mars_data['532']['PRE']['av'], 
-#     wind_speed: mars_data['532']['HWS']['av'], 
-#     wind_direction: mars_data['532']['WD']['most_common']['compass_point']
-# })
-# weather_record_7 = MarsWeatherRecord.create({ 
-#     sol: current_sol_num, 
-#     temperature: current_sol["AT"]["av"], 
-#     air_pressure: current_sol['PRE']['av'], 
-#     wind_speed: current_sol['HWS']['av'], 
-#     wind_direction: current_sol['WD']['most_common']['compass_point']
-# })
