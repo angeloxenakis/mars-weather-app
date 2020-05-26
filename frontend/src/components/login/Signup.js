@@ -39,21 +39,24 @@ export function Signup(props) {
     }
 
     return (
-        <form onSubmit={handleSubmit}>
-            <h1>Sign Up</h1>
-            <div>
-                <label>Username</label>
-                <input type="text" value={newUser.username} onChange={ e => changeNewUser({ ...newUser, username: e.target.value })} />
-            </div>
-            <div>
-                <label>Password</label>
-                <input type="password" value={newUser.password} onChange={ e => changeNewUser({ ...newUser, password: e.target.value })} />
-            </div>
-            <div>
-                <label>Email</label>
-                <input type="email" value={newUser.email} onChange={ e => changeNewUser({ ...newUser, email: e.target.value })} />
-            </div>
-            <input type="submit" />
-        </form>
+        <div className="login-panel">
+            <form onSubmit={handleSubmit}>
+                <h2>Alien Life Form Detectied</h2>
+                <h4>Identify yourself:</h4>
+                <div className="username">
+                    <label>Username</label><br></br>
+                    <input type="text" value={newUser.username} onChange={ e => changeNewUser({ ...newUser, username: e.target.value })} />
+                </div>
+                <div className="password">
+                    <label>Password</label><br></br>
+                    <input type="password" value={newUser.password} onChange={ e => changeNewUser({ ...newUser, password: e.target.value })} />
+                </div>
+                <div className="username">
+                    <label>Email</label><br></br>
+                    <input type="email" value={newUser.email} onChange={ e => changeNewUser({ ...newUser, email: e.target.value })} />
+                </div>
+                <input type="submit" className="login-btn" value="Sign Up"/>
+            </form>
+        </div>
     )
 }  

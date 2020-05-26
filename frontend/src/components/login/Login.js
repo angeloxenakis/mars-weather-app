@@ -31,18 +31,21 @@ export function Login(props) {
     }
 
     return (
-        <form onSubmit={handleSubmit}>
-            <h1>Login</h1>
-            <div>
-                <label>Username</label>
-                <input type="text" value={user.username} onChange={ e => changeUser({ ...user, username: e.target.value })} />
-            </div>
-            <div>
-                <label>Password</label>
-                <input type="password" value={user.password} onChange={ e => changeUser({ ...user, password: e.target.value })} />
-            </div>
-            <input type="submit" />
-        </form>
+        <div className="login-panel">
+            <form onSubmit={handleSubmit}>
+                <h2>Human Identified...</h2>
+                <h4>Please verify your credentials, Human:</h4>
+                <div className="username">
+                    <label>Username</label><br></br>
+                    <input type="text" value={user.username} onChange={ e => changeUser({ ...user, username: e.target.value })} />
+                </div>
+                <div className="password">
+                    <label>Password</label><br></br>
+                    <input type="password" value={user.password} onChange={ e => changeUser({ ...user, password: e.target.value })} />
+                </div>
+                <input type="submit" value="Login" className="login-btn"/>
+            </form>
+        </div>
     )
 }  
 
