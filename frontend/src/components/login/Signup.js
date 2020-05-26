@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import alien from "../../assets/alien.svg"
+import alien from "../../assets/red-alien.svg"
 
 export function Signup(props) {
     const [newUser, changeNewUser] = useState({
@@ -42,7 +42,7 @@ export function Signup(props) {
     return (
         <div className="login-panel">
             <form onSubmit={handleSubmit}>
-                <img src={alien}/>
+                <img width="128px" height="128px" src={alien}/>
                 <h2>Alien Life Form Detected</h2>
                 <h4>Identify yourself:</h4>
                 <div className="username">

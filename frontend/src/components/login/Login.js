@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import astronaut from "../../assets/astronaut.svg"
+import astronaut from "../../assets/red-astronaut.svg"
 
 export function Login(props) {
     const [user, changeUser] = useState({
@@ -34,7 +34,7 @@ export function Login(props) {
     return (
         <div className="login-panel">
             <form onSubmit={handleSubmit}>
-                <img src={astronaut}/>
+                <img width="128px" height="128px" src={astronaut}/>
                 <h2>Human Identified...</h2>
                 <h4>Please verify your credentials, Human:</h4>
                 <div className="username">

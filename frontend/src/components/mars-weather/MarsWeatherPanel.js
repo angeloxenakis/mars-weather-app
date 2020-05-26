@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { MarsPastWeek } from './MarsPastWeek'
 import { MarsWeatherInfo } from './MarsWeatherInfo'
 import { MarsCountdown } from './MarsCountdown'
-import mars from "../../assets/mars.svg"
+import mars from "../../assets/red-mars.svg"
 
 let useComponentDidMount = (callback) => {
     useEffect(callback, [])
