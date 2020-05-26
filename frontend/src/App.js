@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { MarsWeatherPanel } from './components/mars-weather/MarsWeatherPanel'
 import { Header } from './components/nav/Header'
@@ -12,10 +11,12 @@ import { Route } from 'react-router'
 function App() {
 	return (
 		<div className="App">
+			<Header/>
 			<BrowserRouter>
-				<Route path="/mars-weather" component={MarsWeatherPanel}/>
-				<Route path="/login" component={Login}/>
+				<Route exact path="/mars-weather" component={MarsWeatherPanel}/>
 				<Route path="/earth-weather" components={UserWeatherPanel}/>
+				<Route path="/login" component={Login}/>
+				<Route path="/signup" component={Signup}/>
 			</BrowserRouter>
 		</div>
 	);
