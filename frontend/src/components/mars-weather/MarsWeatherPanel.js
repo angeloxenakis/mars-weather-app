@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { MarsPastWeek } from './MarsPastWeek'
 import { MarsWeatherInfo } from './MarsWeatherInfo'
 import { MarsCountdown } from './MarsCountdown'
+import mars from "../../assets/mars.svg"
 
 let useComponentDidMount = (callback) => {
     useEffect(callback, [])
@@ -28,7 +29,7 @@ export function MarsWeatherPanel() {
         <div>
             <div className="weather-div">
                 <div className="weather-header">
-                    <h1>Mars Weather</h1>
+                    <div className="weather-title"><img src={mars}/><h1>Mars Weather</h1></div>
                     <p className="day-info"><strong>Earth Date: </strong> {currentDate} | <strong>Mars SOL: </strong>527</p>
                 </div>
                 <MarsWeatherInfo marsWeatherWeek={marsWeatherWeek}/>

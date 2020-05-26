@@ -112,6 +112,10 @@ h2 {
 	margin: 8px;
 }
 
+.weather-title {
+	display: flex;
+}
+
 .day-info {
 	margin-left: 10px;
 }
