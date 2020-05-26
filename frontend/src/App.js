@@ -15,7 +15,7 @@ function App() {
 			<BrowserRouter>
 				<Route path="/mars-weather" component={MarsWeatherPanel}/>
 				<Route path="/login" component={Login}/>
-				<Route path="/earth-weather" components={UserWeatherPanel}/>
+				<Route path="/earth-weather" component={UserWeatherPanel}/>
 			</BrowserRouter>
 		</div>
 	);

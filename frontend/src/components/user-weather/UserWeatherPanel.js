@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { CurrentDayInfo } from './CurrentDayInfo'
+import { FiveDayForcast } from './FiveDayForcast'
 
 let useComponentDidMount = (callback) => {
     useEffect(callback, [])
@@ -55,7 +56,13 @@ export function UserWeatherPanel(props) {
         </div>
             <CurrentDayInfo currentDay = {day1Weather}/>
             <div className="bottom-info">
-            <h1>hehe</h1>
+            <FiveDayForcast
+                day1 = {day1Weather}
+                day2 = {day2Weather}
+                day3 = {day3Weather}
+                day4 = {day4Weather}
+                day5 = {day5Weather}
+            />
             
         </div>
         </div>
