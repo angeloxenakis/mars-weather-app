@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { MarsPastWeek } from './MarsPastWeek'
 import { MarsWeatherInfo } from './MarsWeatherInfo'
+import { MarsCountdown } from './MarsCountdown'
 
 let useComponentDidMount = (callback) => {
     useEffect(callback, [])
@@ -24,15 +25,19 @@ export function MarsWeatherPanel() {
     }
         
     return (
-        <div className="weather-div">
-            <div className="weather-header">
-                <h1>Mars Weather</h1>
-                <p className="day-info"><strong>Earth Date: </strong> {currentDate} | <strong>Mars SOL: </strong>527</p>
+        <div>
+            <div className="weather-div">
+                <div className="weather-header">
+                    <h1>Mars Weather</h1>
+                    <p className="day-info"><strong>Earth Date: </strong> {currentDate} | <strong>Mars SOL: </strong>527</p>
+                </div>
+                <MarsWeatherInfo marsWeatherWeek={marsWeatherWeek}/>
+                <div className="bottom-info">
+                    <MarsPastWeek marsWeatherWeek={marsWeatherWeek}/>
+                </div>
             </div>
-            <MarsWeatherInfo marsWeatherWeek={marsWeatherWeek}/>
-            <div className="bottom-info">
-                <MarsPastWeek marsWeatherWeek={marsWeatherWeek}/>
-            </div>
+            <MarsCountdown/>
         </div>
+
     )
 }
