@@ -16,7 +16,7 @@ export function MarsWeatherPanel() {
     useComponentDidMount( () => {
         fetch('http://localhost:3000/mars_weather_records')
             .then( resp => resp.json() )
-            .then( MarsData => setMarsWeatherWeek(MarsData) ) 
+            .then( marsData => setMarsWeatherWeek(marsData) ) 
     })
 
     if (marsWeatherWeek === null) {

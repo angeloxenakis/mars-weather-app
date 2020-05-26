@@ -25,6 +25,7 @@ ActiveRecord::Schema.define(version: 2020_05_21_184923) do
     t.integer "air_pressure"
     t.integer "wind_speed"
     t.string "wind_direction"
+    t.string "season"
   end
 
   create_table "users", force: :cascade do |t|

@@ -6,6 +6,7 @@ class CreateMarsWeatherRecords < ActiveRecord::Migration[6.0]
       t.integer :air_pressure
       t.integer :wind_speed
       t.string :wind_direction
+      t.string :season
     end
   end
 end
