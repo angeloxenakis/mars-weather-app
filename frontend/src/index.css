@@ -1,137 +1,186 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
 }
 
 body {
-  background-image: url("./assets/mars-background.png")
+	background-image: url("./assets/mars-background.png")
 }
 
 .nav {
-  display: flex;
-  justify-content: space-between;
-  padding: 16px;
-  border-bottom: 3px solid black;
-  margin: 0px 24px 32px 24px;
-  background-color: white
+	display: flex;
+	justify-content: space-between;
+	padding: 16px;
+	border-bottom: 1px solid black;
+	margin: 0px 24px 32px 24px;
+	background-color: white
 }
 
 .nav-profile {
-  text-align: right;
+	text-align: right;
 }
 
 button {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-  font-size: 12px;
-  padding: 8px;
-  border: 3px solid black;
-  margin: 4px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	font-size: 12px;
+	padding: 8px;
+	border: 1px solid black;
+	margin: 4px;
 }
 
 a {
-  color: #bc544b;
-  text-decoration: none;
-  font-size: 16px;
+	color: #bc544b;
+	text-decoration: none;
+	font-size: 16px;
 }
 
 h1 {
-  font-size: 48px;
-  margin:8px
+	font-size: 48px;
+	margin:8px
 }
 
 h2 {
-  font-size: 32px;
+	font-size: 32px;
 }
 
 .weather-div {
-  border: 3px solid black;
-  width: 70%;
-  padding: 8px;
-  border-radius: 8px;
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  background-color: white
+	border: 1px solid black;
+	width: 70%;
+	padding: 8px;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	background-color: rgba(255, 255, 255, 0.95)
 }
 
 .weather-info {
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 .weather-header {
-  margin: 8px;
+	margin: 8px;
 }
 
 .day-info {
-  margin-left: 10px;
+	margin-left: 10px;
+}
+
+.main-panel {
+	height: 100%;
+	width: 100%;
+	overflow-wrap: break-word;
 }
 
 .temp-panel {
-  width: 357px;
-  height: 442px;
-  text-align: center;
-  border-radius: 8px;
-  padding: 8px;
-  border: 3px solid black;
-  margin: 16px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+	width: auto;
+	height: 366px;
+	text-align: center;
+	border-radius: 8px;
+	padding: 16px;
+	border: 1px solid black;
+	margin: 8px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+h3 {
+	font-size: 32px;
+	margin: 0px;
+}
+
+h4 {
+	font-size: 18px;
+	margin: 0px 0px 24px 0px;
 }
 
 .temp-contents {
-  padding: 70px 0;
+	padding: 90px 0;
+}
+
+.side-panel {
+	display: flex;
+	flex-direction: row;
 }
 
 .pressure-panel {
-  width: 357px;
-  height: 150px;
-  text-align: center;
-  border-radius: 8px;
-  padding: 8px;
-  border: 3px solid black;
-  margin: 16px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+	width: 100%;
+	height: 150px;
+	text-align: center;
+	border-radius: 8px;
+	padding: 16px;
+	border: 1px solid black;
+	margin: 8px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.season-panel {
+	width: 100%;
+	height: 150px;
+	text-align: center;
+	border-radius: 8px;
+	padding: 16px;
+	border: 1px solid black;
+	margin: 8px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .wind-panel {
-  width: 357px;
-  text-align: center;
-  border-radius: 8px;
-  padding: 8px;
-  border: 3px solid black;
-  margin: 16px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+	width: 100%;
+	text-align: center;
+	border-radius: 8px;
+	padding: 16px;
+	border: 1px solid black;
+	margin: 8px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.wind-contents {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.wind-speed {
+	margin: 8px;
+}
+
+.wind-direction {
+	margin: 8px;
 }
 
 .small-card-container {
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 .small-card {
-  width: 80px;
-  text-align: center;
-  border-radius: 8px;
-  padding: 8px;
-  border: 3px solid black;
-  margin: 8px;
+	width: 100%;
+	text-align: center;
+	border-radius: 8px;
+	padding: 8px;
+	border: 1px solid black;
+	margin: 8px;
 }
 
 .small-text {
-  font-size: 14px;
+	font-size: 14px;
 }
