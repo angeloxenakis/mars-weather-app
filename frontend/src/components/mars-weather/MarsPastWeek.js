@@ -1,4 +1,5 @@
 import React from 'react'
+import temp from "../../assets/red-temp.svg"
 
 export function MarsPastWeek(props) {
 
@@ -11,7 +12,7 @@ export function MarsPastWeek(props) {
             {priorSixSols.map(sol => 
                 <div className="small-card">
                     <h4>SOL: {sol.sol}</h4>
-                    <img src="https://img.icons8.com/ios/30/000000/thermometer.png"/>
+                    <img width="32px" height="32px" src={temp}/>
                     <p className="small-text">{sol.temperature}°C</p>
                 </div>
             )}

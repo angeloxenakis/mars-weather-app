@@ -1,4 +1,5 @@
 import React from 'react'
+import temp from "../../assets/red-temp.svg"
 
 export function MarsWindSpeed(props) {
     return (
@@ -10,13 +11,13 @@ export function MarsWindSpeed(props) {
                 <div className="wind-contents">
                     <div className="wind-speed">
                         <div>
-                            <img src="https://img.icons8.com/ios/48/000000/wind.png"/>
+                            <img width="48px" height="48px" src={temp}/>
                             <p><strong>Speed: </strong>{(Math.round(props.currentSol.wind_speed * 2.3))} mph</p>
                         </div>
                     </div>
                     <div className="wind-direction">
                         <div>
-                            <img src="https://img.icons8.com/ios/48/000000/barometer-gauge.png"/>
+                            <img width="48px" height="48px" src={temp}/>
                             <p><strong>Direction: </strong>{props.currentSol.wind_direction}</p>
                         </div>
                     </div>
