@@ -5,7 +5,10 @@ export function Signup(props) {
     const [newUser, changeNewUser] = useState({
         username: '',
         password: '',
-        email: ''
+        email: '',
+        zipcode: '',
+        city: '',
+        country: ''
     })
 
     let [errorList, addToErrorList] = useState([])
@@ -22,7 +25,10 @@ export function Signup(props) {
             body: JSON.stringify({
                 username: newUser.username,
                 password: newUser.password,
-                email: newUser.email
+                email: newUser.email,
+                zipcode: newUser.zipcode,
+                city: newUser.city
+
             })
         })
         let { success, id, errors } = await response.json()
@@ -56,6 +62,14 @@ export function Signup(props) {
                 <div className="username">
                     <label>Email</label><br></br>
                     <input type="email" value={newUser.email} onChange={ e => changeNewUser({ ...newUser, email: e.target.value })} />
+                </div>
+                <div className="username">
+                    <label>Zipcode</label><br></br>
+                    <input type="text" value={newUser.zipcode} onChange={ e => changeNewUser({ ...newUser, zipcode: e.target.value })} />
+                </div>
+                <div className="username">
+                    <label>City</label><br></br>
+                    <input type="text" value={newUser.city} onChange={ e => changeNewUser({ ...newUser, city: e.target.value })} />
                 </div>
                 <input type="submit" className="login-btn" value="Sign Up"/>
             </form>

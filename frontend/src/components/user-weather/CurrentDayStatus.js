@@ -46,6 +46,14 @@ export function CurrentDayStatus(props) {
                 <strong><p>Rainy</p></strong>
             </div>
         )
+    else if(props.status === "Clear")
+        return (
+            <div className="season-panel">
+                <h4>Status</h4>
+                <img src="https://img.icons8.com/ios/50/000000/clouds.png"/>
+                <strong><p>Clear</p></strong>
+            </div>
+        )
 
     else{
         return(

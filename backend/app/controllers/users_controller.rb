@@ -45,7 +45,10 @@ class UsersController < ApplicationController
             user = User.create({
                 username: params[:username],
                 password: params[:password],
-                email: params[:email]
+                email: params[:email],
+                city: params[:city],
+                zipcode: params[:zipcode]
+
             })
             render json: { success: true, id: user.id, error: errorMessages}
         end
