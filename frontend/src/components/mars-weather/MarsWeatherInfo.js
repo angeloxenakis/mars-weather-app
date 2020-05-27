@@ -1,6 +1,6 @@
 import React from 'react'
 import { MarsTemperature } from './MarsTemperature'
-import { MarsWindSpeed} from './MarsWindSpeed'
+import { MarsWind } from './MarsWind'
 import { MarsAirPressure } from './MarsAirPressure'
 import { MarsSeason } from './MarsSeason'
 
@@ -20,7 +20,7 @@ export function MarsWeatherInfo(props) {
                     <MarsAirPressure currentSol={currentSol}/>
                     <MarsSeason/>
                 </div>
-                <MarsWindSpeed currentSol={currentSol}/>
+                <MarsWind currentSol={currentSol}/>
             </div>
         </div>
     )

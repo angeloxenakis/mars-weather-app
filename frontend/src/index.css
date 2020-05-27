@@ -185,6 +185,11 @@ h4 {
 	margin: 0px 0px 24px 0px;
 }
 
+h5 {
+	color: #EC756B;
+	font-size: 18px;
+}
+
 .temp-contents {
 	padding: 90px 0;
 }
@@ -360,7 +365,7 @@ h4 {
 	margin:8px;
 }
 
-.compare-earth-container h2 {
+.compare-earth-container h3 {
 	color: #ABEB83;
 }
 
@@ -370,6 +375,10 @@ h4 {
 
 .compare-earth-container hr {
 	border-color: #456631;
+}
+
+.compare-icon {
+	margin-right: 16px;
 }
 
 
