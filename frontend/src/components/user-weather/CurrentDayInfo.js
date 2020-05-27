@@ -46,7 +46,6 @@ export function CurrentDayInfo(props) {
         return(
         <div className="weather-info">
             <div className="main-info">
-                
                 <CurrentDayTemperature temperature = {convertKtoF(currentDay.main.temp)}/>
             </div>
             <div className="side-info">

@@ -68,7 +68,7 @@ export function UserWeatherPanel(props) {
         
         console.log(currentWeather)
         return (
-        <div className="weather-div">
+        <div className="earth-weather-div">
         <div className="weather-header">
             <h1>Local Weather</h1>
             <p className="day-info"><strong>Earth Date: </strong> {currentDate} </p>
