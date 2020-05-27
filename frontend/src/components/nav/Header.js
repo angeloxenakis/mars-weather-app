@@ -8,6 +8,7 @@ export function Header(props) {
                 <div className="nav-btns">
                     <a className="btn" href="/mars-weather">Mars</a>
                     <a className="btn" href="earth-weather">Earth</a>
+                    <a className="btn" href="compare-weather">Compare Weather</a>
                     <a className="btn" href="/insight">Mars Insight</a>
                     <a className="btn" href="#">My Locations</a>
                 </div>
