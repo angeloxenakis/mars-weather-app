@@ -3,7 +3,8 @@ import React from 'react'
 export function CompareEarth() {
     return (
         <div className="compare-earth-container">
-            <h2>Earth Weather</h2>
+            <h3>Earth Weather</h3>
+            <br></br><br></br>
             <div className="compare-earth-info">
                 <h4>Temperature:</h4>
                 <p>-64°C</p>

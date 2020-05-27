@@ -4,7 +4,6 @@ import { CompareEarth } from './CompareEarth'
 import { MarsCountdown } from '../mars-weather/MarsCountdown'
 import insight from "../../assets/red-insight.svg"
 
-
 export function CompareWeather() {
 
     let currentDate = new Date().toDateString();
