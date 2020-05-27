@@ -1,4 +1,5 @@
 import React from 'react'
+import temp from "../../assets/green-temp.svg"
 
 export function FiveDayForcast(props) {
 
@@ -49,9 +50,9 @@ export function FiveDayForcast(props) {
         <div className="small-card-container">
             {earthWeek.map(day => 
                 
-                <div className="small-card">
+                <div className="earth-small-card">
                     <h4>{convertToDate(day.dt_txt)}</h4>
-                    <img src="https://img.icons8.com/ios/30/000000/thermometer.png"/>
+                    <img width="36px" height="36px" src={temp}/>
                     <p className="small-text">{convertKtoF(day.main.temp)}°F</p>
                 </div>
             )}
