@@ -1,6 +1,7 @@
 import React from 'react'
 import temp from "../../assets/red-temp.svg"
 
+
 export function MarsAirPressure(props) {
     return (
         <div className="pressure-panel">

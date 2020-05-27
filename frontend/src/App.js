@@ -7,7 +7,7 @@ import { Header } from './components/nav/Header'
 import { Login } from './components/login/Login'
 import { Signup } from './components/login/Signup'
 import { UserWeatherPanel } from './components/user-weather/UserWeatherPanel'
-import { Footer } from './components/nav/Footer'
+import { Insight  } from './components/insight/InsightPanel'
 
 
 function App() {
@@ -18,6 +18,7 @@ function App() {
 				<BrowserRouter>
 					<Route exact path="/mars-weather" component={MarsWeatherPanel}/>
 					<Route path="/earth-weather" component={UserWeatherPanel}/>
+					<Route path="/insight" component={Insight}/>
 					<Route path="/login" component={Login}/>
 					<Route path="/signup" component={Signup}/>
 				</BrowserRouter>
