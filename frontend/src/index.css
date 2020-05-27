@@ -148,7 +148,7 @@ h2 {
 
 .temp-panel {
 	width: auto;
-	height: 366px;
+	height: 362px;
 	text-align: center;
 	border-radius: 8px;
 	padding: 16px;
@@ -267,7 +267,7 @@ h4 {
 
 .mars-countdown {
 	border: 1px solid #6C332E;
-	width: 70%;
+	width: 60%;
 	padding: 24px 16px 16px 16px;
 	border-radius: 8px;
 	text-align: center;
@@ -322,6 +322,57 @@ h4 {
 	padding:16px;
 	margin:8px;
 }
+
+.compare-container {
+	padding: 16px;
+	border-radius: 8px;
+	margin: auto;
+	width: 70%;
+	border: 1px solid #6C332E;
+	background-color: #1A1A1A;
+}
+
+.compare-panels {
+	display: flex;
+	justify-content: center;
+}
+
+.compare-mars-container {
+	width: 450px;
+	border: 1px solid #6C332E;
+	border-radius: 8px;
+	background-color: #1A1A1A;
+	padding:16px;
+	margin:8px;
+}
+
+.compare-mars-container hr {
+	border-color: #6C332E;
+}
+
+.compare-earth-container {
+	width: 450px;
+	color: #ABEB83;
+	border: 1px solid #456631;
+	border-radius: 8px;
+	background-color: #1A1A1A;
+	padding:16px;
+	margin:8px;
+}
+
+.compare-earth-container h2 {
+	color: #ABEB83;
+}
+
+.compare-earth-container h4 {
+	color: #ABEB83;
+}
+
+.compare-earth-container hr {
+	border-color: #456631;
+}
+
+
 
 .footer-container {
 	background-color: white;
