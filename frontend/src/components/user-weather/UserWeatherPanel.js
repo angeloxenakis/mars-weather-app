@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { CurrentDayInfo } from './CurrentDayInfo'
 import { FiveDayForcast } from './FiveDayForcast'
 import {useHistory} from 'react-router'
-import earth from "../../assets/green-mars.svg"
+import earth from "../../assets/green-earth.svg"
 import { MarsCountdown } from '../mars-weather/MarsCountdown'
 
 
