@@ -5,7 +5,7 @@ export function MarsPastWeek(props) {
 
     let marsWeatherWeek = props.marsWeatherWeek
     marsWeatherWeek.pop()
-    let priorSixSols = marsWeatherWeek
+    let priorSixSols = marsWeatherWeek.reverse()
 
     return (
         <div className="small-card-container">
