@@ -8,7 +8,7 @@ export function MarsTemperature(props) {
                 <h3>Temperature</h3>
                 <div className="temp-contents">
                     <img width="104px" height="104px" src={temp}/>
-                    <p>{props.currentSol.temperature}°C</p>
+                    <p>{props.currentSol.temperature * 9/5 + 32}°C</p>
                 </div>
             </div>
         </div>

@@ -1,5 +1,6 @@
 import React ,{useState} from 'react'
 import sun from "../../assets/green-sun.svg"
+import cloud from "../../assets/green-cloud.svg"
 
 export function CurrentDayStatus(props) {
     
@@ -7,7 +8,7 @@ export function CurrentDayStatus(props) {
         return (
             <div className="earth-season-panel">
                 <h4>Status</h4>
-                <img width="48px" height="48px" src={sun}/>
+                <img width="48px" height="48px" src={cloud}/>
                 <p>Cloudy</p>
             </div>
         )
@@ -16,7 +17,7 @@ export function CurrentDayStatus(props) {
         return (
             <div className="earth-season-panel">
                 <h4>Status</h4>
-                <img width="48px" height="48px" src={sun}/>
+                <img width="48px" height="48px" src={cloud}/>
                 <p>Rainy</p>
             </div>
         )
@@ -25,7 +26,7 @@ export function CurrentDayStatus(props) {
         return (
             <div className="earth-season-panel">
                 <h4>Status</h4>
-                <img width="48px" height="48px" src={sun}/>
+                <img width="48px" height="48px" src={cloud}/>
                 <strong><p>Rainy</p></strong>
             </div>
         )
@@ -34,7 +35,7 @@ export function CurrentDayStatus(props) {
         return (
             <div className="earth-season-panel">
                 <h4>Status</h4>
-                <img width="48px" height="48px" src={sun}/>
+                <img width="48px" height="48px" src={cloud}/>
                 <p>Rainy</p>
             </div>
         )
@@ -43,7 +44,7 @@ export function CurrentDayStatus(props) {
         return (
             <div className="earth-season-panel">
                 <h4>Status</h4>
-                <img width="48px" height="48px" src={sun}/>
+                <img width="48px" height="48px" src={cloud}/>
                 <p>Rainy</p>
             </div>
         )
