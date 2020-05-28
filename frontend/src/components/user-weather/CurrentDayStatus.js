@@ -7,8 +7,8 @@ export function CurrentDayStatus(props) {
         return (
             <div className="earth-season-panel">
                 <h4>Status</h4>
-                <img src={sun}/>
-                <strong><p>Cloudy</p></strong>
+                <img width="48px" height="48px" src={sun}/>
+                <p>Cloudy</p>
             </div>
         )
 
@@ -16,8 +16,8 @@ export function CurrentDayStatus(props) {
         return (
             <div className="earth-season-panel">
                 <h4>Status</h4>
-                <img src={sun}/>
-                <strong><p>Rainy</p></strong>
+                <img width="48px" height="48px" src={sun}/>
+                <p>Rainy</p>
             </div>
         )
     
@@ -25,7 +25,7 @@ export function CurrentDayStatus(props) {
         return (
             <div className="earth-season-panel">
                 <h4>Status</h4>
-                <img src={sun}/>
+                <img width="48px" height="48px" src={sun}/>
                 <strong><p>Rainy</p></strong>
             </div>
         )
@@ -34,8 +34,8 @@ export function CurrentDayStatus(props) {
         return (
             <div className="earth-season-panel">
                 <h4>Status</h4>
-                <img src={sun}/>
-                <strong><p>Rainy</p></strong>
+                <img width="48px" height="48px" src={sun}/>
+                <p>Rainy</p>
             </div>
         )
 
@@ -43,16 +43,16 @@ export function CurrentDayStatus(props) {
         return (
             <div className="earth-season-panel">
                 <h4>Status</h4>
-                <img src={sun}/>
-                <strong><p>Rainy</p></strong>
+                <img width="48px" height="48px" src={sun}/>
+                <p>Rainy</p>
             </div>
         )
     else if(props.status === "Clear")
         return (
             <div className="earth-season-panel">
                 <h4>Status</h4>
-                <img src={sun}/>
-                <strong><p>Clear</p></strong>
+                <img width="48px" height="48px" src={sun}/>
+                <p>Clear</p>
             </div>
         )
 

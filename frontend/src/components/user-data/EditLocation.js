@@ -42,23 +42,28 @@ export function EditLocation(props) {
     }
 
 
-   
-    return (
-        <div className="login-panel">
-            <form onSubmit={handleSubmit}>
-                <img width="128px" height="128px" src={alien}/>
-                <h2>Enter A New Location To Infiltrate</h2>
-                <h4></h4>
-                <div className="zipcode">
-                    <label>Zipcode</label><br></br>
-                    <input type="text" value={editUser.zipcode} onChange={ e => changeEditUser({ ...editUser, zipcode: e.target.value })} />
-                </div>
-                <div className="city">
-                    <label>City</label><br></br>
-                    <input type="city" value={editUser.city} onChange={ e => changeEditUser({ ...editUser, city: e.target.value })} />
-                </div>
-                <input type="submit" className="login-btn" value="Sign Up"/>
-            </form>
-        </div>
-    )
+    if (props.canView){
+        return (
+            <div className="login-panel">
+                <form onSubmit={handleSubmit}>
+                    <img width="128px" height="128px" src={alien}/>
+                    <h2>Enter A New Location To Infiltrate</h2>
+                    <h4></h4>
+                    <div className="zipcode">
+                        <label>Zipcode</label><br></br>
+                        <input type="text" value={editUser.zipcode} onChange={ e => changeEditUser({ ...editUser, zipcode: e.target.value })} />
+                    </div>
+                    <div className="city">
+                        <label>City</label><br></br>
+                        <input type="city" value={editUser.city} onChange={ e => changeEditUser({ ...editUser, city: e.target.value })} />
+                    </div>
+                    <input type="submit" className="login-btn" value="Sign Up"/>
+                </form>
+            </div>
+        )
+    } else {
+        return (
+            <div className="login-panel">Please login to set your weather location.</div>
+        )
+    }
 }  

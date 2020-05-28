@@ -4916,3 +4916,737 @@ Processing by MarsWeatherRecordsController#index as */*
 Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.1ms | Allocations: 1518)
 
 
+[ActiveJob] Enqueued GetMarsDataJob (Job ID: b6ca0078-1314-4561-96d1-6c7f8e9229aa) to Async(default)
+[ActiveJob] [GetMarsDataJob] [b6ca0078-1314-4561-96d1-6c7f8e9229aa] Performing GetMarsDataJob (Job ID: b6ca0078-1314-4561-96d1-6c7f8e9229aa) from Async(default) enqueued at 2020-05-28T17:58:02Z
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationJob and GetMarsDataJob.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationJob, for example,
+the expected changes won't be reflected in that stale Class object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/config/environment.rb:5)
+[ActiveJob] [GetMarsDataJob] [b6ca0078-1314-4561-96d1-6c7f8e9229aa] Error performing GetMarsDataJob (Job ID: b6ca0078-1314-4561-96d1-6c7f8e9229aa) from Async(default) in 4.63ms: NameError (uninitialized constant GetMarsDataJob::MarsWeatherRecord):
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/active_support.rb:80:in `block in load_missing_constant'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/active_support.rb:9:in `without_bootsnap_cache'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/active_support.rb:80:in `rescue in load_missing_constant'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/active_support.rb:59:in `load_missing_constant'
+/Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/app/jobs/get_mars_data_job.rb:12:in `perform'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:40:in `block in perform_now'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:112:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/i18n-1.8.2/lib/i18n.rb:313:in `with_locale'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/translation.rb:9:in `block (2 levels) in <module:Translation>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/core_ext/time/zones.rb:66:in `use_zone'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/timezones.rb:9:in `block (2 levels) in <module:Timezones>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:25:in `block (4 levels) in <module:Logging>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/notifications.rb:180:in `block in instrument'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/notifications.rb:180:in `instrument'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:24:in `block (3 levels) in <module:Logging>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:45:in `block in tag_logger'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/tagged_logging.rb:80:in `block in tagged'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/tagged_logging.rb:80:in `tagged'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:45:in `tag_logger'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:21:in `block (2 levels) in <module:Logging>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:139:in `run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:39:in `perform_now'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:25:in `block in execute'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:112:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/railtie.rb:43:in `block (4 levels) in <class:Railtie>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/execution_wrapper.rb:88:in `wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/reloader.rb:72:in `block in wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/execution_wrapper.rb:88:in `wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/reloader.rb:71:in `wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/railtie.rb:42:in `block (3 levels) in <class:Railtie>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:139:in `run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:23:in `execute'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/queue_adapters/async_adapter.rb:70:in `perform'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:353:in `run_task'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:342:in `block (3 levels) in create_worker'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:325:in `loop'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:325:in `block (2 levels) in create_worker'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:324:in `catch'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:324:in `block in create_worker'
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Destroy (1.5ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 2]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 3]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 4]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mLocation Load (0.4ms)[0m  [1m[34mSELECT "locations".* FROM "locations"[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLocation Destroy (0.3ms)[0m  [1m[31mDELETE FROM "locations" WHERE "locations"."id" = ?[0m  [["id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mMarsWeatherRecord Load (0.4ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMarsWeatherRecord Destroy (0.7ms)[0m  [1m[31mDELETE FROM "mars_weather_records" WHERE "mars_weather_records"."id" = ?[0m  [["id", 1]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMarsWeatherRecord Destroy (0.3ms)[0m  [1m[31mDELETE FROM "mars_weather_records" WHERE "mars_weather_records"."id" = ?[0m  [["id", 2]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMarsWeatherRecord Destroy (0.4ms)[0m  [1m[31mDELETE FROM "mars_weather_records" WHERE "mars_weather_records"."id" = ?[0m  [["id", 3]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMarsWeatherRecord Destroy (0.2ms)[0m  [1m[31mDELETE FROM "mars_weather_records" WHERE "mars_weather_records"."id" = ?[0m  [["id", 4]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMarsWeatherRecord Destroy (0.2ms)[0m  [1m[31mDELETE FROM "mars_weather_records" WHERE "mars_weather_records"."id" = ?[0m  [["id", 5]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMarsWeatherRecord Destroy (0.2ms)[0m  [1m[31mDELETE FROM "mars_weather_records" WHERE "mars_weather_records"."id" = ?[0m  [["id", 6]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMarsWeatherRecord Destroy (0.2ms)[0m  [1m[31mDELETE FROM "mars_weather_records" WHERE "mars_weather_records"."id" = ?[0m  [["id", 7]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (1.0ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "email", "city", "zipcode") VALUES (?, ?, ?, ?, ?)[0m  [["username", "TestUser"], ["password_digest", "$2a$12$0ELDVWF8uYdJf8z2Uf7AAu.O0RW5ZQ4FOK/sncrTkCD5iBwtjijoC"], ["email", "FakeEmail@email.com"], ["city", "New York City"], ["zipcode", "10005"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "email", "city", "zipcode") VALUES (?, ?, ?, ?, ?)[0m  [["username", "angeloxenakis"], ["password_digest", "$2a$12$d6cbj5dDhEehHNfhJXP7Tugl11/k0ze7BR0kRTUHO4/plx5/9QNEy"], ["email", "FakeEmail@email.com"], ["city", "Houston"], ["zipcode", "10005"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMarsWeatherRecord Create (0.2ms)[0m  [1m[32mINSERT INTO "mars_weather_records" ("sol", "temperature", "air_pressure", "wind_speed", "wind_direction", "season") VALUES (?, ?, ?, ?, ?, ?)[0m  [["sol", 527], ["temperature", -55], ["air_pressure", 707], ["wind_speed", 4], ["wind_direction", "WNW"], ["season", "summer"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMarsWeatherRecord Create (0.3ms)[0m  [1m[32mINSERT INTO "mars_weather_records" ("sol", "temperature", "air_pressure", "wind_speed", "wind_direction", "season") VALUES (?, ?, ?, ?, ?, ?)[0m  [["sol", 528], ["temperature", -54], ["air_pressure", 709], ["wind_speed", 6], ["wind_direction", "WNW"], ["season", "summer"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMarsWeatherRecord Create (0.4ms)[0m  [1m[32mINSERT INTO "mars_weather_records" ("sol", "temperature", "air_pressure", "wind_speed", "wind_direction", "season") VALUES (?, ?, ?, ?, ?, ?)[0m  [["sol", 529], ["temperature", -57], ["air_pressure", 708], ["wind_speed", 4], ["wind_direction", "WNW"], ["season", "summer"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMarsWeatherRecord Create (0.3ms)[0m  [1m[32mINSERT INTO "mars_weather_records" ("sol", "temperature", "air_pressure", "wind_speed", "wind_direction", "season") VALUES (?, ?, ?, ?, ?, ?)[0m  [["sol", 530], ["temperature", -64], ["air_pressure", 713], ["wind_speed", 4], ["wind_direction", "SW"], ["season", "summer"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMarsWeatherRecord Create (0.5ms)[0m  [1m[32mINSERT INTO "mars_weather_records" ("sol", "temperature", "air_pressure", "wind_speed", "wind_direction", "season") VALUES (?, ?, ?, ?, ?, ?)[0m  [["sol", 531], ["temperature", -57], ["air_pressure", 713], ["wind_speed", 5], ["wind_direction", "WNW"], ["season", "summer"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMarsWeatherRecord Create (0.3ms)[0m  [1m[32mINSERT INTO "mars_weather_records" ("sol", "temperature", "air_pressure", "wind_speed", "wind_direction", "season") VALUES (?, ?, ?, ?, ?, ?)[0m  [["sol", 532], ["temperature", -54], ["air_pressure", 714], ["wind_speed", 4], ["wind_direction", "SW"], ["season", "summer"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMarsWeatherRecord Create (0.2ms)[0m  [1m[32mINSERT INTO "mars_weather_records" ("sol", "temperature", "air_pressure", "wind_speed", "wind_direction", "season") VALUES (?, ?, ?, ?, ?, ?)[0m  [["sol", 533], ["temperature", -54], ["air_pressure", 717], ["wind_speed", 6], ["wind_direction", "SW"], ["season", "summer"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+[ActiveJob] Enqueued GetMarsDataJob (Job ID: 042a0dfa-08a3-46ba-876d-364992c3f727) to Async(default)
+[ActiveJob] [GetMarsDataJob] [042a0dfa-08a3-46ba-876d-364992c3f727] Performing GetMarsDataJob (Job ID: 042a0dfa-08a3-46ba-876d-364992c3f727) from Async(default) enqueued at 2020-05-28T17:58:06Z
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationJob and GetMarsDataJob.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationJob, for example,
+the expected changes won't be reflected in that stale Class object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/config/environment.rb:5)
+[ActiveJob] [GetMarsDataJob] [042a0dfa-08a3-46ba-876d-364992c3f727] Error performing GetMarsDataJob (Job ID: 042a0dfa-08a3-46ba-876d-364992c3f727) from Async(default) in 4.86ms: NameError (uninitialized constant GetMarsDataJob::MarsWeatherRecord):
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/active_support.rb:80:in `block in load_missing_constant'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/active_support.rb:9:in `without_bootsnap_cache'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/active_support.rb:80:in `rescue in load_missing_constant'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/active_support.rb:59:in `load_missing_constant'
+/Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/app/jobs/get_mars_data_job.rb:12:in `perform'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:40:in `block in perform_now'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:112:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/i18n-1.8.2/lib/i18n.rb:313:in `with_locale'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/translation.rb:9:in `block (2 levels) in <module:Translation>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/core_ext/time/zones.rb:66:in `use_zone'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/timezones.rb:9:in `block (2 levels) in <module:Timezones>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:25:in `block (4 levels) in <module:Logging>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/notifications.rb:180:in `block in instrument'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/notifications.rb:180:in `instrument'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:24:in `block (3 levels) in <module:Logging>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:45:in `block in tag_logger'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/tagged_logging.rb:80:in `block in tagged'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/tagged_logging.rb:80:in `tagged'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:45:in `tag_logger'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:21:in `block (2 levels) in <module:Logging>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:139:in `run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:39:in `perform_now'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:25:in `block in execute'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:112:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/railtie.rb:43:in `block (4 levels) in <class:Railtie>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/execution_wrapper.rb:88:in `wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/reloader.rb:72:in `block in wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/execution_wrapper.rb:88:in `wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/reloader.rb:71:in `wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/railtie.rb:42:in `block (3 levels) in <class:Railtie>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:139:in `run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:23:in `execute'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/queue_adapters/async_adapter.rb:70:in `perform'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:353:in `run_task'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:342:in `block (3 levels) in create_worker'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:325:in `loop'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:325:in `block (2 levels) in create_worker'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:324:in `catch'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:324:in `block in create_worker'
+Started POST "/login" for ::1 at 2020-05-28 12:58:21 -0500
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AuthenticationController#login as */*
+  Parameters: {"username"=>"angeloxenakis", "password"=>"[FILTERED]", "authentication"=>{"username"=>"angeloxenakis", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "angeloxenakis"], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:4:in `login'
+Completed 200 OK in 209ms (Views: 0.3ms | ActiveRecord: 0.6ms | Allocations: 6795)
+
+
+[ActiveJob] Enqueued GetMarsDataJob (Job ID: 124621f7-ad18-40ea-bed2-82cb37789da9) to Async(default)
+[ActiveJob] [GetMarsDataJob] [124621f7-ad18-40ea-bed2-82cb37789da9] Performing GetMarsDataJob (Job ID: 124621f7-ad18-40ea-bed2-82cb37789da9) from Async(default) enqueued at 2020-05-28T17:59:08Z
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationJob and GetMarsDataJob.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationJob, for example,
+the expected changes won't be reflected in that stale Class object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/config/environment.rb:5)
+[ActiveJob] [GetMarsDataJob] [124621f7-ad18-40ea-bed2-82cb37789da9] Error performing GetMarsDataJob (Job ID: 124621f7-ad18-40ea-bed2-82cb37789da9) from Async(default) in 1.13ms: NameError (uninitialized constant GetMarsDataJob::MarsWeatherRecord):
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/active_support.rb:80:in `block in load_missing_constant'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/active_support.rb:9:in `without_bootsnap_cache'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/active_support.rb:80:in `rescue in load_missing_constant'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/active_support.rb:59:in `load_missing_constant'
+/Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/app/jobs/get_mars_data_job.rb:12:in `perform'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:40:in `block in perform_now'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:112:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/i18n-1.8.2/lib/i18n.rb:313:in `with_locale'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/translation.rb:9:in `block (2 levels) in <module:Translation>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/core_ext/time/zones.rb:66:in `use_zone'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/timezones.rb:9:in `block (2 levels) in <module:Timezones>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:25:in `block (4 levels) in <module:Logging>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/notifications.rb:180:in `block in instrument'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/notifications.rb:180:in `instrument'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:24:in `block (3 levels) in <module:Logging>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:45:in `block in tag_logger'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/tagged_logging.rb:80:in `block in tagged'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/tagged_logging.rb:80:in `tagged'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:45:in `tag_logger'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:21:in `block (2 levels) in <module:Logging>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:139:in `run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:39:in `perform_now'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:25:in `block in execute'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:112:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/railtie.rb:43:in `block (4 levels) in <class:Railtie>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/execution_wrapper.rb:88:in `wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/reloader.rb:72:in `block in wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/execution_wrapper.rb:88:in `wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/reloader.rb:71:in `wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/railtie.rb:42:in `block (3 levels) in <class:Railtie>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:139:in `run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:23:in `execute'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/queue_adapters/async_adapter.rb:70:in `perform'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:353:in `run_task'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:342:in `block (3 levels) in create_worker'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:325:in `loop'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:325:in `block (2 levels) in create_worker'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:324:in `catch'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:324:in `block in create_worker'
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 5]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 6]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mLocation Load (0.1ms)[0m  [1m[34mSELECT "locations".* FROM "locations"[0m
+  [1m[36mMarsWeatherRecord Load (0.1ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMarsWeatherRecord Destroy (0.2ms)[0m  [1m[31mDELETE FROM "mars_weather_records" WHERE "mars_weather_records"."id" = ?[0m  [["id", 8]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMarsWeatherRecord Destroy (0.3ms)[0m  [1m[31mDELETE FROM "mars_weather_records" WHERE "mars_weather_records"."id" = ?[0m  [["id", 9]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMarsWeatherRecord Destroy (0.3ms)[0m  [1m[31mDELETE FROM "mars_weather_records" WHERE "mars_weather_records"."id" = ?[0m  [["id", 10]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMarsWeatherRecord Destroy (0.3ms)[0m  [1m[31mDELETE FROM "mars_weather_records" WHERE "mars_weather_records"."id" = ?[0m  [["id", 11]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMarsWeatherRecord Destroy (0.2ms)[0m  [1m[31mDELETE FROM "mars_weather_records" WHERE "mars_weather_records"."id" = ?[0m  [["id", 12]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMarsWeatherRecord Destroy (0.2ms)[0m  [1m[31mDELETE FROM "mars_weather_records" WHERE "mars_weather_records"."id" = ?[0m  [["id", 13]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMarsWeatherRecord Destroy (0.2ms)[0m  [1m[31mDELETE FROM "mars_weather_records" WHERE "mars_weather_records"."id" = ?[0m  [["id", 14]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "email", "city", "zipcode") VALUES (?, ?, ?, ?, ?)[0m  [["username", "TestUser"], ["password_digest", "$2a$12$5zuf7Og4NH/xvYxbxwP07u/TthNBxv7zUn9PI4StmxcKa2sO.BsrW"], ["email", "FakeEmail@email.com"], ["city", "New York City"], ["zipcode", "10005"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "email", "city", "zipcode") VALUES (?, ?, ?, ?, ?)[0m  [["username", "Angelo"], ["password_digest", "$2a$12$UtUkLxUyQLaBdmf2VnHho.DDq8ubY1WICDLGfruOKkOEN3h/9M81W"], ["email", "FakeEmail@email.com"], ["city", "Houston"], ["zipcode", "10005"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMarsWeatherRecord Create (0.3ms)[0m  [1m[32mINSERT INTO "mars_weather_records" ("sol", "temperature", "air_pressure", "wind_speed", "wind_direction", "season") VALUES (?, ?, ?, ?, ?, ?)[0m  [["sol", 527], ["temperature", -55], ["air_pressure", 707], ["wind_speed", 4], ["wind_direction", "WNW"], ["season", "summer"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMarsWeatherRecord Create (0.3ms)[0m  [1m[32mINSERT INTO "mars_weather_records" ("sol", "temperature", "air_pressure", "wind_speed", "wind_direction", "season") VALUES (?, ?, ?, ?, ?, ?)[0m  [["sol", 528], ["temperature", -54], ["air_pressure", 709], ["wind_speed", 6], ["wind_direction", "WNW"], ["season", "summer"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMarsWeatherRecord Create (0.3ms)[0m  [1m[32mINSERT INTO "mars_weather_records" ("sol", "temperature", "air_pressure", "wind_speed", "wind_direction", "season") VALUES (?, ?, ?, ?, ?, ?)[0m  [["sol", 529], ["temperature", -57], ["air_pressure", 708], ["wind_speed", 4], ["wind_direction", "WNW"], ["season", "summer"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMarsWeatherRecord Create (0.3ms)[0m  [1m[32mINSERT INTO "mars_weather_records" ("sol", "temperature", "air_pressure", "wind_speed", "wind_direction", "season") VALUES (?, ?, ?, ?, ?, ?)[0m  [["sol", 530], ["temperature", -64], ["air_pressure", 713], ["wind_speed", 4], ["wind_direction", "SW"], ["season", "summer"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMarsWeatherRecord Create (0.3ms)[0m  [1m[32mINSERT INTO "mars_weather_records" ("sol", "temperature", "air_pressure", "wind_speed", "wind_direction", "season") VALUES (?, ?, ?, ?, ?, ?)[0m  [["sol", 531], ["temperature", -57], ["air_pressure", 713], ["wind_speed", 5], ["wind_direction", "WNW"], ["season", "summer"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMarsWeatherRecord Create (0.3ms)[0m  [1m[32mINSERT INTO "mars_weather_records" ("sol", "temperature", "air_pressure", "wind_speed", "wind_direction", "season") VALUES (?, ?, ?, ?, ?, ?)[0m  [["sol", 532], ["temperature", -54], ["air_pressure", 714], ["wind_speed", 4], ["wind_direction", "SW"], ["season", "summer"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mMarsWeatherRecord Create (0.2ms)[0m  [1m[32mINSERT INTO "mars_weather_records" ("sol", "temperature", "air_pressure", "wind_speed", "wind_direction", "season") VALUES (?, ?, ?, ?, ?, ?)[0m  [["sol", 533], ["temperature", -54], ["air_pressure", 717], ["wind_speed", 6], ["wind_direction", "SW"], ["season", "summer"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+[ActiveJob] Enqueued GetMarsDataJob (Job ID: 9e1c638f-3eb5-453b-975e-5feed7a0be41) to Async(default)
+[ActiveJob] [GetMarsDataJob] [9e1c638f-3eb5-453b-975e-5feed7a0be41] Performing GetMarsDataJob (Job ID: 9e1c638f-3eb5-453b-975e-5feed7a0be41) from Async(default) enqueued at 2020-05-28T17:59:11Z
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationJob and GetMarsDataJob.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationJob, for example,
+the expected changes won't be reflected in that stale Class object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/config/environment.rb:5)
+[ActiveJob] [GetMarsDataJob] [9e1c638f-3eb5-453b-975e-5feed7a0be41] Error performing GetMarsDataJob (Job ID: 9e1c638f-3eb5-453b-975e-5feed7a0be41) from Async(default) in 4.09ms: NameError (uninitialized constant GetMarsDataJob::MarsWeatherRecord):
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/active_support.rb:80:in `block in load_missing_constant'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/active_support.rb:9:in `without_bootsnap_cache'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/active_support.rb:80:in `rescue in load_missing_constant'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/active_support.rb:59:in `load_missing_constant'
+/Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/app/jobs/get_mars_data_job.rb:12:in `perform'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:40:in `block in perform_now'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:112:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/i18n-1.8.2/lib/i18n.rb:313:in `with_locale'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/translation.rb:9:in `block (2 levels) in <module:Translation>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/core_ext/time/zones.rb:66:in `use_zone'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/timezones.rb:9:in `block (2 levels) in <module:Timezones>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:25:in `block (4 levels) in <module:Logging>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/notifications.rb:180:in `block in instrument'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/notifications.rb:180:in `instrument'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:24:in `block (3 levels) in <module:Logging>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:45:in `block in tag_logger'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/tagged_logging.rb:80:in `block in tagged'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/tagged_logging.rb:80:in `tagged'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:45:in `tag_logger'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:21:in `block (2 levels) in <module:Logging>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:139:in `run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:39:in `perform_now'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:25:in `block in execute'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:112:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/railtie.rb:43:in `block (4 levels) in <class:Railtie>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/execution_wrapper.rb:88:in `wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/reloader.rb:72:in `block in wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/execution_wrapper.rb:88:in `wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/reloader.rb:71:in `wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/railtie.rb:42:in `block (3 levels) in <class:Railtie>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:139:in `run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:23:in `execute'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/queue_adapters/async_adapter.rb:70:in `perform'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:353:in `run_task'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:342:in `block (3 levels) in create_worker'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:325:in `loop'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:325:in `block (2 levels) in create_worker'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:324:in `catch'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:324:in `block in create_worker'
+Started GET "/mars_weather_records" for ::1 at 2020-05-28 12:59:17 -0500
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MarsWeatherRecordsController#index as */*
+  [1m[36mMarsWeatherRecord Load (0.3ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  ↳ app/controllers/mars_weather_records_controller.rb:4:in `index'
+Completed 200 OK in 14ms (Views: 11.3ms | ActiveRecord: 1.3ms | Allocations: 6966)
+
+
+Started GET "/mars_weather_records" for ::1 at 2020-05-28 12:59:23 -0500
+Processing by MarsWeatherRecordsController#index as */*
+  [1m[36mMarsWeatherRecord Load (0.2ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  ↳ app/controllers/mars_weather_records_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.2ms | Allocations: 1535)
+
+
+Started POST "/login" for ::1 at 2020-05-28 13:00:04 -0500
+Processing by AuthenticationController#login as */*
+  Parameters: {"username"=>"Angelo", "password"=>"[FILTERED]", "authentication"=>{"username"=>"Angelo", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "Angelo"], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:4:in `login'
+Completed 200 OK in 212ms (Views: 0.2ms | ActiveRecord: 0.7ms | Allocations: 6367)
+
+
+Started GET "/mars_weather_records" for ::1 at 2020-05-28 13:00:49 -0500
+Processing by MarsWeatherRecordsController#index as */*
+  [1m[36mMarsWeatherRecord Load (0.1ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  ↳ app/controllers/mars_weather_records_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.1ms | Allocations: 1535)
+
+
+Started GET "/mars_weather_records" for ::1 at 2020-05-28 13:00:59 -0500
+Processing by MarsWeatherRecordsController#index as */*
+  [1m[36mMarsWeatherRecord Load (0.1ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  ↳ app/controllers/mars_weather_records_controller.rb:4:in `index'
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.1ms | Allocations: 1535)
+
+
+Started POST "/login" for ::1 at 2020-05-28 13:02:04 -0500
+Processing by AuthenticationController#login as */*
+  Parameters: {"username"=>"Angelo", "password"=>"[FILTERED]", "authentication"=>{"username"=>"Angelo", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "Angelo"], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:4:in `login'
+Completed 200 OK in 204ms (Views: 0.2ms | ActiveRecord: 0.1ms | Allocations: 701)
+
+
+Started POST "/login" for ::1 at 2020-05-28 13:03:13 -0500
+Processing by AuthenticationController#login as */*
+  Parameters: {"username"=>"Angelo", "password"=>"[FILTERED]", "authentication"=>{"username"=>"Angelo", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "Angelo"], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:4:in `login'
+Completed 200 OK in 202ms (Views: 0.3ms | ActiveRecord: 0.1ms | Allocations: 702)
+
+
+Started GET "/mars_weather_records" for ::1 at 2020-05-28 13:04:29 -0500
+Processing by MarsWeatherRecordsController#index as */*
+  [1m[36mMarsWeatherRecord Load (0.1ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  ↳ app/controllers/mars_weather_records_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.1ms | Allocations: 1518)
+
+
+Started POST "/login" for ::1 at 2020-05-28 13:04:35 -0500
+Processing by AuthenticationController#login as */*
+  Parameters: {"username"=>"Angelo", "password"=>"[FILTERED]", "authentication"=>{"username"=>"Angelo", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "Angelo"], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:4:in `login'
+Completed 200 OK in 202ms (Views: 0.2ms | ActiveRecord: 0.1ms | Allocations: 701)
+
+
+Started POST "/login" for ::1 at 2020-05-28 13:05:45 -0500
+Processing by AuthenticationController#login as */*
+  Parameters: {"username"=>"Angelo", "password"=>"[FILTERED]", "authentication"=>{"username"=>"Angelo", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "Angelo"], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:4:in `login'
+Completed 200 OK in 203ms (Views: 0.2ms | ActiveRecord: 0.1ms | Allocations: 702)
+
+
+Started POST "/login" for ::1 at 2020-05-28 13:09:54 -0500
+Processing by AuthenticationController#login as */*
+  Parameters: {"username"=>"Angelo", "password"=>"[FILTERED]", "authentication"=>{"username"=>"Angelo", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "Angelo"], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:4:in `login'
+Completed 200 OK in 208ms (Views: 0.2ms | ActiveRecord: 0.1ms | Allocations: 700)
+
+
+Started GET "/mars_weather_records" for ::1 at 2020-05-28 13:11:03 -0500
+Processing by MarsWeatherRecordsController#index as */*
+  [1m[36mMarsWeatherRecord Load (0.3ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  ↳ app/controllers/mars_weather_records_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.3ms | Allocations: 1518)
+
+
+Started GET "/mars_weather_records" for ::1 at 2020-05-28 13:11:07 -0500
+Processing by MarsWeatherRecordsController#index as */*
+  [1m[36mMarsWeatherRecord Load (0.3ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  ↳ app/controllers/mars_weather_records_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.3ms | Allocations: 1518)
+
+
+Started GET "/mars_weather_records" for ::1 at 2020-05-28 13:13:54 -0500
+Processing by MarsWeatherRecordsController#index as */*
+  [1m[36mMarsWeatherRecord Load (1.1ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  ↳ app/controllers/mars_weather_records_controller.rb:4:in `index'
+Completed 200 OK in 150ms (Views: 145.1ms | ActiveRecord: 1.1ms | Allocations: 1518)
+
+
+Started GET "/mars_weather_records" for ::1 at 2020-05-28 13:17:29 -0500
+Processing by MarsWeatherRecordsController#index as */*
+  [1m[36mMarsWeatherRecord Load (0.7ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  ↳ app/controllers/mars_weather_records_controller.rb:4:in `index'
+Completed 200 OK in 16ms (Views: 11.6ms | ActiveRecord: 0.7ms | Allocations: 1518)
+
+
+Started GET "/mars_weather_records" for ::1 at 2020-05-28 13:29:27 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MarsWeatherRecordsController#index as */*
+  [1m[36mMarsWeatherRecord Load (0.9ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  ↳ app/controllers/mars_weather_records_controller.rb:4:in `index'
+Completed 200 OK in 10ms (Views: 6.5ms | ActiveRecord: 0.9ms | Allocations: 1540)
+
+
+Started GET "/mars_weather_records" for ::1 at 2020-05-28 13:33:15 -0500
+Processing by MarsWeatherRecordsController#index as */*
+  [1m[36mMarsWeatherRecord Load (0.5ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  ↳ app/controllers/mars_weather_records_controller.rb:4:in `index'
+Completed 200 OK in 10ms (Views: 7.3ms | ActiveRecord: 0.5ms | Allocations: 1518)
+
+
+Started GET "/mars_weather_records" for ::1 at 2020-05-28 13:33:16 -0500
+Processing by MarsWeatherRecordsController#index as */*
+  [1m[36mMarsWeatherRecord Load (0.2ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  ↳ app/controllers/mars_weather_records_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 0.2ms | Allocations: 1518)
+
+
+Started POST "/login" for ::1 at 2020-05-28 13:33:23 -0500
+Processing by AuthenticationController#login as */*
+  Parameters: {"username"=>"Angelo", "password"=>"[FILTERED]", "authentication"=>{"username"=>"Angelo", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "Angelo"], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:4:in `login'
+Completed 200 OK in 205ms (Views: 0.4ms | ActiveRecord: 0.3ms | Allocations: 717)
+
+
+Started POST "/login" for ::1 at 2020-05-28 13:34:48 -0500
+Processing by AuthenticationController#login as */*
+  Parameters: {"username"=>"Angelo", "password"=>"[FILTERED]", "authentication"=>{"username"=>"Angelo", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "Angelo"], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:4:in `login'
+Completed 200 OK in 208ms (Views: 0.1ms | ActiveRecord: 0.3ms | Allocations: 701)
+
+
+Started POST "/login" for ::1 at 2020-05-28 13:35:09 -0500
+Processing by AuthenticationController#login as */*
+  Parameters: {"username"=>"Angelo", "password"=>"[FILTERED]", "authentication"=>{"username"=>"Angelo", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "Angelo"], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:4:in `login'
+Completed 200 OK in 205ms (Views: 0.1ms | ActiveRecord: 0.1ms | Allocations: 700)
+
+
+Started GET "/mars_weather_records" for ::1 at 2020-05-28 13:35:21 -0500
+Processing by MarsWeatherRecordsController#index as */*
+  [1m[36mMarsWeatherRecord Load (0.1ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  ↳ app/controllers/mars_weather_records_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.1ms | Allocations: 1518)
+
+
+Started GET "/mars_weather_records" for ::1 at 2020-05-28 13:35:33 -0500
+Processing by MarsWeatherRecordsController#index as */*
+  [1m[36mMarsWeatherRecord Load (0.1ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  ↳ app/controllers/mars_weather_records_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.1ms | Allocations: 1518)
+
+
+Started GET "/mars_weather_records" for ::1 at 2020-05-28 13:35:53 -0500
+Processing by MarsWeatherRecordsController#index as */*
+  [1m[36mMarsWeatherRecord Load (0.1ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  ↳ app/controllers/mars_weather_records_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.1ms | Allocations: 1518)
+
+
+Started GET "/mars_weather_records" for ::1 at 2020-05-28 13:35:58 -0500
+Processing by MarsWeatherRecordsController#index as */*
+  [1m[36mMarsWeatherRecord Load (0.1ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  ↳ app/controllers/mars_weather_records_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.1ms | Allocations: 1518)
+
+
+Started GET "/mars_weather_records" for ::1 at 2020-05-28 13:36:02 -0500
+Processing by MarsWeatherRecordsController#index as */*
+  [1m[36mMarsWeatherRecord Load (0.1ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  ↳ app/controllers/mars_weather_records_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.1ms | Allocations: 1518)
+
+
+Started GET "/mars_weather_records" for ::1 at 2020-05-28 13:36:34 -0500
+Processing by MarsWeatherRecordsController#index as */*
+  [1m[36mMarsWeatherRecord Load (0.1ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  ↳ app/controllers/mars_weather_records_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.1ms | Allocations: 1519)
+
+
+Started GET "/mars_weather_records" for ::1 at 2020-05-28 13:37:09 -0500
+Processing by MarsWeatherRecordsController#index as */*
+  [1m[36mMarsWeatherRecord Load (0.2ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  ↳ app/controllers/mars_weather_records_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.2ms | Allocations: 1518)
+
+
+Started GET "/mars_weather_records" for ::1 at 2020-05-28 13:37:20 -0500
+Processing by MarsWeatherRecordsController#index as */*
+  [1m[36mMarsWeatherRecord Load (0.1ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  ↳ app/controllers/mars_weather_records_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms | Allocations: 1518)
+
+
+Started GET "/mars_weather_records" for ::1 at 2020-05-28 13:37:36 -0500
+Processing by MarsWeatherRecordsController#index as */*
+  [1m[36mMarsWeatherRecord Load (0.1ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  ↳ app/controllers/mars_weather_records_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.1ms | Allocations: 1518)
+
+
+Started GET "/mars_weather_records" for ::1 at 2020-05-28 13:37:37 -0500
+Processing by MarsWeatherRecordsController#index as */*
+  [1m[36mMarsWeatherRecord Load (0.2ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  ↳ app/controllers/mars_weather_records_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.2ms | Allocations: 1518)
+
+
+Started GET "/mars_weather_records" for ::1 at 2020-05-28 13:37:38 -0500
+Processing by MarsWeatherRecordsController#index as */*
+  [1m[36mMarsWeatherRecord Load (0.2ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  ↳ app/controllers/mars_weather_records_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.2ms | Allocations: 1518)
+
+
+Started GET "/mars_weather_records" for ::1 at 2020-05-28 13:37:40 -0500
+Processing by MarsWeatherRecordsController#index as */*
+  [1m[36mMarsWeatherRecord Load (0.1ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  ↳ app/controllers/mars_weather_records_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.1ms | Allocations: 1518)
+
+
+Started GET "/mars_weather_records" for ::1 at 2020-05-28 13:37:41 -0500
+Processing by MarsWeatherRecordsController#index as */*
+  [1m[36mMarsWeatherRecord Load (0.1ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  ↳ app/controllers/mars_weather_records_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.1ms | Allocations: 1518)
+
+
+Started GET "/mars_weather_records" for ::1 at 2020-05-28 13:37:42 -0500
+Processing by MarsWeatherRecordsController#index as */*
+  [1m[36mMarsWeatherRecord Load (0.1ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  ↳ app/controllers/mars_weather_records_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.1ms | Allocations: 1518)
+
+
+Started GET "/mars_weather_records" for ::1 at 2020-05-28 13:38:01 -0500
+Processing by MarsWeatherRecordsController#index as */*
+  [1m[36mMarsWeatherRecord Load (0.1ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  ↳ app/controllers/mars_weather_records_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms | Allocations: 1518)
+
+
+Started GET "/mars_weather_records" for ::1 at 2020-05-28 13:38:06 -0500
+Processing by MarsWeatherRecordsController#index as */*
+  [1m[36mMarsWeatherRecord Load (0.2ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  ↳ app/controllers/mars_weather_records_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.2ms | Allocations: 1518)
+
+
+Started GET "/mars_weather_records" for ::1 at 2020-05-28 13:38:09 -0500
+Processing by MarsWeatherRecordsController#index as */*
+  [1m[36mMarsWeatherRecord Load (0.1ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  ↳ app/controllers/mars_weather_records_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms | Allocations: 1518)
+
+
+Started POST "/login" for ::1 at 2020-05-28 13:38:28 -0500
+Processing by AuthenticationController#login as */*
+  Parameters: {"username"=>"Angelo", "password"=>"[FILTERED]", "authentication"=>{"username"=>"Angelo", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "Angelo"], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:4:in `login'
+Completed 200 OK in 207ms (Views: 0.2ms | ActiveRecord: 0.1ms | Allocations: 701)
+
+
+Started GET "/mars_weather_records" for ::1 at 2020-05-28 13:38:51 -0500
+Processing by MarsWeatherRecordsController#index as */*
+  [1m[36mMarsWeatherRecord Load (0.1ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  ↳ app/controllers/mars_weather_records_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.1ms | Allocations: 1518)
+
+
+Started GET "/mars_weather_records" for ::1 at 2020-05-28 13:39:34 -0500
+Processing by MarsWeatherRecordsController#index as */*
+  [1m[36mMarsWeatherRecord Load (0.1ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  ↳ app/controllers/mars_weather_records_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.1ms | Allocations: 1518)
+
+
+Started GET "/mars_weather_records" for ::1 at 2020-05-28 13:39:37 -0500
+Processing by MarsWeatherRecordsController#index as */*
+  [1m[36mMarsWeatherRecord Load (0.2ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  ↳ app/controllers/mars_weather_records_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.2ms | Allocations: 1518)
+
+
+Started GET "/mars_weather_records" for ::1 at 2020-05-28 13:39:40 -0500
+Processing by MarsWeatherRecordsController#index as */*
+  [1m[36mMarsWeatherRecord Load (0.1ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  ↳ app/controllers/mars_weather_records_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.1ms | Allocations: 1518)
+
+
+Started GET "/mars_weather_records" for ::1 at 2020-05-28 13:45:26 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MarsWeatherRecordsController#index as */*
+  [1m[36mMarsWeatherRecord Load (0.6ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  ↳ app/controllers/mars_weather_records_controller.rb:4:in `index'
+Completed 200 OK in 8ms (Views: 4.9ms | ActiveRecord: 0.6ms | Allocations: 1540)
+
+
+Started GET "/mars_weather_records" for ::1 at 2020-05-28 13:45:40 -0500
+Processing by MarsWeatherRecordsController#index as */*
+  [1m[36mMarsWeatherRecord Load (0.1ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  ↳ app/controllers/mars_weather_records_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.1ms | Allocations: 1518)
+
+

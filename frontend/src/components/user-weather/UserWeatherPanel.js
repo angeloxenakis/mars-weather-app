@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react'
 import { CurrentDayInfo } from './CurrentDayInfo'
 import { FiveDayForcast } from './FiveDayForcast'
 import {useHistory} from 'react-router'
+import earth from "../../assets/green-mars.svg"
+import { MarsCountdown } from '../mars-weather/MarsCountdown'
 
 
 
@@ -66,36 +68,33 @@ export function UserWeatherPanel(props) {
                     <h3>Loading Day Weather Data</h3>
                 )
         }
-        
-   
-                
-    
 
         if (props.canView){
             console.log(userWeatherData)
             return (
-                <div className="earth-weather-div">
-                <div className="weather-header">
-                    <h1>Earth Weather</h1>
-                    <p className="day-info"><strong>Earth Date: </strong> {currentDate} <strong>| Location:</strong> {userWeatherData.city.name}</p>
+                <div>
+                    <div className="earth-weather-div">
+                        <div className="weather-header">
+                            <div className="weather-title"><img width="48px" height="48px" src={earth}/><h1>Earth Weather</h1></div>
+                            <p className="day-info"><strong>Earth Date: </strong> {currentDate} <strong>| Location:</strong> {userWeatherData.city.name}</p>
+                        </div>
+                            <CurrentDayInfo 
+                                zipcode = {props.zipcode}
+                                country = {props.country}
+                            />
+                        <div className="bottom-info">
+                            <FiveDayForcast
+                                day1 = {day1Weather}
+                                day2 = {day2Weather}
+                                day3 = {day3Weather}
+                                day4 = {day4Weather}
+                                day5 = {day5Weather}
+                            />
+                        </div>
+                    </div>
+                    <MarsCountdown/>
                 </div>
-                    <CurrentDayInfo 
-                        zipcode = {props.zipcode}
-                        country = {props.country}
-                    />
-                    <div className="bottom-info">
-                    <FiveDayForcast
-                        day1 = {day1Weather}
-                        day2 = {day2Weather}
-                        day3 = {day3Weather}
-                        day4 = {day4Weather}
-                        day5 = {day5Weather}
-                    />
-                    
-                </div>
-                </div>
-        
-                )
+            )
         }
     } else {
         return (

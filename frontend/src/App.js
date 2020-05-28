@@ -51,7 +51,7 @@ function App(props) {
 					<Route exact path="/signup" component={Signup}/>
 					<Route path="/compare-weather" render={(props) => <CompareWeather {...props} canView = {isAuthenticated} zipcode = {currentUserZip}/>}/>
 					<Route path="/insight" component={Insight}/>
-					<Route exact path="/edit-location" render={(props) => <EditLocation {...props} userId = {currentUserId} updateLocation = {updateLocation}/>}/>
+					<Route exact path="/edit-location" render={(props) => <EditLocation {...props} canView = {isAuthenticated} userId = {currentUserId} updateLocation = {updateLocation}/>}/>
 					
 				</div>
 
