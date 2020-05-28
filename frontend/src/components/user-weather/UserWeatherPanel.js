@@ -22,6 +22,7 @@ let currentDate = new Date().toDateString();
 export function UserWeatherPanel(props) {
 
     let [ userWeatherData, setUserWeatherData ] = useState(null)
+    console.log(userWeatherData)
 
     //I need to get 2,10,18,26,34
 
@@ -33,14 +34,13 @@ export function UserWeatherPanel(props) {
 
     let [ currentWeather, setCurrentWeather ] = useState(null)
 
-
-
     useComponentDidMount( () => {
         fetch('https://api.openweathermap.org/data/2.5/forecast?zip=77001,us&appid=b2155d7bcc9acd90bde0e1c32ab5d85e')
             .then( resp => resp.json() )
             .then( userWeatherData => {(
                 setUserWeatherData(userWeatherData)
-                )} ) 
+                )} 
+            ) 
     })
 
     if (userWeatherData === null) {
