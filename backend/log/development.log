@@ -5702,3 +5702,55 @@ Processing by MarsWeatherRecordsController#index as */*
 Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.1ms | Allocations: 1518)
 
 
+Started GET "/mars_weather_records" for ::1 at 2020-05-28 14:28:27 -0500
+Processing by MarsWeatherRecordsController#index as */*
+  [1m[36mMarsWeatherRecord Load (0.6ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  ↳ app/controllers/mars_weather_records_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.6ms | Allocations: 1518)
+
+
+Started GET "/mars_weather_records" for ::1 at 2020-05-28 14:38:54 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MarsWeatherRecordsController#index as */*
+  [1m[36mMarsWeatherRecord Load (0.5ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  ↳ app/controllers/mars_weather_records_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.5ms | Allocations: 1540)
+
+
+Started POST "/login" for ::1 at 2020-05-28 14:41:24 -0500
+Processing by AuthenticationController#login as */*
+  Parameters: {"username"=>"Angelo", "password"=>"[FILTERED]", "authentication"=>{"username"=>"Angelo", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "Angelo"], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:4:in `login'
+Completed 200 OK in 211ms (Views: 0.2ms | ActiveRecord: 0.7ms | Allocations: 717)
+
+
+Started GET "/mars_weather_records" for ::1 at 2020-05-28 14:47:54 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MarsWeatherRecordsController#index as */*
+  [1m[36mMarsWeatherRecord Load (0.6ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  ↳ app/controllers/mars_weather_records_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.6ms | Allocations: 1540)
+
+
+Started GET "/mars_weather_records" for ::1 at 2020-05-28 14:50:39 -0500
+Processing by MarsWeatherRecordsController#index as */*
+  [1m[36mMarsWeatherRecord Load (0.3ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  ↳ app/controllers/mars_weather_records_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.3ms | Allocations: 1518)
+
+
+Started GET "/mars_weather_records" for ::1 at 2020-05-28 14:50:51 -0500
+Processing by MarsWeatherRecordsController#index as */*
+  [1m[36mMarsWeatherRecord Load (0.2ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  ↳ app/controllers/mars_weather_records_controller.rb:4:in `index'
+Completed 200 OK in 67ms (Views: 66.5ms | ActiveRecord: 0.2ms | Allocations: 1522)
+
+
+Started GET "/mars_weather_records" for ::1 at 2020-05-28 14:53:59 -0500
+Processing by MarsWeatherRecordsController#index as */*
+  [1m[36mMarsWeatherRecord Load (0.9ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  ↳ app/controllers/mars_weather_records_controller.rb:4:in `index'
+Completed 200 OK in 16ms (Views: 11.4ms | ActiveRecord: 0.9ms | Allocations: 1518)
+
+

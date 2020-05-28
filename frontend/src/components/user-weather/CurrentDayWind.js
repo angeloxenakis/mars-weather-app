@@ -19,7 +19,7 @@ export function CurrentDayWind(props) {
                     <div className="wind-direction">
                         <div>
                             <img width="48px" height="48px" src={direction}/>
-                            <p><strong>Direction: </strong>{props.direction} degrees</p>
+                            <p><strong>Direction: </strong>{props.direction}°</p>
                         </div>
                     </div>
                 </div>
