@@ -28,6 +28,7 @@ mars_sols = mars_data.filter {|key| key.to_i != 0}
 # Create seeds ---------------------------------------------------------------------------------
 
 User.create({ username: "TestUser", password: "123", email: "FakeEmail@email.com", zipcode: "10005", city: "New York City" })
+User.create({ username: "Angelo", password: "123", email: "FakeEmail@email.com", zipcode: "10005", city: "Houston" })
 
 Location.create({ user_id: 1, address: "123 Main Street", zipcode: "77001", city: "Houston"})
 
