@@ -8,6 +8,9 @@ export function CompareMars(props) {
             <div className="weather-title"><img className="compare-icon" width="32px" height="32px" src={mars}/><h3> Mars Weather</h3></div>
             <br></br><br></br>
             <div className="compare-mars-info">
+                <h4>Location:</h4>
+                <p>Elysium Planitia</p>
+                <hr></hr><br></br>
                 <h4>Temperature:</h4>
                 <p>{currentSol.temperature}°C</p>
                 <hr></hr><br></br>
