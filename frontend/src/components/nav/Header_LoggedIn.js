@@ -15,7 +15,8 @@ export const HeaderLoggedIn = (props) => {
                 <div className="nav-btns">
                     <a className="btn" onClick = {() => history.push('/mars-weather')}> Mars</a>
                     <a className="btn" onClick = {() => history.push('/earth-weather')}> Earth</a>
-                    <a className="btn" href="#">Mars Insight</a>
+                    <a className="btn" onClick = {() => history.push('/insight')}>Mars Insight</a>
+                    <a className="btn" onClick = {() => history.push('/compare-weather')}>Compare Weather</a>
                     <a className="btn" onClick = {() => history.push('/edit-location')}>Edit Profile</a>
                 </div>
                 <div className="nav-profile">

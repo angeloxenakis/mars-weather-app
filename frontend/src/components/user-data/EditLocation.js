@@ -17,8 +17,6 @@ export function EditLocation(props) {
 
     
 
-    let [errorList, addToErrorList] = useState([])
-
     async function handleSubmit(e){
         e.preventDefault()
         console.log("I am submitting")
@@ -38,6 +36,7 @@ export function EditLocation(props) {
         if(success){
             console.log(success)
             props.updateLocation(editUser.zipcode,editUser.city)
+            history.push('/earth-weather')
             //Should Redirect Back to Login Page?
         }
     }
