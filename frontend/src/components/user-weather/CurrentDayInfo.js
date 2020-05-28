@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import {CurrentDayTemperature} from './CurrentDayTemperature.js'
 import {CurrentDayStatus} from './CurrentDayStatus.js'
+import {EarthAirPressure} from './EarthAirPressure.js'
+import {CurrentDayWind} from './CurrentDayWind.js'
 
 let useComponentDidMount = (callback) => {
     useEffect(callback, [])
@@ -34,6 +36,14 @@ export function CurrentDayInfo(props) {
         return Math.round(((k - 273.15)*(9/5)+32))
     }
 
+    let convertMBtoBar = (mb) =>{
+        return mb/1000
+    }
+
+    let convertWindSpeed = (speed) => {
+        return speed
+    }
+
 
 
     if(currentDay === null){
@@ -45,11 +55,15 @@ export function CurrentDayInfo(props) {
         let status = currentDay.weather[0].main
         return(
         <div className="weather-info">
-            <div className="main-info">
-                <CurrentDayTemperature temperature = {convertKtoF(currentDay.main.temp)}/>
+            <div className="main-panel">
+                <CurrentDayTemperature temperature = {convertKtoF(currentDay.main.temp)} status = {status}/>
             </div>
-            <div className="side-info">
-                <CurrentDayStatus status = {status}/>
+            <div className="main-panel">
+                <div className="side-panel">
+                    <EarthAirPressure pressure = {convertMBtoBar(currentDay.main.pressure)}/>
+                    <CurrentDayStatus status = {status}/>
+                </div>
+                    <CurrentDayWind windSpeed = {convertWindSpeed(currentDay.wind.speed)} direction = {currentDay.wind.deg}/>
             </div>
         </div>
     )}

@@ -45,7 +45,7 @@ export function CompareEarth(props) {
                 <p>Direction: {currentDay.wind.deg}</p>
                 <hr></hr><br></br>
                 <h4>Air Pressure:</h4>
-                <p>{currentDay.main.pressure} Pa</p>
+                <p>{currentDay.main.pressure/1000} Pa</p>
                 <hr></hr><br></br>
                 <h4>Season:</h4>
                 <p>summer</p>

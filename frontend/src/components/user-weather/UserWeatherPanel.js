@@ -31,7 +31,7 @@ export function UserWeatherPanel(props) {
 
 
     let [ userWeatherData, setUserWeatherData ] = useState(null)
-    let [ currentWeather, setCurrentWeather ] = useState(null)
+
 
     useComponentDidMount( () => {
         fetch(`https://api.openweathermap.org/data/2.5/forecast?zip=${props.zipcode},us&appid=b2155d7bcc9acd90bde0e1c32ab5d85e`)
@@ -44,14 +44,7 @@ export function UserWeatherPanel(props) {
 
 
     if(props.zipcode){  
-        //I need to get 2,10,18,26,34
-
         console.log(props)
-
-        // props.isLoggedIn(props.authentication)
-
-
-
 
         if (userWeatherData === null) {
             return (   
@@ -74,19 +67,17 @@ export function UserWeatherPanel(props) {
                 )
         }
         
-        if (currentWeather === null){
-            console.log("I got the currentWeather")
-        }
+   
+                
+    
 
-            console.log(day1Weather,day2Weather,day3Weather,day4Weather,day5Weather)
-            
-            console.log(userWeatherData)
         if (props.canView){
+            console.log(userWeatherData)
             return (
-                <div className="weather-div">
+                <div className="earth-weather-div">
                 <div className="weather-header">
-                    <h1>{userWeatherData.city.name} Weather</h1>
-                    <p className="day-info"><strong>Earth Date: </strong> {currentDate} </p>
+                    <h1>Earth Weather</h1>
+                    <p className="day-info"><strong>Earth Date: </strong> {currentDate} <strong>| Location:</strong> {userWeatherData.city.name}</p>
                 </div>
                     <CurrentDayInfo 
                         zipcode = {props.zipcode}
