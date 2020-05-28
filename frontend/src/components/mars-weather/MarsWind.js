@@ -1,6 +1,6 @@
 import React from 'react'
 import speed from "../../assets/red-wind-speed.svg"
-import direction from "../../assets/red-wind-direction.svg"
+import direction from "../../assets/red-direction.svg"
 
 export function MarsWind(props) {
     return (
