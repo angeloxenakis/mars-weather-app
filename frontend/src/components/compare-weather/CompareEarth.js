@@ -10,7 +10,7 @@ export function CompareEarth(props) {
     let [currentDay, setCurrentDay] = useState(null)
 
     useComponentDidMount( () => {
-        fetch('https://api.openweathermap.org/data/2.5/weather?q=Houston&appid=b2155d7bcc9acd90bde0e1c32ab5d85e')
+        fetch(`https://api.openweathermap.org/data/2.5/weather?zip=${props.zipcode},us&appid=b2155d7bcc9acd90bde0e1c32ab5d85e`)
             .then( resp => resp.json() )
             .then( currentDay => {(
                 setCurrentDay(currentDay)

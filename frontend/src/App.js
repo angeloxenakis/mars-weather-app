@@ -29,9 +29,7 @@ function App(props) {
 		setAuthentication(true)
 	}
 
-	let isLoggedIn = (bool) => {
-		setAuthentication(bool)
-	}
+
 
 	let updateLocation = (zipcode, city) => {
 		setCurrentUserZip(zipcode)
@@ -51,6 +49,8 @@ function App(props) {
 					<Route exact path="/earth-weather" render={(props) => <UserWeatherPanel {...props} canView = {isAuthenticated} currentUser = {currentUserName} zipcode = {currentUserZip} city = {currentUserCity}/>}/>
 					<Route exact path="/login" render={(props) => <Login {...props} getUserInfo = {getUserInfo}/>}/>
 					<Route exact path="/signup" component={Signup}/>
+					<Route path="/compare-weather" render={(props) => <CompareWeather {...props} zipcode = {currentUserZip}/>}/>
+					<Route path="/insight" component={Insight}/>
 					<Route exact path="/edit-location" render={(props) => <EditLocation {...props} userId = {currentUserId} updateLocation = {updateLocation}/>}/>
 					
 				</div>

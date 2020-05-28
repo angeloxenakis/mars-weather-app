@@ -10,7 +10,7 @@ let useComponentDidMount = (callback) => {
 
 let currentDate = new Date().toDateString();
 
-export function CompareWeather() {
+export function CompareWeather(props) {
     let [ marsWeatherWeek, setMarsWeatherWeek ] = useState(null)
 
     useComponentDidMount( () => {
@@ -35,7 +35,7 @@ export function CompareWeather() {
                         <CompareMars marsWeatherWeek={marsWeatherWeek}/>
                     </div>
                     <div>
-                        <CompareEarth/>
+                        <CompareEarth zipcode = {props.zipcode}/>
                     </div>
                 </div>
             </div>
