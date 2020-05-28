@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import {useHistory, useParams} from 'react-router'
 import astronaut from "../../assets/red-astronaut.svg"
 
 export function Login(props) {
@@ -6,6 +7,14 @@ export function Login(props) {
             username: '',
             password: ''
     })
+
+    const [error, setError] = useState(false)
+
+
+    let history = useHistory()
+    let params = useParams()
+
+    console.log(props)
 
     async function handleSubmit(e){
         e.preventDefault()
@@ -21,17 +30,45 @@ export function Login(props) {
                 password: user.password
             })
         })
-        let { success, id } = await response.json()
+        let { success, id, username, zipcode } = await response.json()
         if(success){
             console.log("Login Successful")
-            //Should Redirect Back to User Page maybe but we gotta set that up
+            props.getUserInfo(id,username, zipcode)
+
+            //HONESTLY CAN JUST RERENDER TO ANY OTHER PAGE THIS JUST MAKES MORE SENSE
+            //UNTIL USER PAGE IS CREATED
+            history.push('/earth-weather')
         }
         else{
+            setError(true)
             console.log("Login Failed")
         }
     }
 
-    return (
+    if(error){
+        return (
+            <div className="login-panel">
+                <form onSubmit={handleSubmit}>
+                    <img width="128px" height="128px" src={astronaut}/>
+                    <h2>Error Detected...</h2>
+                    <h4>Please reverify your credentials, Human:</h4>
+                    <div className="username">
+                        <label>Username</label><br></br>
+                        <input type="text" value={user.username} onChange={ e => changeUser({ ...user, username: e.target.value })} />
+                    </div>
+                    <div className="password">
+                        <label>Password</label><br></br>
+                        <input type="password" value={user.password} onChange={ e => changeUser({ ...user, password: e.target.value })} />
+                    </div>
+                    <input type="submit" value="Login" className="login-btn"/>
+                </form>
+            </div>
+        )
+    }
+
+
+    else{
+        return (
         <div className="login-panel">
             <form onSubmit={handleSubmit}>
                 <img width="128px" height="128px" src={astronaut}/>
@@ -48,7 +85,7 @@ export function Login(props) {
                 <input type="submit" value="Login" className="login-btn"/>
             </form>
         </div>
-    )
+    )}
 }  
 
 

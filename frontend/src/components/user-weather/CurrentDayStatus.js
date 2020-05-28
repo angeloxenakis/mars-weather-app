@@ -47,6 +47,14 @@ export function CurrentDayStatus(props) {
                 <strong><p>Rainy</p></strong>
             </div>
         )
+    else if(props.status === "Clear")
+        return (
+            <div className="earth-season-panel">
+                <h4>Status</h4>
+                <img src={sun}/>
+                <strong><p>Clear</p></strong>
+            </div>
+        )
 
     else{
         return(

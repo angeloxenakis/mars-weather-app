@@ -13,7 +13,7 @@ class UsersController < ApplicationController
         end
 
         if(params[:email].chomp == "")
-            useremailFlag = true
+            useremailEmptyFlag = true
         end
 
         if(params[:password].chomp == "")
@@ -30,9 +30,11 @@ class UsersController < ApplicationController
                 errorMessages << "Username Already Exists"
             end
 
-            if(useremailFlag && params[:username].chomp == "")
+            if(useremailEmptyFlag)
                 errorMessages << "Email Cannot Be Empty"
-            else
+            end
+            
+            if(useremailFlag)
                 errorMessages << "Email Already In Use"
             end
 
@@ -45,7 +47,10 @@ class UsersController < ApplicationController
             user = User.create({
                 username: params[:username],
                 password: params[:password],
-                email: params[:email]
+                email: params[:email],
+                city: params[:city],
+                zipcode: params[:zipcode]
+
             })
             render json: { success: true, id: user.id, error: errorMessages}
         end
@@ -54,6 +59,13 @@ class UsersController < ApplicationController
         # So I scrapped it and just started over again, but ultimately
         # Users can sign up and sign in right now
         # And it would be stored in our DB with their passwords hidden
+    end
+
+    def update
+        user = User.find_by({id: params[:id]})
+
+        user.update({zipcode: params[:zipcode], city: [:city]})
+        render json: {success: true}
     end
 
 end

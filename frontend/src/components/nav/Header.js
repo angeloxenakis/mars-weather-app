@@ -9,8 +9,8 @@ export function Header(props) {
                     <a className="btn" href="/mars-weather">Mars</a>
                     <a className="btn" href="earth-weather">Earth</a>
                     <a className="btn" href="compare-weather">Compare Weather</a>
-                    <a className="btn" href="/insight">Mars Insight</a>
-                    <a className="btn" href="#">My Locations</a>
+                    {/* <a className="btn" href="/insight">Mars Insight</a>
+                    <a className="btn" href="#">My Locations</a> */}
                 </div>
                 <div className="nav-profile">
                     <a href="/login">Login</a>

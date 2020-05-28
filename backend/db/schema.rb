@@ -32,6 +32,8 @@ ActiveRecord::Schema.define(version: 2020_05_21_184923) do
     t.string "username"
     t.string "password_digest"
     t.string "email"
+    t.string "city"
+    t.string "zipcode"
   end
 
 end
