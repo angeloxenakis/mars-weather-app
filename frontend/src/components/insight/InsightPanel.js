@@ -4,7 +4,7 @@ import { MarsCountdown } from '../mars-weather/MarsCountdown'
 import insight from "../../assets/red-insight.svg"
 
 
-export function Insight() {   
+export function Insight(props) {   
     return (
         <div>
             <div className="insight-div">
