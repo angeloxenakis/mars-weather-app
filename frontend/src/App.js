@@ -44,7 +44,7 @@ function App(props) {
 				<BrowserRouter>
 				{isAuthenticated? <HeaderLoggedIn username = {currentUserName}/>:<Header/>}
 				<div className="container">
-					
+					<Route exact path="/" component={MarsWeatherPanel}/>
 					<Route exact path="/mars-weather" component={MarsWeatherPanel}/>
 					<Route exact path="/earth-weather" render={(props) => <UserWeatherPanel {...props} canView = {isAuthenticated} currentUser = {currentUserName} zipcode = {currentUserZip} city = {currentUserCity}/>}/>
 					<Route exact path="/login" render={(props) => <Login {...props} getUserInfo = {getUserInfo}/>}/>

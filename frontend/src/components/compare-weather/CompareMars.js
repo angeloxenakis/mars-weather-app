@@ -12,7 +12,7 @@ export function CompareMars(props) {
                 <p>Elysium Planitia</p>
                 <hr></hr><br></br>
                 <h4>Temperature:</h4>
-                <p>{currentSol.temperature}°C</p>
+                <p>{currentSol.temperature * 9/5 + 32}° F</p>
                 <hr></hr><br></br>
                 <h4>Wind:</h4>
                 <p>Speed: {currentSol.wind_speed} mph</p>
