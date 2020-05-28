@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import {useHistory} from 'react-router'
 import alien from "../../assets/red-alien.svg"
 
 export function Signup(props) {
@@ -10,6 +11,8 @@ export function Signup(props) {
         city: '',
         country: ''
     })
+
+    let history = useHistory()
 
     let [errorList, addToErrorList] = useState([])
 
@@ -35,11 +38,15 @@ export function Signup(props) {
         if(success){
             console.log(success)
             console.log("New User Created Successful")
+            alert("Sign Up Successful")
+            history.push('/login')
             //Should Redirect Back to Login Page?
         }
         else{
             
             console.log(errors)
+            let error_message = errors.join("\n")
+            alert(error_message)
             console.log("New User Failed")
 
         }

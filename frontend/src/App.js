@@ -8,7 +8,9 @@ import { HeaderLoggedIn } from './components/nav/Header_LoggedIn'
 import { Login } from './components/login/Login'
 import { Signup } from './components/login/Signup'
 import { UserWeatherPanel } from './components/user-weather/UserWeatherPanel'
-import { Footer } from './components/nav/Footer'
+import { Insight  } from './components/insight/InsightPanel'
+import { CompareWeather } from './components/compare-weather/CompareWeather';
+import { EditLocation } from './components/user-data/EditLocation'
 
 
 function App(props) {
@@ -31,6 +33,11 @@ function App(props) {
 		setAuthentication(bool)
 	}
 
+	let updateLocation = (zipcode, city) => {
+		setCurrentUserZip(zipcode)
+		setCurrentUserCity(city)
+	}
+
 	
 	//While user is logged in, make /login and /signup redirect to already logged in page I guess
 	console.log(isAuthenticated)
@@ -44,6 +51,7 @@ function App(props) {
 					<Route exact path="/earth-weather" render={(props) => <UserWeatherPanel {...props} canView = {isAuthenticated} currentUser = {currentUserName} zipcode = {currentUserZip} city = {currentUserCity}/>}/>
 					<Route exact path="/login" render={(props) => <Login {...props} getUserInfo = {getUserInfo}/>}/>
 					<Route exact path="/signup" component={Signup}/>
+					<Route exact path="/edit-location" render={(props) => <EditLocation {...props} userId = {currentUserId} updateLocation = {updateLocation}/>}/>
 					
 				</div>
 

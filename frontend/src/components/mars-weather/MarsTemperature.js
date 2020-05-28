@@ -1,4 +1,5 @@
 import React from 'react'
+import temp from "../../assets/red-temp.svg"
 
 export function MarsTemperature(props) {
     return (
@@ -6,7 +7,7 @@ export function MarsTemperature(props) {
             <div className="temp-panel">
                 <h3>Temperature</h3>
                 <div className="temp-contents">
-                    <img src="https://img.icons8.com/ios/100/000000/thermometer.png"/>
+                    <img width="104px" height="104px" src={temp}/>
                     <p>{props.currentSol.temperature}°C</p>
                 </div>
             </div>

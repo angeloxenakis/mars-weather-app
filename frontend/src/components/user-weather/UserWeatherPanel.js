@@ -38,7 +38,8 @@ export function UserWeatherPanel(props) {
             .then( resp => resp.json() )
             .then( userWeatherData => {(
                 setUserWeatherData(userWeatherData)
-                )} ) 
+                )} 
+            ) 
     })
 
 
@@ -59,14 +60,18 @@ export function UserWeatherPanel(props) {
         }
 
         if (day1Weather === null){
-            setDay1Weather(userWeatherData.list[2])
-            setDay2Weather(userWeatherData.list[10])
-            setDay3Weather(userWeatherData.list[18])
-            setDay4Weather(userWeatherData.list[26])
-            setDay5Weather(userWeatherData.list[35])
-            return (
-                <h3>Loading Day Weather Data</h3>
-            )
+
+            if(userWeatherData.list === undefined)
+                return<h1>Please enter a valid US city and zipcode</h1>
+            else
+                setDay1Weather(userWeatherData.list[2])
+                setDay2Weather(userWeatherData.list[10])
+                setDay3Weather(userWeatherData.list[18])
+                setDay4Weather(userWeatherData.list[26])
+                setDay5Weather(userWeatherData.list[35])
+                return (
+                    <h3>Loading Day Weather Data</h3>
+                )
         }
         
         if (currentWeather === null){

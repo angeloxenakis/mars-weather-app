@@ -30,7 +30,7 @@ export function MarsWeatherPanel() {
             <div className="weather-div">
                 <div className="weather-header">
                     <div className="weather-title"><img width="48px" height="48px" src={mars}/><h1>Mars Weather</h1></div>
-                    <p className="day-info"><strong>Earth Date: </strong> {currentDate} | <strong>Mars SOL: </strong>527</p>
+                    <p className="day-info"><strong>Earth Date: </strong> {currentDate} | <strong>Mars SOL: </strong>{marsWeatherWeek[marsWeatherWeek.length - 1].sol}</p>
                 </div>
                 <MarsWeatherInfo marsWeatherWeek={marsWeatherWeek}/>
                 <div className="bottom-info">
