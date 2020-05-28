@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import earth from "../../assets/green-mars.svg"
+import earth from "../../assets/green-earth.svg"
 
 let useComponentDidMount = (callback) => {
     useEffect(callback, [])
