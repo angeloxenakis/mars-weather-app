@@ -57,7 +57,7 @@ export function EditLocation(props) {
                         <label>City</label><br></br>
                         <input type="city" value={editUser.city} onChange={ e => changeEditUser({ ...editUser, city: e.target.value })} />
                     </div>
-                    <input type="submit" className="login-btn" value="Sign Up"/>
+                    <input type="submit" className="login-btn" value="Set Location"/>
                 </form>
             </div>
         )

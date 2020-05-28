@@ -7,7 +7,7 @@ export function CurrentDayTemperature(props) {
             <h2>Temperature</h2>
             <div className="temp-contents">
                 <img width="104px" height="104px" src={temp}/>  
-                <p><strong>{props.temperature}°F</strong></p>
+                <p>{props.temperature}° F</p>
             </div>
         </div>
     )
