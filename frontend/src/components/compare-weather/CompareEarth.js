@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import earth from "../../assets/green-mars.svg"
 
 let useComponentDidMount = (callback) => {
     useEffect(callback, [])
@@ -31,7 +32,7 @@ export function CompareEarth(props) {
     }
     return (
         <div className="compare-earth-container">
-            <h3>Earth Weather</h3>
+            <div className="weather-title"><img className="compare-icon" width="32px" height="32px" src={earth}/><h3> Earth Weather</h3></div>
             <br></br><br></br>
             <div className="compare-earth-info">
                 <h4>Location:</h4>
@@ -48,8 +49,7 @@ export function CompareEarth(props) {
                 <p>{currentDay.main.pressure/1000} Pa</p>
                 <hr></hr><br></br>
                 <h4>Season:</h4>
-                <p>summer</p>
-                <hr></hr><br></br>
+                <p>spring</p>
             </div>
         </div>
     )

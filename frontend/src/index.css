@@ -15,7 +15,7 @@ code {
 .login-panel {
 	color: #EC756B;
 	text-align: center;
-	background-color: #1A1A1A;
+	background-color: rgba(26,26,26, 0.55);
 	width: 40%;
 	padding: 24px;
 	border: 1px solid #6C332E;
@@ -78,6 +78,7 @@ body {
 }
 
 .btn {
+	width: 100px;
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 	font-size: 12px;
 	color: #95BCBE;
@@ -86,14 +87,44 @@ body {
 	margin: 4px;
 }
 
+input[type=text] {
+	outline: none;
+	background-color: rgba(26,26,26, 0.0);
+	color:#EC756B;
+	border: 1px solid #6C332E;
+	border-radius: 4px;
+	margin: 8px;
+	padding: 8px;
+  }
+
+  input[type=password] {
+	outline: none;
+	background-color: rgba(26,26,26, 0.0);
+	color:#EC756B;
+	border: 1px solid #6C332E;
+	border-radius: 4px;
+	margin: 8px;
+	padding: 8px;
+  }
+
+  input[type=email] {
+	outline: none;
+	background-color: rgba(26,26,26, 0.0);
+	color:#EC756B;
+	border: 1px solid #6C332E;
+	border-radius: 4px;
+	margin: 8px;
+	padding: 8px;
+  }
+
 
 .login-btn {
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 	font-size: 12px;
 	color: #EC756B;
-	background-color: #1A1A1A;
+	background-color: rgba(26,26,26, 0.55);
 	padding: 8px;
-	border: 1px solid #EC756B;
+	border: 1px solid #6C332E;
 	margin: 4px;
 }
 
@@ -127,7 +158,7 @@ h2 {
 	display: flex;
 	flex-direction: column;
 	margin: auto;
-	background-color:#1A1A1A;
+	background-color: rgba(26,26,26, 0.55);
 }
 
 .earth-weather-div {
@@ -139,7 +170,7 @@ h2 {
 	display: flex;
 	flex-direction: column;
 	margin: auto;
-	background-color:#1A1A1A;
+	background-color:rgba(26,26,26, 0.55);
 }
 
 .earth-weather-div h2 {
@@ -160,13 +191,13 @@ h2 {
 
 .insight-div {
 	border: 1px solid #6C332E;
-	width: 70%;
+	width: 60%;
 	padding: 16px;
 	border-radius: 8px;
 	display: flex;
 	flex-direction: column;
 	margin: auto;
-	background-color:#1A1A1A;
+	background-color:rgba(26,26,26, 0.55);
 }
 
 .weather-info { 
@@ -396,7 +427,7 @@ h5 {
 	margin: auto;
 	margin-top: 32px;
 	margin-bottom: 32px;
-	background-color: #1A1A1A;
+	background-color: rgba(26,26,26, 0.55);
 }
 
 .small-countdown {
@@ -413,7 +444,7 @@ h5 {
 	width: 70%;
 	border: 1px solid #6C332E;
 	border-radius: 8px;
-	background-color: #1A1A1A;
+	background-color: rgba(26,26,26, 0.55);
 	margin: auto;
 }
 
@@ -425,7 +456,7 @@ h5 {
 	width:50%;
 	border: 1px solid #6C332E;
 	border-radius: 8px;
-	background-color: #1A1A1A;
+	background-color: rgba(26,26,26, 0.55);
 	padding:16px;
 	margin:8px;
 }
@@ -442,7 +473,7 @@ h5 {
 .insight-bio {
 	border: 1px solid #6C332E;
 	border-radius: 8px;
-	background-color: #1A1A1A;
+	background-color: rgba(26,26,26, 0.55);
 	padding:16px;
 	margin:8px;
 }
@@ -450,7 +481,7 @@ h5 {
 .elysium-bio {
 	border: 1px solid #6C332E;
 	border-radius: 8px;
-	background-color: #1A1A1A;
+	background-color: rgba(26,26,26, 0.55);
 	padding:16px;
 	margin:8px;
 }
@@ -460,9 +491,9 @@ h5 {
 	padding: 16px;
 	border-radius: 8px;
 	margin: auto;
-	width: 70%;
+	width: 60%;
 	border: 1px solid #445354;
-	background-color: #1A1A1A;
+	background-color: rgba(26,26,26, 0.55);
 }
 
 .compare-container h1 {
@@ -470,16 +501,18 @@ h5 {
 }
 
 .compare-panels {
+
+	border: 1px solid #445354;
 	display: flex;
 	justify-content: center;
 }
 
 .compare-mars-container {
 	color: #EC756B;
-	width: 450px;
+	width: 320px;
 	border: 1px solid #6C332E;
 	border-radius: 8px;
-	background-color: #1A1A1A;
+	background-color: rgba(26,26,26, 0.0);
 	padding:16px;
 	margin:8px;
 }
@@ -489,11 +522,11 @@ h5 {
 }
 
 .compare-earth-container {
-	width: 450px;
+	width: 320px;
 	color: #ABEB83;
 	border: 1px solid #456631;
 	border-radius: 8px;
-	background-color: #1A1A1A;
+	background-color: rgba(26,26,26, 0.0);
 	padding:16px;
 	margin:8px;
 }
@@ -532,5 +565,5 @@ h5 {
 	padding: 16px;
 	border-top: 1px solid #818384;
 	margin: 0px 24px 0px 24px;
-	background-color: #1A1A1A
+	background-color: rgba(26,26,26, 0.55)
 }

@@ -23,7 +23,6 @@ export function CompareMars(props) {
                 <hr></hr><br></br>
                 <h4>Season:</h4>
                 <p>{currentSol.season}</p>
-                <hr></hr><br></br>
             </div>
         </div>
     )
