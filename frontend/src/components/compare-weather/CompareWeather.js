@@ -31,7 +31,7 @@ export function CompareWeather(props) {
                 <div className="compare-container">
                     <div className="compare-title"><img width="56px" height="56px" src={insight}/><h1>Compare Weather</h1></div>
                     <p className="day-info"><strong>Earth Date: </strong> {currentDate} | <strong>Mars SOL: </strong>{marsWeatherWeek[marsWeatherWeek.length - 1].sol}</p>
-                    <div className="compare-panels">
+                    <div className="weather-info">
                         <div>
                             <CompareMars marsWeatherWeek={marsWeatherWeek}/>
                         </div>

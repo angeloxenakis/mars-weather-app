@@ -10,7 +10,7 @@ export function Insight(props) {
             <div className="insight-div">
                 <div className="weather-header">
                     <div className="weather-title"><img width="56px" height="56px" src={insight}/><h1>Mars Station: Insight</h1></div>
-                    <p className="day-info"><strong>Location: </strong> Elysium Planitia | <strong>Mars SOL: </strong>527</p>
+                    <p className="day-info"><strong>Location: </strong> Elysium Planitia | <strong>Mars SOL: </strong>533</p>
                 </div>
                 <InsightInfo />
             </div>

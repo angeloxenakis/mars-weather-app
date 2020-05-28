@@ -21,7 +21,7 @@ export function MarsWeatherPanel() {
 
     if (marsWeatherWeek === null) {
         return (
-            <h3>Receiving Weather Data from Planet Mars...</h3>
+            <div className="login-panel">Please login and set your weather location to compare it with Mars.</div>
         )
     }
         
@@ -30,7 +30,7 @@ export function MarsWeatherPanel() {
             <div className="weather-div">
                 <div className="weather-header">
                     <div className="weather-title"><img width="48px" height="48px" src={mars}/><h1>Mars Weather</h1></div>
-                    <p className="day-info"><strong>Earth Date: </strong> {currentDate} | <strong>Mars SOL: </strong>{marsWeatherWeek[marsWeatherWeek.length - 1].sol}</p>
+                    <p className="day-info"><strong>Mars Solar Day: </strong>{marsWeatherWeek[marsWeatherWeek.length - 1].sol} | <strong>Location: </strong>Elysium Planitia</p>
                 </div>
                 <MarsWeatherInfo marsWeatherWeek={marsWeatherWeek}/>
                 <div className="bottom-info">
