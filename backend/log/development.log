@@ -4272,3 +4272,99 @@ Processing by MarsWeatherRecordsController#index as */*
 Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.6ms | Allocations: 1518)
 
 
+[ActiveJob] Enqueued GetMarsDataJob (Job ID: b8fdbdef-3162-4094-b8dc-feded328e00f) to Async(default)
+[ActiveJob] [GetMarsDataJob] [b8fdbdef-3162-4094-b8dc-feded328e00f] Performing GetMarsDataJob (Job ID: b8fdbdef-3162-4094-b8dc-feded328e00f) from Async(default) enqueued at 2020-05-28T16:16:18Z
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationJob and GetMarsDataJob.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationJob, for example,
+the expected changes won't be reflected in that stale Class object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/config/environment.rb:5)
+[ActiveJob] [GetMarsDataJob] [b8fdbdef-3162-4094-b8dc-feded328e00f] Error performing GetMarsDataJob (Job ID: b8fdbdef-3162-4094-b8dc-feded328e00f) from Async(default) in 2.65ms: NameError (uninitialized constant GetMarsDataJob::MarsWeatherRecord):
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/active_support.rb:80:in `block in load_missing_constant'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/active_support.rb:9:in `without_bootsnap_cache'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/active_support.rb:80:in `rescue in load_missing_constant'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/bootsnap-1.4.6/lib/bootsnap/load_path_cache/core_ext/active_support.rb:59:in `load_missing_constant'
+/Users/angeloxenakis/Documents/flatiron/mars-weather-app/backend/app/jobs/get_mars_data_job.rb:12:in `perform'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:40:in `block in perform_now'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:112:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/i18n-1.8.2/lib/i18n.rb:313:in `with_locale'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/translation.rb:9:in `block (2 levels) in <module:Translation>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/core_ext/time/zones.rb:66:in `use_zone'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/timezones.rb:9:in `block (2 levels) in <module:Timezones>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:25:in `block (4 levels) in <module:Logging>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/notifications.rb:180:in `block in instrument'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/notifications.rb:180:in `instrument'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:24:in `block (3 levels) in <module:Logging>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:45:in `block in tag_logger'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/tagged_logging.rb:80:in `block in tagged'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/tagged_logging.rb:80:in `tagged'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:45:in `tag_logger'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/logging.rb:21:in `block (2 levels) in <module:Logging>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:139:in `run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:39:in `perform_now'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:25:in `block in execute'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:112:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/railtie.rb:43:in `block (4 levels) in <class:Railtie>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/execution_wrapper.rb:88:in `wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/reloader.rb:72:in `block in wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/execution_wrapper.rb:88:in `wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/reloader.rb:71:in `wrap'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/railtie.rb:42:in `block (3 levels) in <class:Railtie>'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `instance_exec'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activesupport-6.0.3.1/lib/active_support/callbacks.rb:139:in `run_callbacks'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/execution.rb:23:in `execute'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/activejob-6.0.3.1/lib/active_job/queue_adapters/async_adapter.rb:70:in `perform'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:353:in `run_task'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:342:in `block (3 levels) in create_worker'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:325:in `loop'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:325:in `block (2 levels) in create_worker'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:324:in `catch'
+/Users/angeloxenakis/.rvm/gems/ruby-2.6.1/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:324:in `block in create_worker'
+Started GET "/mars_weather_records" for ::1 at 2020-05-28 11:16:46 -0500
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MarsWeatherRecordsController#index as */*
+  [1m[36mMarsWeatherRecord Load (0.6ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  ↳ app/controllers/mars_weather_records_controller.rb:4:in `index'
+Completed 200 OK in 11ms (Views: 7.9ms | ActiveRecord: 1.1ms | Allocations: 6966)
+
+
+Started GET "/mars_weather_records" for ::1 at 2020-05-28 11:16:51 -0500
+Processing by MarsWeatherRecordsController#index as */*
+  [1m[36mMarsWeatherRecord Load (0.1ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  ↳ app/controllers/mars_weather_records_controller.rb:4:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms | Allocations: 1535)
+
+
+Started POST "/login" for ::1 at 2020-05-28 11:17:15 -0500
+Processing by AuthenticationController#login as */*
+  Parameters: {"username"=>"TestUser", "password"=>"[FILTERED]", "authentication"=>{"username"=>"TestUser", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "TestUser"], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:4:in `login'
+Completed 200 OK in 211ms (Views: 0.1ms | ActiveRecord: 1.1ms | Allocations: 6368)
+
+
+Started GET "/mars_weather_records" for ::1 at 2020-05-28 11:17:19 -0500
+Processing by MarsWeatherRecordsController#index as */*
+  [1m[36mMarsWeatherRecord Load (0.1ms)[0m  [1m[34mSELECT "mars_weather_records".* FROM "mars_weather_records"[0m
+  ↳ app/controllers/mars_weather_records_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.1ms | Allocations: 1535)
+
+

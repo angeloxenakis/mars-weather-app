@@ -25,22 +25,30 @@ export function CompareWeather(props) {
         )
     }
 
-    return (
-        <div>
-            <div className="compare-container">
-                <div className="compare-title"><img width="56px" height="56px" src={insight}/><h1>Compare Weather</h1></div>
-                <p className="day-info"><strong>Earth Date: </strong> {currentDate} | <strong>Mars SOL: </strong>{marsWeatherWeek[marsWeatherWeek.length - 1].sol}</p>
-                <div className="compare-panels">
-                    <div>
-                        <CompareMars marsWeatherWeek={marsWeatherWeek}/>
-                    </div>
-                    <div>
-                        <CompareEarth zipcode = {props.zipcode}/>
+    if (props.canView) {
+        return (
+            <div>
+                <div className="compare-container">
+                    <div className="compare-title"><img width="56px" height="56px" src={insight}/><h1>Compare Weather</h1></div>
+                    <p className="day-info"><strong>Earth Date: </strong> {currentDate} | <strong>Mars SOL: </strong>{marsWeatherWeek[marsWeatherWeek.length - 1].sol}</p>
+                    <div className="compare-panels">
+                        <div>
+                            <CompareMars marsWeatherWeek={marsWeatherWeek}/>
+                        </div>
+                        <div>
+                            <CompareEarth zipcode = {props.zipcode}/>
+                        </div>
                     </div>
                 </div>
+                <MarsCountdown/>
             </div>
-            <MarsCountdown/>
-        </div>
+        )
+    }
+    
+    if (!props.canView) {
+        return (
+            <div className="login-panel">Please login and set your weather location to compare it with Mars.</div>
+        )
+    }
 
-    )
 }

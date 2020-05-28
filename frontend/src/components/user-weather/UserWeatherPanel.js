@@ -106,8 +106,9 @@ export function UserWeatherPanel(props) {
         
                 )
         }
-    }
-    else{
-        return(<h1>Please Login To View This Page</h1>)
+    } else {
+        return (
+        <h1>Please Login To View This Page</h1>
+        )
     }
 }
