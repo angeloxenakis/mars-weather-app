@@ -375,7 +375,13 @@ h5 {
 	background-color: #1A1A1A;
 }
 
+.small-countdown {
+	margin-top: 24px;
+	font-size: 12px;
+}
+
 .mars-countdown h4 {
+	font-size: 24px;
 	color: #95BCBE;
 }
 
