@@ -1,0 +1,585 @@
+/* LOGIN STYLING */
+.login-panel {
+	color: #EC756B;
+	text-align: center;
+	background-color: rgba(26,26,26, 0.55);
+	width: 40%;
+	padding: 24px;
+	border: 1px solid #6C332E;
+	border-radius: 8px;
+	margin: auto;
+}
+
+.username {
+	font-size: 12px;
+	margin-bottom: 16px;
+}
+
+.password {
+	font-size: 12px;
+	margin-bottom: 16px;
+}
+
+
+/* GENERAL STYLING */
+
+
+.nav-container {
+	background-color: #151515;
+	width: 100%;
+	position: fixed;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 28px 16px 16px 16px;
+	border-bottom: 1px solid #C9C7B6;
+	margin: 0px 24px 0px 24px;
+	background-color: #151515
+}
+
+.nav-btns {
+	width: 30%;
+	align-items: center;
+	display: flex;
+	text-align: center;
+}
+
+.nav-profile {
+	color: #C9C7B6;
+}
+
+.nav-profile {
+	text-align: right;
+}
+
+.btn {
+	outline: none;
+	width: 500px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	font-size: 12px;
+	color: #C9C7B6;
+	padding: 8px;
+	border: 1px solid #C9C7B6;
+	margin: 4px;
+}
+
+.active-btn {
+	outline: none;
+	width: 500px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	font-size: 12px;
+	color: #ffffff;
+	padding: 8px;
+	border: 1px solid #ffffff;
+	margin: 4px;
+}
+
+.earth-btn {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	font-size: 12px;
+	color: #ABEB83;
+	padding: 8px;
+	border: 1px solid #456631;
+	margin: 4px;
+}
+
+body {
+	background-color: #151515;
+	color: #EC756B;
+	background-image: url("./assets/mars-background-dark.svg");
+	background-attachment: fixed;
+}
+
+input[type=text] {
+	outline: none;
+	background-color: rgba(26,26,26, 0.0);
+	color:#EC756B;
+	border: 1px solid #6C332E;
+	border-radius: 4px;
+	margin: 8px;
+	padding: 8px;
+  }
+
+  input[type=password] {
+	outline: none;
+	background-color: rgba(26,26,26, 0.0);
+	color:#EC756B;
+	border: 1px solid #6C332E;
+	border-radius: 4px;
+	margin: 8px;
+	padding: 8px;
+  }
+
+  input[type=email] {
+	outline: none;
+	background-color: rgba(26,26,26, 0.0);
+	color:#EC756B;
+	border: 1px solid #6C332E;
+	border-radius: 4px;
+	margin: 8px;
+	padding: 8px;
+  }
+
+  input[type=city] {
+	outline: none;
+	background-color: rgba(26,26,26, 0.0);
+	color:#EC756B;
+	border: 1px solid #6C332E;
+	border-radius: 4px;
+	margin: 8px;
+	padding: 8px;
+  }
+
+
+.login-btn {
+	outline: none;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	font-size: 12px;
+	color: #EC756B;
+	background-color: rgba(26,26,26, 0.55);
+	padding: 8px;
+	border: 1px solid #6C332E;
+	margin: 4px;
+}
+
+a {
+	color: #C9C7B6;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.container {
+	color: #EC756B;
+	padding-top: 104px;
+}
+
+h1 {
+	color: #EC756B;
+	font-size: 48px;
+	margin:8px
+}
+
+h2 {
+	color: #EC756B;
+	font-size: 32px;
+}
+
+.weather-div {
+	border: 1px solid #6C332E;
+	width: 60%;
+	padding: 16px;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	background-color: rgba(26,26,26, 0.55);
+}
+
+.earth-weather-div {
+	color: #ABEB83;
+	border: 1px solid #456631;
+	width: 60%;
+	padding: 16px;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	background-color:rgba(26,26,26, 0.55);
+}
+
+.earth-weather-div h2 {
+	color: #ABEB83;
+}
+
+.earth-weather-div h1 {
+	color: #ABEB83;
+}
+
+.earth-weather-div h3 {
+	color: #ABEB83;
+}
+
+.earth-weather-div h4 {
+	color: #ABEB83;
+}
+
+.insight-div {
+	border: 1px solid #6C332E;
+	width: 60%;
+	padding: 16px;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	background-color:rgba(26,26,26, 0.55);
+}
+
+.weather-info { 
+	display: flex;
+	justify-content: center;
+}
+
+.weather-header {
+	margin: 8px;
+}
+
+.weather-title {
+	display: flex;
+	align-items: center;
+}
+
+.compare-title {
+	color: #C9C7B6;
+	display: flex;
+	align-items: center;
+}
+
+.day-info {
+	margin-left: 10px;
+}
+
+.main-panel {
+	height: 100%;
+	width: 100%;
+	overflow-wrap: break-word;
+}
+
+.temp-panel {
+	width: auto;
+	height: 362px;
+	text-align: center;
+	border-radius: 8px;
+	padding: 16px;
+	border: 1px solid #6C332E;
+	margin: 8px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.earth-temp-panel {
+	width: auto;
+	height: 362px;
+	text-align: center;
+	border-radius: 8px;
+	padding: 16px;
+	border: 1px solid #456631;
+	margin: 8px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+
+
+.hero-panel {
+	width: auto;
+	height: auto;
+	text-align: center;
+	border-radius: 8px;
+	padding: 16px;
+	border: 1px solid #6C332E;
+	margin: 8px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+h3 {
+	color: #EC756B;
+	font-size: 32px;
+	margin: 0px;
+}
+
+h4 {
+	color: #EC756B;
+	font-size: 18px;
+	margin: 0px 0px 24px 0px;
+}
+
+h5 {
+	color: #EC756B;
+	font-size: 18px;
+}
+
+.temp-contents {
+	padding: 90px 0;
+}
+
+.side-panel {
+	display: flex;
+	flex-direction: row;
+}
+
+.pressure-panel {
+	width: 100%;
+	height: 150px;
+	text-align: center;
+	border-radius: 8px;
+	padding: 16px;
+	border: 1px solid #6C332E;
+	margin: 8px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.green-pressure-panel {
+	width: 100%;
+	height: 150px;
+	text-align: center;
+	border-radius: 8px;
+	padding: 16px;
+	border: 1px solid #456631;
+	margin: 8px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.season-panel {
+	width: 100%;
+	height: 150px;
+	text-align: center;
+	border-radius: 8px;
+	padding: 16px;
+	border: 1px solid #6C332E;
+	margin: 8px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.earth-season-panel {
+	width: 100%;
+	height: 150px;
+	text-align: center;
+	border-radius: 8px;
+	padding: 16px;
+	border: 1px solid #456631;
+	margin: 8px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.wind-panel {
+	width: 100%;
+	text-align: center;
+	border-radius: 8px;
+	padding: 16px;
+	border: 1px solid #6C332E;
+	margin: 8px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.green-wind-panel {
+	width: 100%;
+	text-align: center;
+	border-radius: 8px;
+	padding: 16px;
+	border: 1px solid #456631;
+	margin: 8px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.wind-contents {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.wind-speed {
+	margin: 8px;
+}
+
+.wind-direction {
+	margin: 8px;
+}
+
+.small-card-container {
+	display: flex;
+	justify-content: center;
+}
+
+.small-card {
+	width: 100%;
+	text-align: center;
+	border-radius: 8px;
+	padding: 8px;
+	border: 1px solid #6C332E;
+	margin: 8px;
+}
+
+.earth-small-card {
+	width: 100%;
+	text-align: center;
+	border-radius: 8px;
+	padding: 8px;
+	border: 1px solid #456631;
+	margin: 8px;
+}
+
+.small-text {
+	font-size: 14px;
+}
+
+.mars-countdown {
+	color: #C9C7B6;
+	border: 1px solid #444444;
+	width: 60%;
+	padding: 24px 16px 16px 16px;
+	border-radius: 8px;
+	text-align: center;
+	margin: auto;
+	margin-top: 32px;
+	margin-bottom: 32px;
+	background-color: rgba(26,26,26, 0.55);
+}
+
+.small-countdown {
+	margin-top: 24px;
+	font-size: 12px;
+}
+
+.mars-countdown h4 {
+	font-size: 24px;
+	color: #C9C7B6;
+}
+
+.insight-panel {
+	width: 70%;
+	border: 1px solid #6C332E;
+	border-radius: 8px;
+	background-color: rgba(26,26,26, 0.55);
+	margin: auto;
+}
+
+.insight-info {
+	display: flex;
+}
+
+.insight-hero-div {
+	width:50%;
+	border: 1px solid #6C332E;
+	border-radius: 8px;
+	background-color: rgba(26,26,26, 0.55);
+	padding:16px;
+	margin:8px;
+}
+
+.insight-hero {
+	width: 100%;
+	border-radius: 8px;
+}
+
+.bio {
+	font-size: 16px;
+}
+
+.insight-bio {
+	border: 1px solid #6C332E;
+	border-radius: 8px;
+	background-color: rgba(26,26,26, 0.55);
+	padding:16px;
+	margin:8px;
+}
+
+.elysium-bio {
+	border: 1px solid #6C332E;
+	border-radius: 8px;
+	background-color: rgba(26,26,26, 0.55);
+	padding:16px;
+	margin:8px;
+}
+
+.compare-container {
+	color: #C9C7B6;
+	padding: 16px;
+	border-radius: 8px;
+	margin: auto;
+	width: 60%;
+	border: 1px solid #C9C7B6;
+	background-color: rgba(26,26,26, 0.55);
+}
+
+.compare-container h1 {
+	color: #C9C7B6;
+}
+
+.compare-panels {
+
+	border: 1px solid #C9C7B6;
+	display: flex;
+	justify-content: center;
+}
+
+.compare-mars-container {
+	color: #EC756B;
+	width: 320px;
+	border: 1px solid #6C332E;
+	border-radius: 8px;
+	background-color: rgba(26,26,26, 0.0);
+	padding:16px;
+	margin:8px;
+}
+
+.compare-mars-container hr {
+	border-color: #6C332E;
+}
+
+.compare-earth-container {
+	width: 320px;
+	color: #ABEB83;
+	border: 1px solid #456631;
+	border-radius: 8px;
+	background-color: rgba(26,26,26, 0.0);
+	padding:16px;
+	margin:8px;
+}
+
+.compare-earth-container h3 {
+	color: #ABEB83;
+}
+
+.compare-earth-container h4 {
+	color: #ABEB83;
+}
+
+.compare-earth-container hr {
+	border-color: #456631;
+}
+
+.compare-icon {
+	margin-right: 16px;
+}
+
+
+
+.footer-container {
+	background-color: C9C7B6;
+	width: 100%;
+	margin-top: 24px;
+	padding-bottom: 8px;
+	position: fixed;
+	bottom:0;
+}
+
+.footer {
+	font-size: 10px;
+	text-align: center;
+	height: 24px;
+	padding: 16px;
+	border-top: 1px solid #818384;
+	margin: 0px 24px 0px 24px;
+	background-color: rgba(26,26,26, 0.55)
+}
