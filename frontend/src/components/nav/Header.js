@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom'
 import { useHistory } from 'react-router'
 
 export function Header(props) {
+
+    console.log(props)
     let history = useHistory()
     let [ btnStatus, setBtnStatus ] = useState({
         marsBtn: "active-btn",
@@ -67,7 +69,7 @@ export function Header(props) {
         history.push('/compare-weather')
     }
 
-    return (
+    if (props.view === false) return (
         <div className="nav-container">
             <div className="nav">
                 <div className="nav-btns">
@@ -85,4 +87,23 @@ export function Header(props) {
             </div>
         </div>
     )
+
+    return (
+        <div className="nav-container">
+            <div className="nav">
+                <div className="nav-btns">
+                    <a className={btnStatus.marsBtn} onClick = {marsClick}>Mars</a>
+                    <a className={btnStatus.insightBtn} onClick = {insightClick}>Insight</a>
+                    <a className={btnStatus.earthBtn} onClick = {earthClick}>Earth</a>
+                    <a className={btnStatus.locationBtn} onClick = {locationClick}>Location</a>
+                    <a className={btnStatus.compareBtn} onClick = {compareClick}>Compare</a>
+                </div>
+                <div className="nav-profile">
+                    {props.userName} Has Landed On Mars 
+                </div>
+            </div>
+        </div>
+    )
+
+
 }

@@ -4,7 +4,6 @@ import { Route } from 'react-router';
 import './App.css';
 import { MarsWeatherPanel } from './components/mars-weather/MarsWeatherPanel'
 import { Header } from './components/nav/Header'
-import { HeaderLoggedIn } from './components/nav/Header_LoggedIn'
 import { Login } from './components/login/Login'
 import { Signup } from './components/login/Signup'
 import { UserWeatherPanel } from './components/user-weather/UserWeatherPanel'
@@ -19,8 +18,6 @@ function App(props) {
 	let [currentUserZip, setCurrentUserZip] = useState(null)
 	let [currentUserCity, setCurrentUserCity] = useState(null)
 	const [isAuthenticated, setAuthentication] = useState(false)
-	
-
 
 	let getUserInfo = (id,username,zipcode,city) => {
 		setCurrentUserId(id)
@@ -29,8 +26,6 @@ function App(props) {
 		setAuthentication(true)
 	}
 
-
-
 	let updateLocation = (zipcode, city) => {
 		setCurrentUserZip(zipcode)
 		setCurrentUserCity(city)
@@ -38,11 +33,11 @@ function App(props) {
 
 	
 	//While user is logged in, make /login and /signup redirect to already logged in page I guess
-	console.log(isAuthenticated)
 		return (
 			<div className="App">
 				<BrowserRouter>
-				{isAuthenticated? <HeaderLoggedIn username = {currentUserName}/>:<Header/>}
+				{/* {isAuthenticated? <HeaderLoggedIn username = {currentUserName}/>:<Header/>} */}
+				<Header view={isAuthenticated} userName={currentUserName}/>
 				<div className="container">
 					<Route exact path="/" component={MarsWeatherPanel}/>
 					<Route exact path="/mars-weather" component={MarsWeatherPanel}/>
