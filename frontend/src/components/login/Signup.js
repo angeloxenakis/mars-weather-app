@@ -78,7 +78,10 @@ export function Signup(props) {
                     <label>City</label><br></br>
                     <input type="text" value={newUser.city} onChange={ e => changeNewUser({ ...newUser, city: e.target.value })} />
                 </div>
-                <input type="submit" className="login-btn" value="Sign Up"/>
+                <div className="login-btns">
+                    <input type="submit" value="Sign Up" className="login-btn"/>
+                    <div className="signup-btn">I have an Account</div>
+                </div>
             </form>
         </div>
     )
