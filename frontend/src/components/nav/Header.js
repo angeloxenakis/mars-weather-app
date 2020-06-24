@@ -81,8 +81,6 @@ export function Header(props) {
                 </div>
                 <div className="nav-profile">
                     <a href="/login">Login</a>
-                    <br></br>
-                    <a href="/signup">Sign Up</a>
                 </div>
             </div>
         </div>

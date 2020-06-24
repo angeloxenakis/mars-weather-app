@@ -48,6 +48,7 @@
 
 .nav-profile {
 	color: #C9C7B6;
+	margin-top: 8px;
 }
 
 .nav-profile {
@@ -63,6 +64,7 @@
 	padding: 8px;
 	border: 1px solid #C9C7B6;
 	margin: 4px;
+	cursor: pointer;
 }
 
 .active-btn {
@@ -74,6 +76,7 @@
 	padding: 8px;
 	border: 1px solid #ffffff;
 	margin: 4px;
+	cursor: pointer;
 }
 
 .earth-btn {
@@ -100,6 +103,7 @@ input[type=text] {
 	border-radius: 4px;
 	margin: 8px;
 	padding: 8px;
+	width: 254px;
   }
 
   input[type=password] {
@@ -110,6 +114,7 @@ input[type=text] {
 	border-radius: 4px;
 	margin: 8px;
 	padding: 8px;
+	width: 254px;
   }
 
   input[type=email] {
@@ -119,6 +124,7 @@ input[type=text] {
 	border: 1px solid #6C332E;
 	border-radius: 4px;
 	margin: 8px;
+	width: 254px;
 	padding: 8px;
   }
 
@@ -130,7 +136,15 @@ input[type=text] {
 	border-radius: 4px;
 	margin: 8px;
 	padding: 8px;
+	width: 254px;
   }
+
+.login-btns {
+	display:flex;
+	justify-content: center;
+	width: 280px;
+	margin: auto;
+}
 
 
 .login-btn {
@@ -138,10 +152,27 @@ input[type=text] {
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 	font-size: 12px;
 	color: #EC756B;
+	width: 55%;
 	background-color: rgba(26,26,26, 0.55);
 	padding: 8px;
 	border: 1px solid #6C332E;
+	border-radius: 4px;
 	margin: 4px;
+	cursor: pointer;
+}
+
+.signup-btn {
+	outline: none;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	font-size: 12px;
+	color: #EC756B;
+	width: 45%;
+	background-color: rgba(26,26,26, 0.55);
+	padding: 8px;
+	border: 1px solid #6C332E;
+	border-radius: 4px;
+	margin: 4px;
+	cursor: pointer;
 }
 
 a {

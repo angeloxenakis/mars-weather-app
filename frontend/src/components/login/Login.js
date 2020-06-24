@@ -14,6 +14,10 @@ export function Login(props) {
     let history = useHistory()
     let params = useParams()
 
+    let signUp = () => {
+        history.push('/signup')
+    }
+
     console.log(props)
 
     async function handleSubmit(e){
@@ -60,7 +64,10 @@ export function Login(props) {
                         <label>Password</label><br></br>
                         <input type="password" value={user.password} onChange={ e => changeUser({ ...user, password: e.target.value })} />
                     </div>
-                    <input type="submit" value="Login" className="login-btn"/>
+                    <div className="login-btns">
+                        <input type="submit" value="Login" className="login-btn"/>
+                        <div className="signup-btn">Sign Up</div>
+                    </div>
                 </form>
             </div>
         )
@@ -82,7 +89,10 @@ export function Login(props) {
                     <label>Password</label><br></br>
                     <input type="password" value={user.password} onChange={ e => changeUser({ ...user, password: e.target.value })} />
                 </div>
-                <input type="submit" value="Login" className="login-btn"/>
+                <div className="login-btns">
+                    <input type="submit" value="Login" className="login-btn"/>
+                    <div className="signup-btn" onClick={signUp}>Sign Up</div>
+                </div>
             </form>
         </div>
     )}
